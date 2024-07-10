@@ -11,4 +11,7 @@ _When adding new research, please update this README.md with a brief description
 ---
 
 ## Current Research
-- Volume Rendering, Two-level TF, authors: S. Yoo, S. Kim, Y. Jang
+
+- [Volume Rendering, Two-level TF](./Volume%20Rendering/)
+  - **Authors**: S. Yoo, S. Kim, Y. Jang
+  - **Description**: Separation in direct volume rendering via two-level transfer functions using t-SNE projections
