@@ -29,3 +29,5 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ---
 
 **Data Visualization Lab**
+Data Visualization Lab, Sejong University
+vis.sejong.ac.kr
