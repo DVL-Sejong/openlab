@@ -1,7 +1,9 @@
 # Two-level Transfer Functions using t-SNE for Data Segmentation in Direct Volume Rendering 
 
 Authors: Sangbong Yoo, Seokyeon Kim, and Yun Jang
+
 **IEEE Transactions on Visualization and Computer Graphics** (Early Access)
+
 DOI: 10.1109/TVCG.2024.3484471
 
 
