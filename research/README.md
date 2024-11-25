@@ -11,7 +11,7 @@ _When adding new research, please update this README.md with a brief description
 ---
 
 ## Current Research
-- [**CATOM : Causal Topology Map for Spatiotemporal Traffic Analysis with Granger Causality in Urban Areas**](./Visual%20Analytics/)
+- [**CATOM : Causal Topology Map for Spatiotemporal Traffic Analysis with Granger Causality in Urban Areas**](./Visual%20Analytics/CATOM/)
   - **Authors**: C. Jung, S. Yim, G. Park, S. Oh, Y. Jang
   - **Description**: [TBA]
   - **Venue**: IEEE Transactions on Visualization and Computer Grphics, [TBA]
