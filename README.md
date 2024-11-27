@@ -4,6 +4,10 @@ This repository is dedicated to our projects and research activities. Below is a
 
 ## Repository Structure
 
+### [Lectures](./lectures/)
+
+The `lectures` directory contains contains publicly available projects presented by students in class.
+
 ### [Projects](./projects/)
 
 The `projects` directory contains our various tools and applications. Here, you will find the source code for different projects.
