@@ -1,0 +1,251 @@
+/* General layout styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3d3d3;
+}
+
+.container-fluid {
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+}
+
+.card {
+    height: 100%;
+    background-color: #d3d3d3; /* Light background color for cards */
+    padding: 10px;
+    border: none;
+}
+
+/* Noise Button Container Styling */
+.noise-button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.noise-button-container button {
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Row Styling */
+#row1 {
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+
+/* Card Body Styling */
+.card-body {
+    background-color: #F5F5F5; /* Light background color for cards */
+    border-radius: 5px;       /* Rounded corners */
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Specific Card Body Heights */
+#card-body-1, #card-body-2 {
+    height: 40%;
+}
+
+#card-body-3 {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+#card-body-4 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+/* Specific element styling */
+#scatter-plot,
+#noise-ratio,
+#cosine-similarity {
+    height: 100%;
+    width: 100%;
+}
+
+#scatter-plot-by-cluster {
+    aspect-ratio: 1 / 1;
+    /* max-height: 100%; */
+    width: 50%;
+    max-height: 90%;
+    margin-bottom: 40px;
+}
+
+#similarity {
+    width: 60%;
+    height: 100%;
+}
+
+#outlier-bar-chart {
+    width: 100%; /* Ensure full width */
+    height: 25%;
+    margin-top: 10px; /* Space between charts */
+}
+
+#box-plot {
+    aspect-ratio: 3 / 2;
+    max-height: 75%;
+    width: 100%; /* Ensure full width */
+}
+
+#representative-image {
+    width: 20%;
+}
+
+#noise-image {
+    width: 80%;
+}
+
+/* Button Styling */
+#btn-tsne, #btn-umap {
+    background-color: grey;
+    color: white;
+    border-color: grey;
+}
+
+#btn-tsne.active,
+#btn-umap.active {
+    background-color: rgb(0, 81, 255);
+    color: white;
+    border-color: rgb(0, 81, 255);
+}
+
+button.btn {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex.align-items-center {
+    gap: 10px;
+}
+
+.d-flex.align-items-center > button {
+    margin: 0;
+}
+
+/* Media Queries for mobile views */
+@media (max-width: 768px) {
+    html, body {
+        overflow-y: scroll; /* Allow vertical scrolling */
+        height: 100%;
+    }
+    
+    /* Stack scatter plot, box plot, and noise ratio bar chart vertically */
+    #scatter-plot-by-cluster {
+        width: 90%;
+        height: 40%;
+        max-width: none;
+    }
+
+    #box-plot {
+        width: 150%;
+        height: 500%;
+    }
+
+    #noise-ratio {
+        height: 100%;
+    }
+
+    #outlier-bar-chart {
+        width: 150%; /* Ensure full width on mobile */
+        height: 50%; /* Adjust height */
+        max-width: none; /* Remove max-width to prevent constraints */
+    }
+
+    /* Move noise ratio bar chart, box plot, and outlier bar chart below the scatter plot */
+    #card-body-3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #card-body-4 {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust representative image and button sizes if needed */
+    #representative-image {
+        width: 50%;
+        height: auto;
+    }
+
+    #similarity {
+        width: 400px;
+        height: 600px;
+        margin-bottom: 30px;
+    }
+
+    .noise-button-container button {
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    html, body {
+        overflow-y: scroll; /* Allow vertical scrolling */
+        height: 100%;
+    }
+
+    #scatter-plot-by-cluster {
+        width: 100%; /* Full width for very small screens */
+        aspect-ratio: 1 / 1;
+        max-width: none;
+    }
+
+    #box-plot {
+        width: 80%;
+        height: 120%;
+    }
+
+    #noise-ratio {
+        height: 100%;
+    }
+
+    #outlier-bar-chart {
+        width: 80%; /* Full width */
+        height: 40%;
+        max-width: none; /* Remove max-width */
+    }
+
+    #card-body-3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #card-body-4 {
+        width: 100%;
+        height: auto;
+    }
+
+    #similarity {
+        width: 400px;
+        height: 400px;
+        padding-bottom: 100px;
+    }
+    
+    #representative-image {
+        width: 20%;
+        height: auto;
+    }
+
+    .noise-button-container button {
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+}
