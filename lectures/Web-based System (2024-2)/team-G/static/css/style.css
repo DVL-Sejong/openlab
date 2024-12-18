@@ -1,0 +1,368 @@
+/* 전체 레이아웃 설정 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 7fr 1fr; /* 그래프 섹션 더 넓게 */
+    gap: 20px;
+    width: 100%; /* 페이지 전체 가로 사용 */
+    max-width: 1600px; /* 최대 너비 설정 */
+    margin: 20px auto; /* 중앙 정렬 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 전체 레이아웃 */
+.dashboard2 {
+    display: flex;
+    grid-template-columns: 7fr 1fr; /* 그래프 섹션 더 넓게 */
+    flex-direction: column; /* 위아래 배치 */
+    gap: 20px;
+    width: 80%; /* 그래프와 히트맵이 차지할 영역 너비 */
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+/* 대시보드 컨테이너 */
+.dashboard {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard3 {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#highImportanceChart, #lowImportanceChart {
+    width: 100%;
+    height: 400px; /* 적절한 높이 지정 */
+}
+
+/* 그래프 섹션 */
+.graph-section {
+    display: table-column;
+    grid-template-columns: 1fr 1fr; /* 그래프 2개를 가로로 나열 */
+    gap: 20px;
+}
+
+/* 그래프 컨테이너 */
+.graph-container {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.graph-container.active {
+    position: relative;
+    opacity: 1;
+    pointer-events: all;
+    /* 활성화된 그래프만 클릭 가능 */
+}
+
+.stats-container {
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.0;
+}
+
+.chart-container {
+    width: 100%;
+    height: 200px; /* 그래프 높이 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.importance-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.importance-charts {
+    display: flex; /* 가로 정렬 */
+    flex-direction: row; /* 차트를 좌우로 정렬 */
+    gap: 20px; /* 차트 사이 간격 */
+}
+
+.importance-chart-container {
+    width: 50%; /* 각 차트가 컨테이너의 절반 차지 */
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* 히트맵 */
+.heatmap-section {
+    display: table-column;
+    grid-template-columns: 1fr 1fr; /* Before/After 히트맵 나란히 배치 */
+    gap: 20px;
+}
+
+.heatmap-container {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.heatmap-container h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.heatmap-chart-container {
+    width: 100%;
+    height: 300px; /* 히트맵 높이 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.info-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.info-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-box li {
+    margin-bottom: 8px;
+}
+
+
+/* 사이드바 */
+.sidebar {
+    flex: none; /* 크기 고정 */
+    margin: 20px;
+    padding: 20px;
+    width: 300px; /* 일정한 너비 설정 */
+    height: 500px; /* 일정한 높이 설정 */
+    min-height: 600px; /* 최소 높이 */
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    right: 30px; /* 오른쪽 고정 */
+    top: 20px; /* 페이지 상단에서 약간 떨어뜨림 */
+    
+}
+
+/* 피험자 선택 */
+#subject-selection {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subject-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 드롭다운 스타일링 */
+.custom-select select {
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    appearance: none; /* 기본 드롭다운 제거 */
+    cursor: pointer;
+}
+
+.custom-select select:hover {
+    border-color: #8b8b8b;
+}
+
+#open-info-btn {
+    height: 50px;
+    width: 100%; /* 너비를 사이드바와 맞춤 */
+    font-size: 14px;
+    background-color: #8b8b8b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px; /* 사이드바 하단에 여백 추가 */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#open-info-btn:hover {
+    background-color: #6b6b6b;
+}
+
+#submit-btn {
+    height: 35px;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #8b8b8b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #6b6b6b;
+}
+
+/* 탭 스타일 */
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+button {
+    flex: 1;
+    padding: 10px;
+    background: #eee;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+button.active {
+    background: #8b8b8b;
+    color: white;
+}
+
+.options {
+    display: none;
+}
+
+.options.active {
+    display: block;
+}
+
+.combination-result {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 좌우로 두 섹션 배치 */
+    gap: 20px;
+}
+
+#combination-list {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#combination-summary {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* 주파수 대역 버튼 섹션 */
+.frequency-tabs {
+    flex: 1;
+    padding: 10px;
+    background: #eee;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+.frequency-tab.active {
+    background: #8b8b8b;
+    color: white;
+}
+
+.frequency-tab:hover {
+    background-color: #e0e0e0;
+}
+

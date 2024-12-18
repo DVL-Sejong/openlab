@@ -1,0 +1,182 @@
+<!-- /templates/index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전처리 및 모델 선택</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="dashboard2">
+            <div class="tabs">
+                <button id="tab-graph" class="active">EEG graph</button>
+                <button id="tab-topographic">EEG Topographic Map</button>
+                <button id="tab-combination">전처리 조합 그래프</button>
+            </div>
+
+            <div id="graph-options" class="options active">
+                <!-- 그래프 섹션 -->
+                <div class="dashboard">
+                    <h2>EEG graph</h2>
+                    <div class="graph-section">
+                        <div class="dashboard3">
+                            <div class="graph-container active">
+                                <h3>Before High Data</h3>
+                                <div id="beforeHighChart" class="chart-container"></div>
+                            </div>
+                            <div class="graph-container active">
+                                <h3>Before Low Data</h3>
+                                <div id="beforeLowChart" class="chart-container"></div>
+                            </div>
+                        </div>
+
+                        <div class="dashboard3">
+                            <div class="graph-container active">
+                                <h3>After High Data</h3>
+                                <div id="afterHighStats" class="stats-container"></div>
+                                <div id="afterHighChart" class="chart-container"></div>
+                            </div>
+                            <div class="graph-container active">
+                                <h3>After Low Data</h3>
+                                <div id="afterLowStats" class="stats-container"></div>
+                                <div id="afterLowChart" class="chart-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shap-section">
+                        <h3>SHAP Values (Channel-wise)</h3>
+                        <div class="shap-chart-container" style="display: flex; justify-content: space-between;">
+                            <div style="width: 48%;">
+                                <canvas id="shapHighChart" width="600" height="400"></canvas>
+                            </div>
+                            <div style="width: 48%;">
+                                <canvas id="shapLowChart" width="600" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="topographic-options" class="options">
+                <div class="dashboard">
+                    <h2>EEG Topographic Map</h2>
+                    <div id="region-info" class="info-box">
+                        <h3>EEG 영역 설명</h3>
+                        <ul>
+                            <li><strong>Frontal 영역 (AF3, F7, F3, F4, F8, AF4):</strong> 의사결정, 주의력, 인지 작업과 관련</li>
+                            <li><strong>Parietal 영역 (P7, P8):</strong> 감각 통합 및 공간 처리와 관련</li>
+                            <li><strong>Temporal 영역 (T7, T8):</strong> 청각 및 기억과 연관될 가능성</li>
+                            <li><strong>Occipital 영역 (O1, O2):</strong> 시각 정보 처리 담당</li>
+                            <li><strong>Fronto-central 영역 (FC5, FC6):</strong> 운동 계획 및 인지 작업 부하와 관련</li>
+                        </ul>
+                    </div>
+                    <div class="heatmap-section">
+                        <div class="dashboard3">
+                            <div class="heatmap-container">
+                                <h3>Before High Data</h3>
+                                <div id="beforeHighHeatmap" class="heatmap-chart-container"></div>
+                            </div>
+                            <div class="heatmap-container">
+                                <h3>Before Low Data</h3>
+                                <div id="beforeLowHeatmap" class="heatmap-chart-container"></div>
+                            </div>
+                        </div>
+
+                        <!-- 주파수 대역 선택 버튼 -->
+                        <div class="tabs">
+                            <button id="tab-alpha" class="frequency-tab" data-band="alpha">Alpha</button>
+                            <button id="tab-beta" class="frequency-tab" data-band="beta">Beta</button>
+                            <button id="tab-delta" class="frequency-tab active" data-band="delta">Delta</button>
+                            <button id="tab-gamma" class="frequency-tab" data-band="gamma">Gamma</button>
+                            <button id="tab-theta" class="frequency-tab" data-band="theta">Theta</button>
+                        </div>
+
+                        <div class="dashboard3">
+                            <!-- After High Data -->
+                            <div class="heatmap-container">
+                                <h3>After High Data</h3>
+                                <div id="afterHighHeatmap" class="heatmap-chart-container"></div>
+                            </div>
+                            <!-- After Low Data -->
+                            <div class="heatmap-container">
+                                <h3>After Low Data</h3>
+                                <div id="afterLowHeatmap" class="heatmap-chart-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="combination-options" class="options">
+                <div class="dashboard">
+                    <h2>전처리 조합 그래프</h2>
+                    <div class="ranking-charts-container">
+                        <div class="ranking-chart">
+                            <canvas id="highRankingChart" width="400" height="200"></canvas>
+                        </div>
+                        <div class="ranking-chart">
+                            <canvas id="lowRankingChart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 사이드바 -->
+        <div class="sidebar">
+            <!-- 피실험자 번호 선택 -->
+            <div class="info-button-section">
+                <button id="open-info-btn">설명서 보기</button>
+            </div>
+            <div id="subject-selection">
+                <h3>테스트할 피실험자 번호</h3>
+                <div class="subject-container">
+                    <div class="custom-select">
+                        <select id="subject-number">
+                            {% for i in range(40, 49) %}
+                            <option value="{{ i - 40 }}">{{ i }}번</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <button id="submit-btn">제출</button>
+                </div>
+            </div>
+
+            <div class="tabs">
+                <button id="tab-preprocessing" class="active">전처리</button>
+                <button id="tab-model">모델</button>
+            </div>
+
+            <div id="preprocessing-options" class="options active">
+                <h3>전처리 기법</h3>
+                <label><input type="checkbox" value="nan_removal" checked disabled> NaN 제거</label><br>
+                <label><input type="checkbox" value="high_pass_filter" checked disabled> high pass filter</label><br>
+                <label><input type="checkbox" value="remove_line_noise"> 라인 노이즈 제거</label><br>
+                <label><input type="checkbox" value="artifact_removal"> artifact 제거</label><br>
+                <label><input type="checkbox" value="average_referencing"> 평균 재참조</label><br>
+                <label><input type="checkbox" value="data_conversion" checked disabled> 데이터 Pandas DataFrame으로 변환</label><br>
+                <label><input type="checkbox" value="min_max_scaling" checked disabled> Min-Max 정규화</label><br>
+            </div>
+
+            <div id="model-options" class="options">
+                <h3>모델 선택</h3>
+                <label><input type="checkbox" value="cnn"> CNN</label><br>
+                <label><input type="checkbox" value="cnn_fft"> CNN - FFT</label><br>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/graph.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/topographic.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/chart.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/shap.js') }}"></script>
+</body>
+
+</html>

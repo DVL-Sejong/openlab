@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEG 전처리 대시보드 설명서</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        h2 {
+            color: #555;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .highlight {
+            background-color: #eef;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        .channels, .bands {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .channel, .band {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 4px;
+            flex: 1 1 45%;
+        }
+        .freq-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .freq-table th, .freq-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .freq-table th {
+            background-color: #f2f2f2;
+        }
+        .example {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-left: 4px solid #4caf50;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        /* D3 시각화 스타일 */
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 8px;
+            font-size: 12px;
+            background: lightsteelblue;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        /* 머리 이미지 스타일링 */
+        #channel-map {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+        }
+        #channel-map svg {
+            width: 100%;
+            height: 100%;
+        }
+        /* 채널 정보 레이아웃 */
+        .channel-info-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .channel-descriptions {
+            flex: 1;
+            min-width: 250px;
+        }
+        .channel-descriptions h3 {
+            margin-top: 0;
+        }
+        .channel-descriptions p {
+            margin: 10px 0; /* 위아래 간격을 동일하게 설정 */
+            color: #555;
+        }
+        /* 반응형 디자인 */
+        @media (max-width: 768px) {
+            .channel-info-container {
+                flex-direction: column;
+            }
+            #channel-map {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+    <!-- D3.js 라이브러리 추가 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h1>EEG를 이용한 인지부하 시각화 시스템</h1>
+
+    <div class="section">
+        <h2>목적</h2>
+        <ul>
+            <strong><li>뇌파 데이터를 활용하여 각 개인의 인지 부하 정도, 즉 뇌의 사용량을 측정 및 시각화하는 시스템을 구축합니다.</li></strong>
+            <li>전처리 전후의 EEG 데이터를 시각화하여 사용자가 쉽게 비교할 수 있도록 지원합니다.</li>
+            <li>전처리 기법과 모델의 조합 순위를 제공하여 최적의 분석 방법을 선택할 수 있게 합니다.</li>
+            <li>뇌의 부하 정도를 실시간으로 모니터링하여 연구 및 임상에 활용할 수 있습니다.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>사용 방법</h2>
+        <ol>
+            <li>테스트할 피실험자 번호를 선택합니다 (0번 ~ 8번).</li>
+            <li><strong>전처리</strong> 섹션에서 전처리 기법을 선택합니다 (복수 선택 가능).</li>
+            <li><strong>모델</strong> 섹션에서 모델을 선택합니다 (복수 선택 불가).</li>
+            <li>EEG 그래프, EEG Topographic Map, 전처리 조합 그래프 결과를 확인합니다.</li>
+            <li>
+                <strong>분류 모델 선택:</strong>
+                <ul>
+                    <li><strong>일반 14채널 모델:</strong> 이 모델은 14개의 기본 EEG 채널을 사용하여 인지 부하를 분류합니다. 각 채널에서 수집된 원시 데이터를 기반으로 모델이 학습되며, 빠른 분석과 실시간 모니터링에 적합합니다.</li>
+                    <li><strong>FFT 기반 70라벨 모델 (FFT):</strong> 이 모델은 14개의 EEG 채널을 5개의 주파수 대역(델타, 세타, 알파, 베타, 감마)으로 나누어 총 70개의 라벨을 사용하여 인지 부하를 분류합니다. 주파수 도메인에서의 세부 분석을 통해 더 정밀한 분류가 가능하며, 뇌파의 주파수 특성을 활용한 심층 분석에 적합합니다.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>모델 간의 차이점:</strong>
+                <ul>
+                    <li><strong>데이터 처리 방식:</strong> 일반 14채널 모델은 시간 도메인의 원시 EEG 데이터를 사용하지만, FFT 모델은 주파수 도메인으로 변환된 데이터를 사용합니다.</li>
+                    <li><strong>분석 세부 수준:</strong> FFT 모델은 각 채널을 5개의 주파수 대역으로 세분화하여 총 70개의 특성을 사용함으로써 더 세밀한 분석이 가능합니다.</li>
+                    <li><strong>모델의 목적:</strong> 일반 모델은 빠른 실시간 분석에 적합하고, FFT 모델은 주파수 특성을 기반으로 한 심층 분석에 적합합니다.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>EEG 채널 정보</h2>
+        <div class="channel-info-container">
+            <!-- 왼쪽: EEG 채널 일반 설명 -->
+            <div class="channel-descriptions">
+                <h3>EEG 채널이란?</h3>
+                <p>EEG 채널은 뇌의 전기적 활동을 측정하기 위해 두피에 부착된 전극입니다. 다양한 위치에 배치된 채널을 통해 뇌의 여러 부위의 활동을 동시에 기록할 수 있습니다. 이를 통해 뇌의 기능적 연결성, 상태, 이상 등을 분석할 수 있습니다.</p>
+                <p>각 채널은 특정 뇌 영역과 관련되어 있으며, 이를 통해 다양한 인지 기능, 운동 제어, 감각 처리 등의 활동을 모니터링할 수 있습니다.</p>
+                <p><strong>이 시스템에서는 총 14개의 EEG 채널을 사용하여 데이터를 수집하고 분석합니다.</strong></p>
+            </div>
+
+            <!-- 오른쪽: 채널 그래프 -->
+            <div id="channel-map"></div>
+        </div>
+
+        <!-- D3.js를 사용한 채널 설명 툴팁 -->
+        <div class="tooltip" id="channel-tooltip"></div>
+    </div>
+
+    <div class="section">
+        <h2>섀플리 밸류값</h2>
+        <p>섀플리 밸류(SHAP Value)는 머신러닝 모델의 예측을 설명하기 위한 방법으로, 각 특성이 예측 결과에 얼마나 기여했는지를 수치화한 값입니다. 이 시스템에서는 섀플리 밸류를 활용하여 EEG 데이터의 각 채널이 인지 부하 정도 측정에 미치는 영향을 분석하고 시각화합니다. 이를 통해 사용자는 어떤 채널이 모델의 예측에 중요한 역할을 하는지 쉽게 파악할 수 있으며, 모델의 해석 가능성을 높일 수 있습니다.</p>
+    </div>
+
+    <div class="section">
+        <h2>주파수 대역</h2>
+        <p>뇌파는 다양한 주파수 대역으로 나뉘며, 각 대역은 특정한 뇌 활동과 관련이 있습니다:</p>
+        <table class="freq-table">
+            <thead>
+                <tr>
+                    <th>대역</th>
+                    <th>주파수 (Hz)</th>
+                    <th>관련 뇌 활동</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>델타</td>
+                    <td>0.5 - 4</td>
+                    <td>깊은 수면, 회복</td>
+                </tr>
+                <tr>
+                    <td>세타</td>
+                    <td>4 - 8</td>
+                    <td>졸림, 창의적 사고</td>
+                </tr>
+                <tr>
+                    <td>알파</td>
+                    <td>8 - 13</td>
+                    <td>이완, 명상</td>
+                </tr>
+                <tr>
+                    <td>베타</td>
+                    <td>13 - 30</td>
+                    <td>활동, 집중</td>
+                </tr>
+                <tr>
+                    <td>감마</td>
+                    <td>30 - 63.9</td>
+                    <td>고차원적 인지, 정보 처리</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // 채널 데이터 정의 (사용자 제공 좌표)
+        const channels = [
+            { name: 'AF3', group: '전전두엽', function: '의사결정, 문제 해결, 주의력 및 작업 기억', x: -3, y: 7 },
+            { name: 'AF4', group: '전전두엽', function: '의사결정, 문제 해결, 주의력 및 작업 기억', x: 3, y: 7 },
+            { name: 'F7', group: '전두엽', function: '언어 처리, 표현 기능, 창의적 사고', x: -7, y: 5 },
+            { name: 'F8', group: '전두엽', function: '언어 처리, 표현 기능, 창의적 사고', x: 7, y: 5 },
+            { name: 'F3', group: '전두엽', function: '운동 계획, 실행 기능, 주의 집중', x: -3, y: 4 },
+            { name: 'F4', group: '전두엽', function: '운동 계획, 실행 기능, 주의 집중', x: 3, y: 4 },
+            { name: 'FC5', group: '전두엽-중심엽 경계', function: '운동 제어, 감각 통합, 인지 부하', x: -6, y: 2 },
+            { name: 'FC6', group: '전두엽-중심엽 경계', function: '운동 제어, 감각 통합, 인지 부하', x: 6, y: 2 },
+            { name: 'T7', group: '측두엽', function: '청각 처리, 언어 이해, 기억', x: -8, y: -2 },
+            { name: 'T8', group: '측두엽', function: '청각 처리, 언어 이해, 기억', x: 8, y: -2 },
+            { name: 'P7', group: '두정엽', function: '감각 통합, 공간 인지, 시각 정보 처리', x: -6, y: -6 },
+            { name: 'P8', group: '두정엽', function: '감각 통합, 공간 인지, 시각 정보 처리', x: 6, y: -6 },
+            { name: 'O1', group: '후두엽', function: '시각 정보 처리, 시각 인식', x: -2, y: -8 },
+            { name: 'O2', group: '후두엽', function: '시각 정보 처리, 시각 인식', x: 2, y: -8 }
+        ];
+
+        // SVG 설정
+        const width = 500;
+        const height = 500;
+        const svg = d3.select("#channel-map")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        const headRadius = 200; // 머리 윤곽의 반지름 (픽셀 단위)
+        const channelRadius = 10; // 채널 표시 원의 반지름
+        const scaleFactor = headRadius / 10; // 주어진 좌표를 픽셀로 변환하기 위한 스케일
+
+        // 머리 윤곽 그리기
+        svg.append("circle")
+            .attr("cx", width / 2)
+            .attr("cy", height / 2)
+            .attr("r", headRadius)
+            .attr("fill", "#f5f5f5")
+            .attr("stroke", "#ccc")
+            .attr("stroke-width", 2);
+
+        svg.append("text")
+            .attr("x", width / 2)
+            .attr("y", height / 2 - headRadius + 30)
+            .attr("text-anchor", "middle")
+            .attr("font-size", "14px")
+            .attr("fill", "#333")
+            .text("머리 앞쪽");
+
+        // 채널 배치 및 툴팁 추가
+        svg.selectAll("circle.channel")
+            .data(channels)
+            .enter()
+            .append("circle")
+            .attr("class", "channel")
+            .attr("cx", d => width / 2 + d.x * scaleFactor)
+            .attr("cy", d => height / 2 - d.y * scaleFactor)
+            .attr("r", channelRadius)
+            .attr("fill", "#69b3a2")
+            .on("mouseover", function(event, d) {
+                d3.select("#channel-tooltip")
+                    .style("opacity", 1)
+                    .html(`<strong>${d.name}</strong><br>${d.group} - ${d.function}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 28) + "px");
+            })
+            .on("mouseout", function() {
+                d3.select("#channel-tooltip")
+                    .style("opacity", 0);
+            });
+
+        // 채널 이름 표시
+        svg.selectAll("text.channel-label")
+            .data(channels)
+            .enter()
+            .append("text")
+            .attr("class", "channel-label")
+            .attr("x", d => width / 2 + d.x * scaleFactor)
+            .attr("y", d => height / 2 - d.y * scaleFactor - channelRadius - 5)
+            .attr("text-anchor", "middle")
+            .attr("alignment-baseline", "middle")
+            .text(d => d.name)
+            .style("font-size", "12px")
+            .style("fill", "#333");
+
+        // 툴팁 스타일링
+        const tooltip = d3.select("#channel-tooltip");
+
+        // 섹션 토글 기능 (필요 시 사용 가능)
+        function toggleSection(header) {
+            const content = header.nextElementSibling;
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+                header.querySelector('span').textContent = '▲';
+            } else {
+                content.style.display = "none";
+                header.querySelector('span').textContent = '▼';
+            }
+        }
+
+        // 모든 섹션의 내용을 초기 상태로 설정 (숨김) - 현재는 사용하지 않음
+        // document.querySelectorAll('.section-content').forEach(function(element) {
+        //     element.style.display = "none";
+        // });
+    </script>
+</body>
+</html>
