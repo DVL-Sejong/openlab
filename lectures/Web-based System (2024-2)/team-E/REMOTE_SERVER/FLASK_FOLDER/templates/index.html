@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perplexity Calculator and Text Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Perplexity Calculator and Text Generator</h1>
+        <textarea id="input-text" placeholder="Enter your text here..."></textarea>
+        <button id="generate-btn">Calculate and Generate</button>
+        <div class="output" id="output" style="display: none;">
+            <h3>Results</h3>
+            <p><strong>Input Text:</strong> <span id="input-display"></span></p>
+            <p><strong>Perplexity:</strong> <span id="perplexity-display"></span></p>
+            <p><strong>Generated Text:</strong> <span id="generated-display"></span></p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/perplexity.js') }}"></script>
+</body>
+</html>
