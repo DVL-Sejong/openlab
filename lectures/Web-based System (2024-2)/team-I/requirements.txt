@@ -1,0 +1,11 @@
+flask
+umap-learn
+torch
+torchvision
+scikit-learn
+pandas
+seaborn
+matplotlib
+hdbscan
+scikit-learn
+scipy
