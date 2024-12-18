@@ -1,0 +1,306 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ShipsEar</title>
+    <link rel="stylesheet" href="static/css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+
+</head>
+<style>
+    body{
+	font-family: 'arial';
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+
+}
+
+.animation-wrapper{
+	background: #ace5ee;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+    z-index: -1; /* Ensures animation stays behind content */
+}
+
+.water{
+    bottom: 0;
+    left: 0;
+	position: absolute;
+    width: 100%;
+}
+
+.water ul.waves{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.water ul.waves li{
+	background-repeat: repeat-x;
+}
+
+.water ul.waves li.wave-one{
+	animation: wave 8.7s linear infinite;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	bottom: 0px;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 10;
+}
+
+.water ul.waves li.wave-two{
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	animation: wave 10s linear infinite;
+	bottom: 0px;
+	height: 84px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+}
+
+.water ul.waves li.wave-three{
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	animation: wave 25s linear infinite;
+	bottom: 0;
+	height: 190px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 8;
+}
+
+.water ul.waves li.wave-four{
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	animation: wave 25s linear infinite;
+	bottom: 0;
+	height: 205px;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+.boat{
+	animation: boat 3s linear infinite;
+    background-repeat: no-repeat;
+    bottom: 175px;
+    height: 145px;
+    left: 70%;
+	position: absolute;
+    width: 250px;
+}
+
+.cloud{
+	animation: cloud 30s linear infinite;
+	background-repeat: no-repeat;
+    height: 165px;
+    left: 0;
+    position: absolute;
+    width: 297px
+}
+
+.cloud2{
+	animation: cloud 25s linear infinite;
+	background-repeat: no-repeat;
+    bottom: 320px;
+    height: 165px;
+    left: 140px;
+    position: absolute;
+    width: 297px;
+}
+
+.dolphin{
+	animation: fish 15s linear infinite;
+	background-repeat: no-repeat;
+	bottom: 45px;
+	height: 80px;
+	left: 20%;
+	position: absolute;
+	width: 124px;
+	z-index: 9;
+}
+/*Animation Keyframe Section*/
+
+@keyframes wave{
+    0% {
+        background-position: 0 0;
+	}
+
+    100% {
+        background-position: 1920px 0;
+    }
+}
+
+@keyframes boat{
+	0%{
+		transform: rotate(0);
+	}
+
+	50%{
+		transform: rotate(-3deg);
+	}
+
+	100%{
+		transform: rotate(0);
+	}
+}
+
+@keyframes cloud{
+	0%{
+		left: -30%;
+	}
+
+	100%{
+		left: 100%;
+	}
+}
+
+
+</style>
+
+<body>
+
+            <nav class="navbar">
+                <!-- Navigation Bar -->
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/audio">Audio Prediction</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/analytics">Analytics</a></li>
+                </ul>
+                <a id="audio-btn" class="btn" href="/audio">Upload Your Audio</a>
+            </nav>            
+
+	<!-- Main Content -->
+	<section class="main-content">
+		<div class="animation-wrapper">
+			<div class="water">
+				<ul class="waves">
+					<li class="wave-one" style="background-image: url('https://i.postimg.cc/7LtCC11Y/wave1.png');"></li>
+					<li class="wave-two" style="background-image: url('https://i.postimg.cc/P5hv05rh/wave2.png');"></li>
+					<li class="wave-three" style="background-image: url('https://i.postimg.cc/63Dyc91k/wave3.png');"></li>
+					<li class="wave-four" style="background-image: url('https://i.postimg.cc/1tg8DgM0/wave4.png');"></li>
+				</ul>
+			</div>
+			<div class="boat" style="background-image: url('https://i.postimg.cc/GmQTRnHD/boat2.png');"></div>
+			<div class="cloud" style="background-image: url('https://i.postimg.cc/VNkrLZCV/cloud-md.png');"></div>
+			<div class="cloud2" style="background-image: url('https://i.postimg.cc/VNkrLZCV/cloud-md.png');"></div>
+		</div>
+		<div class="content-wrapper">
+			<h1>Welcome to ShipsEar!</h1>
+			<p>ShipsEar : An underwater vessel noise database</p>
+			<p>Your go-to source for analyze and predict acoustic.</p>
+
+            <h2>Introduction to Underwater Acoustic Noise</h2>
+            <p>
+              <strong>Passive Sonar</strong> is a technique used to detect and analyze underwater sounds without emitting signals. 
+              It involves listening for sounds in the environment rather than sending out sound pulses. This project focuses on analyzing acoustic data to classify ship types and make predictions based on acoustic data uploaded.
+            </p>
+			<a id="load-audio" class="btn" href="/audio">Upload Your Audio</a>
+		</div>
+	</section>
+
+      <section id="overview-map" class="content-section">
+        <h2>Type of vessel and Their Locations</h2>
+        <div class="filter-controls">
+          <h3>Filter by Vessel Type</h3>
+          <select id="ship-filter" class="ship-filter">
+              <option value="all">All Classes</option>
+              <option value="Motorboat">Motorboat</option>
+              <option value="OceanLiner">Ocean Liner</option>
+              <option value="Tanker">Tanker</option>
+              <option value="Trawler">Trawler</option>
+              <option value="Natural Ambient Noise">Natural Ambient Noise</option>
+              <option value="Tugboat">Tugboat</option>
+              <option value="PilotShip">Pilot Ship</option>
+              <option value="MusselBoat">Mussel Boat</option>
+              <option value="Cargo">Cargo</option>
+              <option value="Sailboat">Sailboat</option>
+              <option value="Passengers">Passengers</option>
+              <option value="RORO">RORO</option>
+              <option value="Fishboat">Fishboat</option>
+          </select>
+          <button id="reset-map">Reset Map</button>
+      </div>
+        <div class="map-description-container">
+            <div id="mapOverview"></div>
+            <div class="ship-description">
+                <ul>
+                    <li><strong>Motor Boat:</strong> Significant contributors to noise due to large engines and continuous operation.</li>
+                    <li><strong>Ocean Liner Ships:</strong> Cruise ships and ferries produce substantial low-frequency noise.</li>
+                    <li><strong>Tanker:</strong> Generates noise primarily from high-powered engines and propulsion systems.</li>
+                    <li><strong>Trawler:</strong> Fishing equipment like trawl doors contributes to noise production.</li>
+                    <li><strong>Tug Boat:</strong> Dynamic positioning systems and high-power engines create significant noise.</li>
+                    <li><strong>Pilot Ships:</strong> Short-range vessels with high engine power that produce considerable noise.</li>
+                    <li><strong>Passenger Ships:</strong> Emit intermittent, high-frequency noise, especially in coastal areas.</li>
+                    <li><strong>Mussel Boat:</strong> Specialized vessels with equipment that generates moderate noise levels.</li>
+                    <li><strong>Cargo Ships:</strong> Large engines and machinery contribute to continuous, low-frequency noise.</li>
+                    <li><strong>RORO Ships:</strong> Roll-on/roll-off ships generate noise from engines and cargo handling operations.</li>
+                    <li><strong>Fish Boat:</strong> Fishing Vessel</li>
+                    <li><strong>Sail Boat:</strong> Generally quieter but may produce noise from auxiliary engines.</li>
+                    <li><strong>Natural Ambient Noise:</strong> Background noise from wind, waves, and marine life in the environment.</li>                    
+                </ul>
+            </div>
+        </div>
+    </section>    
+      
+    <section id="sources-factors" class="content-section">
+      <h2>Sources and Factors Influencing Underwater Noise</h2>
+  
+      <div class="sources-info-container">
+          <div class="sources-info">
+              <h3>Sources of Underwater Noise from Ships</h3>
+              <ul>
+                  <li><strong>Propeller Noise:</strong> Cavitation and blade rate frequency.</li>
+                  <li><strong>Engine and Machinery Noise:</strong> Vibrations and operations transmitted through the hull.</li>
+                  <li><strong>Hydrodynamic Noise:</strong> Turbulence from water flow around the hull and appendages.</li>
+                  <li><strong>Structural Noise:</strong> Vibrations resonating through the ship's structure.</li>
+              </ul>
+  
+              <br><h3>Factors Affecting Underwater Noise</h3>
+              <ul>
+                  <li><strong>Ship Speed:</strong> Faster speeds increase cavitation and turbulence.</li>
+                  <li><strong>Ship Size:</strong> Larger ships generate more noise.</li>
+                  <li><strong>Propeller Design:</strong> Damaged or inefficient designs increase noise.</li>
+                  <li><strong>Engine Type and Placement:</strong> Diesel-electric engines reduce transmission.</li>
+                  <li><strong>Operational Environment:</strong> Shallow waters amplify noise.</li>
+              </ul>
+          </div>
+  
+          <div class="image-container">
+              <img src="{{ url_for('static', filename='data/overviewNoise.png') }}" alt="Overview Noise" style="max-width: 100%; height: auto;">
+          </div>
+      </div>
+  </section>
+  
+      
+      <section id="regulations" class="content-section">
+        <h2>Impacts of Underwater Noise from Ships</h2>
+        <p>
+            Underwater noise, also known as Underwater Radiated Noise (URN) is a form of pollution which comes from a number of sources, 
+            including shipping activity. This infographic depicts the major sources of underwater noise from ships and their effects on 
+            marine wildlife as well as what the many measures that can be taken to reduce and remove noise disturbances. 
+        </p>
+      
+        <div class="image1-container">
+          <img src="{{ url_for('static', filename='data/ImpactsOfUnderwaterNoise.png') }}" alt="Average Sound Level due to Shipping" style="max-width: 100%; height: auto;">
+        </div>
+      </section>
+      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+      <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+</body>
+
+</html>
