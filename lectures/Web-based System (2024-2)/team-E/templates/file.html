@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="file-container">
+    <input type="file" id="file-input" accept=".csv" multiple hidden>
+    <div class="loading-spinner" style="display: none;">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='js/file.js') }}"></script>
+{% endblock %}
