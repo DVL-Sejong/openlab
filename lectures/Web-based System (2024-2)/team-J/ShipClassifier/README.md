@@ -1,6 +1,6 @@
 # ShipClassifier
 
-open floder로 파일을 여는 경우 /shipver4 폴더를 root폴더로 해주세요
+open folder로 파일을 여는 경우 /shipver4 폴더를 root폴더로 해주세요
 
 python -m venv venv
 
