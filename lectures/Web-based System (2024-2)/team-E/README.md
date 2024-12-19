@@ -1,11 +1,12 @@
 # 증강 기법에 따른 자연어 생성 성능 비교 웹 애플리케이션
 
 ## 소개
-이 프로젝트는 증강 기법에 따른 자연어 생성 성능 비교 웹 애플리케이션입니다.
-기본 모델은 KoGPT2 모델을 사용합니다.
+- 이 프로젝트는 증강 기법에 따른 자연어 생성 성능 비교 웹 애플리케이션입니다.
+- 기본 모델은 KoGPT2 모델을 사용합니다.
 
-사용한 데이터 셋인 소상공인 고객 주문 질의 데이터셋은 다음 링크에서 다운받을 수 있습니다.
-https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=102
+- 사용한 데이터 셋인 소상공인 고객 주문 질의 데이터셋은 다음 링크에서 다운받을 수 있습니다.
+[AIHub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=102)
+
 
 1. 증강 기법은 다음과 같습니다.
 - Synonym Replacement : 단어를 비슷한 의미를 가진 단어로 대체
@@ -27,6 +28,16 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 
 5. 증강된 데이터셋으로 fine-tuning된 모델을 통해 채팅을 주고받을 수 있습니다.
 
+## 평가기준
+
+| 평가 기준 | 내용 | 
+|:---:|---|
+| **증강 방법 다양성** | - SR(Synonym Replacement), RI(Random Insertion), RD(Random Deletion), RS(Random Swap) 총 4가지 증강 기법 사용<br>- 다양한 증강 기법을 통해 데이터 다양성 확보 및 모델 일반화 성능 향상 기대 |
+| **자연어 생성 모델 성능 향상 척도** | - Fine-tuning 전/후 KoGPT2 모델 성능 비교<br>- Fine-tuning 전: 무관한 출력 빈번 / Fine-tuning 후: 주제 관련성 높은 출력<br>- 관련 데이터셋 활용을 통해 모델 출력 품질 개선 |
+| **시각화 직관성** | - 한 화면 내에서 모든 지표, 증강 데이터, 결과 확인 가능<br>- 데이터셋 업로드 후, 각 증강기법 적용 모델의 성능 지표 직관적 시각화 |
+| **결과 분석 깊이 및 통찰력** | - 다양한 지표 활용: Perplexity, BLEU, ROUGE, METEOR, ChrF / T-SNE<br>- 각 증강 방법별 장단점 파악 가능<br>- 적절한 증강 기법 선정을 통해 모델 성능 극대화 |
+| **실용성** | - 업로드된 데이터셋 기반 자동 Fine-tuning 및 성능 비교<br>- T-SNE로 증강 데이터 품질 확인 가능<br>- 증강 데이터 다운로드 지원으로 손쉬운 활용 |
+| **품질 및 재현 가능성** | - 향후 확장 시, 사용자 기반 모델 및 증강 기법 선택 가능<br>- 다양한 환경에 최적화된 모델 & 증강 조합 탐색 지원<br>- 재현성 및 품질 측면에서의 확장성 확보 |
 ## 시작하기
 
 ### 필요 조건
