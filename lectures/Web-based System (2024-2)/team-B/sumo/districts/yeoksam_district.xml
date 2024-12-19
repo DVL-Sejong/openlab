@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-08-14 17:52:26 by Eclipse SUMO netedit Version 1.17.0
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<!-- Daechi -->
+    <taz id="taz_1" shape="3597.98,668.93 3563.06,871.08 3026.44,2387.21 4586.68,2949.56 4897.26,2993.67 6027.47,1885.51 6027.47,1664.98 3599.82,672.60 3597.98,668.93" name="Daechi" color="blue">	
+		<tazSource id="1220027001" weight="1.00"/>
+        <tazSink id="1220027001" weight="1.00"/>
+		<tazSource id="1220027002" weight="1.00"/>
+        <tazSink id="1220027002" weight="1.00"/>
+		<tazSource id="1220027101" weight="1.00"/>
+        <tazSink id="1220027101" weight="1.00"/>
+        <tazSource id="1220027102" weight="1.00"/>
+        <tazSink id="1220027102" weight="1.00"/>
+		<tazSource id="1220026400" weight="1.00"/>
+        <tazSink id="1220026400" weight="1.00"/>
+        <tazSource id="1220026500" weight="1.00"/>
+        <tazSink id="1220026500" weight="1.00"/>
+		<tazSource id="1220025403" weight="1.00"/>
+        <tazSink id="1220025403" weight="1.00"/>
+		<tazSource id="1220025503" weight="1.00"/>
+        <tazSink id="1220025503" weight="1.00"/>
+		<tazSource id="1220025402" weight="1.00"/>
+        <tazSink id="1220025402" weight="1.00"/>
+		<tazSource id="1220025502" weight="1.00"/>
+        <tazSink id="1220025502" weight="1.00"/>
+		<tazSource id="1220025401" weight="1.00"/>
+        <tazSink id="1220025401" weight="1.00"/>
+		<tazSource id="1220025501" weight="1.00"/>
+        <tazSink id="1220025501" weight="1.00"/>
+	</taz>
+	<!--Yeoksam-->
+    <taz id="taz_2" shape="817.55,2416.41 2587.58,3030.14 2632.05,2883.38 2678.75,2818.89 2836.63,2687.70 2938.92,2598.75 2974.50,2538.71 3352.52,1462.46 2796.60,1240.09 1424.61,744.22 817.55,2418.63 817.55,2416.41" name="Yeoksam" color="red">
+        <tazSource id="1220023801" weight="1.00"/>
+		<tazSink id="1220023801" weight="1.00"/>
+        <tazSource id="1220023802" weight="1.00"/>
+        <tazSink id="1220023802" weight="1.00"/>
+        <tazSource id="1220023901" weight="1.00"/>
+        <tazSink id="1220023901" weight="1.00"/>
+        <tazSource id="1220023902" weight="1.00"/>
+        <tazSink id="1220023902" weight="1.00"/>
+		<tazSource id="1220022200" weight="1.00"/>
+        <tazSink id="1220022200" weight="1.00"/>
+        <tazSource id="1220022300" weight="1.00"/>
+        <tazSink id="1220022300" weight="1.00"/>
+		<tazSource id="1220020600" weight="1.00"/>
+        <tazSink id="1220020600" weight="1.00"/>
+        <tazSource id="1220020700" weight="1.00"/>
+        <tazSink id="1220020700" weight="1.00"/>
+		<tazSource id="1220019401" weight="1.00"/>
+        <tazSink id="1220019401" weight="1.00"/>
+        <tazSource id="1220019402" weight="1.00"/>
+        <tazSink id="1220019402" weight="1.00"/>
+        <tazSource id="1220019501" weight="1.00"/>
+        <tazSink id="1220019501" weight="1.00"/>
+        <tazSource id="1220019502" weight="1.00"/>
+        <tazSink id="1220019502" weight="1.00"/>
+	</taz>
+</additional>

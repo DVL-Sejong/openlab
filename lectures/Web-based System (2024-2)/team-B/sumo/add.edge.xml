@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional>
+    <edgeData id ="0" file="edgeData0/edge0.xml" begin="0" end="3600" excludeEmpty="true"/>
+    <edgeData id ="1" file="edgeData0/edge1.xml" begin="3600" end="7200" excludeEmpty="true"/>
+    <edgeData id ="2" file="edgeData0/edge2.xml" begin="7200" end="10800" excludeEmpty="true"/>
+    <edgeData id ="3" file="edgeData0/edge3.xml" begin="10800" end="14400" excludeEmpty="true"/>
+    <edgeData id ="4" file="edgeData0/edge4.xml" begin="14400" end="18000" excludeEmpty="true"/>
+    <edgeData id ="5" file="edgeData0/edge5.xml" begin="18000" end="21600" excludeEmpty="true"/>
+    <edgeData id ="6" file="edgeData0/edge6.xml" begin="21600" end="25200" excludeEmpty="true"/>
+    <edgeData id ="7" file="edgeData0/edge7.xml" begin="25200" end="28800" excludeEmpty="true"/>
+    <edgeData id ="8" file="edgeData0/edge8.xml" begin="28800" end="32400" excludeEmpty="true"/>
+    <edgeData id ="9" file="edgeData0/edge9.xml" begin="32400" end="36000" excludeEmpty="true"/>
+    <edgeData id ="10" file="edgeData0/edge10.xml" begin="36000" end="39600" excludeEmpty="true"/>
+    <edgeData id ="11" file="edgeData0/edge11.xml" begin="39600" end="43200" excludeEmpty="true"/>
+    <edgeData id ="12" file="edgeData0/edge12.xml" begin="43200" end="46800" excludeEmpty="true"/>
+    <edgeData id ="13" file="edgeData0/edge13.xml" begin="46800" end="50400" excludeEmpty="true"/>
+    <edgeData id ="14" file="edgeData0/edge14.xml" begin="50400" end="54000" excludeEmpty="true"/>
+    <edgeData id ="15" file="edgeData0/edge15.xml" begin="54000" end="57600" excludeEmpty="true"/>
+    <edgeData id ="16" file="edgeData0/edge16.xml" begin="57600" end="61200" excludeEmpty="true"/>
+    <edgeData id ="17" file="edgeData0/edge17.xml" begin="61200" end="64800" excludeEmpty="true"/>
+    <edgeData id ="18" file="edgeData0/edge18.xml" begin="64800" end="68400" excludeEmpty="true"/>
+    <edgeData id ="19" file="edgeData0/edge19.xml" begin="68400" end="72000" excludeEmpty="true"/>
+    <edgeData id ="20" file="edgeData0/edge20.xml" begin="72000" end="75600" excludeEmpty="true"/>
+    <edgeData id ="21" file="edgeData0/edge21.xml" begin="75600" end="79200" excludeEmpty="true"/>
+    <edgeData id ="22" file="edgeData0/edge22.xml" begin="79200" end="82800" excludeEmpty="true"/>
+    <edgeData id ="23" file="edgeData0/edge23.xml" begin="82800" end="86400" excludeEmpty="true"/>
+</additional>
