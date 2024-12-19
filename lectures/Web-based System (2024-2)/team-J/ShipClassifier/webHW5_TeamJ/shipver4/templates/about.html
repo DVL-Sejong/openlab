@@ -1,0 +1,103 @@
+<head>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<header>
+<h1>About Our ShipsEar Project</h1>
+<p>Analyzing Acoustic Sonar Data for classification and make predictions based on uploaded acoustic data.</p>
+</header>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+<a href="/">Home</a>  > 
+<span>About Our ShipsEar Project</span>
+</div>
+
+<div class="container">
+<section>
+    <h2>Introduction</h2>
+    <p><strong>Passive Sonar</strong> is a technique used to detect and analyze underwater sounds without emitting signals. It involves listening for sounds in the environment. 
+       Rather than sending out sound pulses, passive sonar systems rely on listening to and analyzing sounds that already exist.This project focuses on analyzing acoustic data to classify ship types and predict it based on the audio upload.</p>
+</section>
+
+<section>
+  <h2>Underwater Acoustic Sources from Ships</h2>
+  <ul>
+    <li><strong>Propeller Noise:</strong> Cavitation and blade rate frequency.</li>
+    <li><strong>Engine and Machinery Noise:</strong> Vibrations and operations transmitted through the hull.</li>
+    <li><strong>Hydrodynamic Noise:</strong> Turbulence from water flow around the hull and appendages.</li>
+    <li><strong>Structural Noise:</strong> Vibrations resonating through the ship's structure.</li>
+  </ul>
+</section>
+
+<section>
+    <h2>The Problem</h2>
+    <p>Identifying ship types using sonar data is a challenging task due to environmental factors like water depth, temperature, and salinity. The lack of real-time analysis tools makes it difficult to accurately detect and classify ships in dynamic marine environments.</p>
+    <div class="highlight">
+        <h3>Why is this important?</h3>
+        <ul>
+            <li>Enhances maritime traffic control, reducing the risk of accidents and collisions.</li>
+            <li>Improves illegal fishing detection by distinguishing between different types of vessels.</li>
+            <li>Supports defense systems for more efficient submarine and ship monitoring in various regions.</li>
+            <li>Assists in environmental research by providing insights into underwater ecosystems through acoustic data.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Project Goals</h2>
+    <ul>
+        <li>Visualize acoustic characteristics of underwater sources (e.g., ships, submarines).</li>
+        <li>Classify vessels types using machine learning and signal processing.</li>
+        <li>Analyze changes in sonar signal characteristics due to environmental factors.</li>
+        <li>Develop a <strong>Visual Analytics (VA)</strong> system for interactive analysis.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Datasets and Tools</h2>
+    <p>We are using <strong>ShipsEar</strong> datasets, which contain labeled ship and submarine audio recordings. 
+        You can access the database online through this <a href="https://underwaternoise.atlanttic.uvigo.es/">website</a>. 
+        We reclassified the vessel types from the <strong>broad classes A to E into 13 distinct categories</strong> to enhance prediction accuracy and 
+        model performance by capturing more specific acoustic differences. 
+        The model is trained using the <strong>ResNet18 architecture</strong>, which has proven effective in extracting meaningful features from the audio data. 
+        Tools include Python, Flask, and libraries like Plotly for visualization.</p>
+
+</section>
+
+<section>
+    <h2>Visualization and Analysis</h2>
+    <p>The system generates visualizations of key characteristics such as:</p>
+    <ul>
+        <li><strong>Spectral Centroid</strong>: Indicates the brightness of sound.</li>
+        <li><strong>Spectral Flatness</strong>: Measures tonal quality.</li>
+        <li><strong>Root Mean Square (RMS)</strong>: Represents the sound intensity.</li>
+        <li><strong>Waveform</strong>: A time-domain view of the audio signal, showing how the signal varies over time.</li>
+        <li><strong>STFT (Short-Time Fourier Transform)</strong>: A detailed time-frequency analysis that shows how energy is distributed across different frequencies over time.</li>
+        <li><strong>CQT (Constant-Q Transform)</strong>: Captures harmonic and tonal structures, useful for analyzing music-like components in the audio signal.</li>
+        <li><strong>Mel Spectrogram</strong>: A perceptual frequency representation that models human hearing, emphasizing frequencies important to our perception of sound.</li>
+        <li><strong>Frequency Trends</strong> refers to the plot showing the average frequency over time for different ship classes.</li>
+        <li><strong>Feature Similarities</strong> refers to the heatmap showing the differences between the Mel Spectrogram features of each class, with color indicating the degree of similarity or difference.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Real-life Applications of Acoustic Data</h2>
+    <ul>
+        <li><strong>Defense:</strong> Detect illegal vessels and submarines.</li>
+        <li><strong>Marine Traffic:</strong> Monitor and manage commercial shipping lanes.</li>
+        <li><strong>Environmental Studies:</strong> Understand human impact on underwater ecosystems.</li>
+    </ul>
+</section>
+<section>
+    <h2>Expected Outcomes</h2>
+    <p>By the end of the project, you will be able to:</p>
+    <ul>
+        <li>Develop a working VA system for vessels classification.</li>
+        <li>Improve techniques for underwater acoustic data analysis.</li>
+        <li>Prediction of acoustic data. The system will analyze it using the trained predictive model, show the results, visualize the analysis, and provide a text description generated by the GPT API.</li>
+        <li>Visualizations generated with key acoustic features of different vessels including Frequency Trends (average frequency over time for different ships), Feature Similarities (a heatmap comparing Mel Spectrogram features)</li>
+</section>
+</div>
+</body>
