@@ -199,7 +199,7 @@ def predict():
         plt.close(fig)
 
         # Generate and save visualizations for the first audio chunk
-        visualization = generate_visualizations(audio_path[0])
+        visualization = generate_visualizations(audio_chunks[0])
 
         # Clean up temporary audio chunk files (if applicable)
         for chunk in audio_chunks:
@@ -234,7 +234,7 @@ def predict():
 STATIC_FOLDER = os.path.join(app.root_path, 'static')
 
 # 직접 API 키를 설정
-openai.api_key = "your_openai.api_key"
+openai.api_key = "your_openai_api_key"
  
 # OpenAI API 호출 함수
 def generate_explanation(predictions):
