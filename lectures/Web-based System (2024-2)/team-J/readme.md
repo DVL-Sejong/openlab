@@ -13,6 +13,8 @@ pip install torchvision
 
 gpt api key 입력합니다. (app.py 237라인에 openai.api_key = "your_openai.api_key"에 입력합니다)
 
+openai.api가 무료 버전이면 텍스트 생성이 안됩니다.
+
 app,py 실행합니다.
 
 http://127.0.0.1:5000 사이트 주소로 진입합니다.
