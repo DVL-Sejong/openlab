@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <!-- 입력 파일 설정 -->
+    <input>
+        <net-file value="gangnam.net.xml"/> <!-- 네트워크 파일 -->
+        <route-files value="sampleOutput_day_avg.xml"/> <!-- 통행량 파일 -->
+        <additional-files value="add.edge.xml"/> <!-- 도로 별 output -->
+    </input>
+	<!-- output 추가 -->
+    <output>
+        <statistic-output value="edgeData0/statistics.xml" />
+    </output>
+
+    <!-- 처리 옵션 -->
+    <processing>
+        <ignore-route-errors value="true"/> <!-- 경로 오류를 무시 -->
+    </processing>
+
+    <!-- 보고 설정 -->
+    <report>
+        <verbose value="true"/> <!-- 상세 출력 활성화 -->
+        <duration-log.statistics value="true"/> <!-- 시뮬레이션 통계 로그 기록 -->
+        <no-step-log value="true"/> <!-- 각 스텝(step)별 로그 비활성화 -->
+        <no-warnings value="true"/> <!-- 경고 메시지 비활성화 -->
+    </report>
+
+    <!-- 경로 재지정 설정 -->
+    <routing>
+        <device.rerouting.probability value="1.0"/> <!-- 모든 차량이 경로를 재지정 -->
+        <device.rerouting.period value="60"/> <!-- 경로 재지정 주기를 60초로 설정 -->
+    </routing>
+	
+
+</configuration>

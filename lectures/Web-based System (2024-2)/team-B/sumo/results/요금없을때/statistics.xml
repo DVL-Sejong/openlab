@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-01 11:37:22 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="gangnam.net.xml"/>
+        <route-files value="sampleOutput_day_avg.xml"/>
+        <additional-files value="add.edge.xml"/>
+    </input>
+
+    <output>
+        <statistic-output value="edgeData0/statistics.xml"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.probability value="1.0"/>
+        <device.rerouting.period value="60"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="57233"/>
+    </traci_server>
+
+</sumoConfiguration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="88907.73" clockEnd="91931.62" clockDuration="3023.89" traciDuration="1466.42" realTimeFactor="28.57" vehicleUpdatesPerSecond="24660.51" personUpdatesPerSecond="0.00" begin="0.00" end="86400.00" duration="86400.00"/>
+    <vehicles loaded="1390670" inserted="147721" running="351" waiting="0"/>
+    <teleports total="206" jam="10" yield="185" wrongLane="9"/>
+    <safety collisions="2" emergencyStops="110" emergencyBraking="142"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="147370" routeLength="4558.52" speed="9.60" duration="505.39" waitingTime="111.56" timeLoss="164.36" departDelay="0.70" departDelayWaiting="-1.00" totalTravelTime="74479336.00" totalDepartDelay="103333.20"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

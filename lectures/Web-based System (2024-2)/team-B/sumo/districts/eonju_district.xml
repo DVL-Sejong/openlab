@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-08-14 17:52:26 by Eclipse SUMO netedit Version 1.17.0
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<!-- Daechi -->
+    <taz id="taz_1" shape="3597.98,668.93 3563.06,871.08 3026.44,2387.21 4586.68,2949.56 4897.26,2993.67 6027.47,1885.51 6027.47,1664.98 3599.82,672.60 3597.98,668.93" name="Daechi" color="blue">	
+		<tazSink id="1220036802" weight="1.00"/>
+		<tazSink id="1220036902" weight="1.00"/>
+		<tazSink id="1220036801" weight="1.00"/>
+		<tazSink id="1220036901" weight="1.00"/>
+		<tazSink id="1220035205" weight="1.00"/>
+		<tazSink id="1220035305" weight="1.00"/>
+		<tazSink id="1220035204" weight="1.00"/>
+		<tazSink id="1220035304" weight="1.00"/>
+		<tazSink id="1220035203" weight="1.00"/>
+		<tazSink id="1220035303" weight="1.00"/>
+		<tazSink id="1220035202" weight="1.00"/>
+		<tazSink id="1220035302" weight="1.00"/>
+		<tazSink id="1220033004" weight="1.00"/>
+		<tazSink id="1220033104" weight="1.00"/>
+		<tazSink id="1220033003" weight="1.00"/>
+		<tazSink id="1220033103" weight="1.00"/>
+		<tazSink id="1220033002" weight="1.00"/>
+		<tazSink id="1220033102" weight="1.00"/>
+		<tazSink id="1220033001" weight="1.00"/>
+		<tazSink id="1220033101" weight="1.00"/>
+		<tazSink id="1220029805" weight="1.00"/>
+		<tazSink id="1220029904" weight="1.00"/>
+		<tazSink id="1220029804" weight="1.00"/>
+		<tazSink id="1220029903" weight="1.00"/>
+		<tazSink id="1220029803" weight="1.00"/>
+		<tazSink id="1220029902" weight="1.00"/>
+		<tazSink id="1220029802" weight="1.00"/>
+		<tazSink id="1220029901" weight="1.00"/>
+		<tazSink id="1220027404" weight="1.00"/>
+		<tazSink id="1220027504" weight="1.00"/>
+		<tazSink id="1220027403" weight="1.00"/>
+		<tazSink id="1220027503" weight="1.00"/>
+		<tazSink id="1220027402" weight="1.00"/>
+		<tazSink id="1220027502" weight="1.00"/>
+		<tazSink id="1220027401" weight="1.00"/>
+		<tazSink id="1220027501" weight="1.00"/>
+		<tazSink id="1220024602" weight="1.00"/>
+		<tazSink id="1220024702" weight="1.00"/>
+		<tazSink id="1220024601" weight="1.00"/>
+		<tazSink id="1220024701" weight="1.00"/>
+		<tazSink id="1220021404" weight="1.00"/>
+		<tazSink id="1220021504" weight="1.00"/>
+		<tazSink id="1220021403" weight="1.00"/>
+		<tazSink id="1220021503" weight="1.00"/>
+		<tazSink id="1220021402" weight="1.00"/>
+		<tazSink id="1220021502" weight="1.00"/>
+		<tazSink id="1220021401" weight="1.00"/>
+		<tazSink id="1220021501" weight="1.00"/>
+		<tazSink id="1220016002" weight="1.00"/>
+		<tazSink id="1220016102" weight="1.00"/>
+	</taz>
+</additional>
