@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapbox Visualization</title>
+    <!-- Mapbox CSS -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Mapbox JS -->
+    <script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
+  </head>
+  <body>
+    <!-- 사이드바 -->
+    <div id="sidebar">
+      <h3>구역 목록</h3>
+      <ul id="region-list">
+        <!-- JavaScript에서 동적으로 목록 추가 -->
+      </ul>
+    </div>
+    <button id="toggle-sidebar">접기</button>
+
+    <!-- 지도 -->
+    <div id="map"></div>
+
+    <!-- 컨트롤 패널 -->
+    <div id="controls">
+      <label for="timeSlider">시간대 선택:</label>
+      <input type="range" id="timeSlider" min="0" max="86400" step="1800" value="0" />
+      <span id="timeLabel">00:00 - 00:30</span>
+    </div>
+
+    <input type="button" id="menu_button" onclick="menuin_out()" value="&lt;" />
+    <div id="graphbar">
+      <br /><br />
+      <div id="roadInfo" style="text-align: center; font-size: 18px; margin-top: 10px;">
+        <span id="roadName">Road Name: - </span> |
+        <span id="roadId">Road ID: - </span>
+        </div>
+      <div id="heatmap"></div>
+      <div id="feeBeforeGraph"></div>
+      <div id="feeAfterGraph"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/Section.js" type="module" defer></script>
+    <script src="js/Street.js" type="module"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/graph.js"></script>
+  </body>
+</html>
