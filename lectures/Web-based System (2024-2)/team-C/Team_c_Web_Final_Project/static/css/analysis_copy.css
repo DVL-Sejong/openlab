@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 화면 전체 높이를 사용 */
+    display: flex;
+    flex-direction: column; /* 세로 레이아웃 */
+}
+
+/* 탭 컨테이너 */
+.tabs {
+    display: flex; /* 가로 정렬 */
+    justify-content: space-around; /* 탭 사이 간격 균등 */
+    background-color: #f1f1f1; /* 탭 배경색 */
+    padding: 10px; /* 탭 영역 여백 */
+    border-bottom: 1px solid #ccc; /* 아래쪽 구분선 */
+}
+
+/* 개별 탭 */
+.tab {
+    cursor: pointer; /* 클릭 가능한 커서 */
+    padding: 10px 20px; /* 내부 여백 */
+    background-color: #ddd; /* 기본 배경색 */
+    border: 1px solid #ccc; /* 테두리 */
+    border-bottom: none; /* 선택되지 않은 탭에만 테두리 */
+    transition: background-color 0.3s ease; /* 호버 시 부드러운 색상 변화 */
+}
+
+/* 활성화된 탭 */
+.tab.active {
+    background-color: #007bff; /* 활성화된 탭 배경색 */
+    color: white; /* 활성화된 탭 텍스트 색상 */
+    border-top: 2px solid #0056b3; /* 활성화된 탭 상단 강조 */
+    border-bottom: 2px solid transparent; /* 활성화된 탭 아래쪽 테두리 제거 */
+}
+
+/* 탭 호버 효과 */
+.tab:hover {
+    background-color: #e2e2e2; /* 호버 시 배경색 */
+}
+
+/* 레이아웃 */
+#layout {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 50px); /* 탭 높이 제외한 전체 화면 */
+    overflow: hidden;
+}
+
+/* 왼쪽 패널 */
+.left-panel {
+    flex: 4.5; /* 3.5 비율 */
+    display: flex;
+    flex-direction: column; /* 세로 정렬 */
+}
+
+/* 지도 */
+#map {
+    flex: 1;
+    width: 100%;
+    background-color: #e5e5e5; /* 지도 로드 전 기본 배경 */
+}
+
+/* 컨트롤 패널 */
+#controls {
+    padding: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* 위쪽 그림자 */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 슬라이더 컨테이너 */
+#slider-container {
+    position: relative;
+    width: 60%; /* 슬라이더 폭 조정 */
+}
+
+#slider {
+    width: 100%;
+}
+
+
+/* 오른쪽 패널 */
+.right-panel {
+    flex: 5.5; /* 6.5 비율 */
+    background-color: #f9f9f9; /* 오른쪽 패널 배경 */
+    padding: 20px; /* 오른쪽 패널 여백 */
+    overflow-y: auto; /* 콘텐츠 스크롤 허용 */
+}
+
+#timestamp-display {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none; /* 기본 밑줄 제거 */
+    color: #007BFF; /* 링크 색상 */
+    font-weight: bold; /* 글씨 두껍게 */
+    transition: color 0.3s ease; /* 색상이 부드럽게 변화 */
+  }
+  
+  /* 링크 hover 효과 */
+  a:hover {
+    color: #0056b3; /* 마우스를 올렸을 때 색상 */
+    text-decoration: underline; /* 밑줄 표시 */
+  }
+  
+  /* 버튼 스타일 링크 */
+  a.button {
+    display: inline-block;
+    padding: 10px 15px; /* 여백 */
+    background-color: #007BFF; /* 배경색 */
+    color: #fff; /* 글자색 */
+    border-radius: 5px; /* 둥근 모서리 */
+    text-align: center;
+    text-decoration: none; /* 밑줄 제거 */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* 부드러운 효과 */
+  }
+  
+  a.button:hover {
+    background-color: #0056b3; /* 마우스를 올렸을 때 배경색 */
+    color: #fff; /* 마우스를 올렸을 때 글자색 */
+  }
+
+
+  /* 속도 차이 텍스트를 감싸는 div 스타일 */
+#text-container {
+    display: flex;             /* 플렉스 박스 적용 */
+    justify-content: center;   /* 수평 가운데 정렬 */
+    align-items: center;       /* 수직 가운데 정렬 */
+    height: 100px;             /* div 높이 설정 (필요에 따라 조정) */
+}
+
+/* 속도 차이 텍스트 스타일 */
+#text-container p {
+    font-size: 18px;            /* 글자 크기 */
+    font-weight: bold;          /* 글자 굵기 */
+    color: #ffffff;             /* 글자 색상 (흰색) */
+    background-color: #4CAF50;  /* 배경 색상 (녹색) */
+    padding: 10px 20px;         /* 내부 여백 */
+    border-radius: 8px;         /* 둥근 테두리 */
+    text-align: center;         /* 텍스트 중앙 정렬 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    display: inline-block;      /* 내용만큼 너비 설정 */
+    animation: fadeIn 1s ease-in-out; /* 페이드 인 애니메이션 */
+}
+
+/* 페이드 인 애니메이션 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
