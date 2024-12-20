@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 50px;
+  padding: 0 20px;
+  background-color: white;
+  color: #FF6700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+button.img_btn {
+  background: none;
+  border: none;
+  border-radius: 16px;
+  padding: 8px;
+  cursor: pointer;
+}
+button.img_btn:hover {
+  background: #f0f0f0;
+}
+
+.user-menu button {
+  margin-left: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+}
+
+.panel {
+  height: calc(100vh - 50px);
+  position: relative;
+  width: 300px;
+  padding: 8px;
+}
+
+.center-panel {
+  height: calc(100vh - 50px);
+  flex-grow: 1;
+  padding: 0;
+  overflow: auto;
+}
+
+.resizer {
+  width: 10px;
+  cursor: ew-resize;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.left-panel > .resizer {
+  right: 0;
+}
+
+.right-panel > .resizer {
+  left: 0;
+}
+
+.map {
+  height: 50%;
+  background-color: #e9ecef;
+}
