@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-08-14 17:52:26 by Eclipse SUMO netedit Version 1.17.0
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<!-- Daechi -->
+    <taz id="taz_1" shape="3597.98,668.93 3563.06,871.08 3026.44,2387.21 4586.68,2949.56 4897.26,2993.67 6027.47,1885.51 6027.47,1664.98 3599.82,672.60 3597.98,668.93" name="Daechi" color="blue">	
+		
+        <tazSink id="1220035001" weight="1.00"/>
+		<tazSink id="1220035002" weight="1.00"/>
+		<tazSink id="1220035003" weight="1.00"/>
+		<tazSink id="1220035004" weight="1.00"/>
+		<tazSink id="1220035101" weight="1.00"/>
+		<tazSink id="1220035102" weight="1.00"/>
+		<tazSink id="1220035103" weight="1.00"/>
+		<tazSink id="1220035104" weight="1.00"/>
+		<tazSink id="1220036002" weight="1.00"/>
+		<tazSink id="1220036003" weight="1.00"/>
+		<tazSink id="1220036004" weight="1.00"/>
+		<tazSink id="1220036005" weight="1.00"/>
+		<tazSink id="1220036101" weight="1.00"/>
+		<tazSink id="1220036102" weight="1.00"/>
+		<tazSink id="1220036103" weight="1.00"/>
+		<tazSink id="1220036104" weight="1.00"/>
+		<tazSink id="1220036301" weight="1.00"/>
+		<tazSink id="1220036303" weight="1.00"/>
+		<tazSink id="1220036304" weight="1.00"/>
+		<tazSink id="1220036305" weight="1.00"/>
+		<tazSink id="1220036306" weight="1.00"/>
+		<tazSink id="1220036201" weight="1.00"/>
+		<tazSink id="1220036202" weight="1.00"/>
+		<tazSink id="1220036203" weight="1.00"/>
+		<tazSink id="1220036204" weight="1.00"/>
+		<tazSink id="1220036205" weight="1.00"/>
+		<tazSink id="1220036206" weight="1.00"/>
+		<tazSink id="1220035904" weight="1.00"/>
+		<tazSink id="1220035903" weight="1.00"/>
+		<tazSink id="1220035902" weight="1.00"/>
+		<tazSink id="1220035901" weight="1.00"/>
+		<tazSink id="1220035803" weight="1.00"/>
+		<tazSink id="1220035802" weight="1.00"/>
+		<tazSink id="1220035801" weight="1.00"/>
+		<tazSink id="1220035804" weight="1.00"/>
+	</taz>
+</additional>

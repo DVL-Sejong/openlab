@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-08-14 17:52:26 by Eclipse SUMO netedit Version 1.17.0
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<!-- Daechi -->
+    <taz id="taz_1" shape="3597.98,668.93 3563.06,871.08 3026.44,2387.21 4586.68,2949.56 4897.26,2993.67 6027.47,1885.51 6027.47,1664.98 3599.82,672.60 3597.98,668.93" name="Daechi" color="blue">	
+		<tazSink id="1220034002" weight="1.00"/>
+		<tazSink id="1220034102" weight="1.00"/>
+		<tazSink id="1220034001" weight="1.00"/>
+		<tazSink id="1220034101" weight="1.00"/>
+		<tazSink id="1220031804" weight="1.00"/>
+		<tazSink id="1220031904" weight="1.00"/>
+		<tazSink id="1220031803" weight="1.00"/>
+		<tazSink id="1220031903" weight="1.00"/>
+		<tazSink id="1220031802" weight="1.00"/>
+		<tazSink id="1220031902" weight="1.00"/>
+		<tazSink id="1220031801" weight="1.00"/>
+		<tazSink id="1220031901" weight="1.00"/>
+		<tazSink id="1220029302" weight="1.00"/>
+		<tazSink id="1220029202" weight="1.00"/>
+		<tazSink id="1220029201" weight="1.00"/>
+		<tazSink id="1220029301" weight="1.00"/>
+		<tazSink id="1220026603" weight="1.00"/>
+		<tazSink id="1220026703" weight="1.00"/>
+		<tazSink id="1220026602" weight="1.00"/>
+		<tazSink id="1220026702" weight="1.00"/>
+		<tazSink id="1220026601" weight="1.00"/>
+		<tazSink id="1220026701" weight="1.00"/>
+		<tazSink id="1220024803" weight="1.00"/>
+		<tazSink id="1220024903" weight="1.00"/>
+		<tazSink id="1220024802" weight="1.00"/>
+		<tazSink id="1220024902" weight="1.00"/>
+		<tazSink id="1220024801" weight="1.00"/>
+		<tazSink id="1220024901" weight="1.00"/>
+		<tazSink id="1220021802" weight="1.00"/>
+		<tazSink id="1220021903" weight="1.00"/>
+		<tazSink id="1220021801" weight="1.00"/>
+		<tazSink id="1220021902" weight="1.00"/>
+	</taz>
+</additional>
