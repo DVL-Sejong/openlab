@@ -1,5 +1,7 @@
 설치 방법.1. 가상 환경 설정 
 2. requirements.txt install 하기 
+3. data폴더에 있는 모든 zip파일을
+동일 디렉터리에 압축 풀기
 
 구조 
 ## 프로젝트 구조
