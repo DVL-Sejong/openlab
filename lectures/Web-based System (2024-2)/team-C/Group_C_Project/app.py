@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, jsonify,url_for
 from data_processing.convert import convert_to_nanoseconds, load_metr_la_data, haversine
 from email.utils import parsedate_to_datetime
 from geopy.distance import geodesic
-from predict import*
 from predict2 import*
 import h5py
 import pandas as pd
