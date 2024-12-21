@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 화면 전체 높이를 사용 */
+}
+
+/* 탭 컨테이너 */
+.tabs {
+    display: flex; /* 가로 정렬 */
+    justify-content: space-around; /* 탭 사이 간격 균등 */
+    background-color: #f1f1f1; /* 탭 배경색 */
+    padding: 10px; /* 탭 영역 여백 */
+    border-bottom: 1px solid #ccc; /* 아래쪽 구분선 */
+}
+
+/* 개별 탭 */
+.tab {
+    cursor: pointer; /* 클릭 가능한 커서 */
+    padding: 10px 20px; /* 내부 여백 */
+    background-color: #ddd; /* 기본 배경색 */
+    border: 1px solid #ccc; /* 테두리 */
+    border-bottom: none; /* 선택되지 않은 탭에만 테두리 */
+    transition: background-color 0.3s ease; /* 호버 시 부드러운 색상 변화 */
+}
+
+/* 활성화된 탭 */
+.tab.active {
+    background-color: #007bff; /* 활성화된 탭 배경색 */
+    color: white; /* 활성화된 탭 텍스트 색상 */
+    border-top: 2px solid #0056b3; /* 활성화된 탭 상단 강조 */
+    border-bottom: 2px solid transparent; /* 활성화된 탭 아래쪽 테두리 제거 */
+}
+
+/* 탭 호버 효과 */
+.tab:hover {
+    background-color: #e2e2e2; /* 호버 시 배경색 */
+}
+
+.content {
+    display: none;
+    height: calc(100vh - 60px); /* 탭 높이를 제외한 화면 전체 */
+}
+
+.content.active {
+    display: flex;
+}
+
+#map, #add-map {
+    flex : 1;
+    height: 100%; /* 부모 요소의 전체 높이 */
+    width: 100%; /* 부모 요소의 전체 너비 */
+}
+
+#statistics, #add-statistics {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#plot {
+    width: 100%;
+    height: 250px;
+}
+
+#reset,#showAll {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #0056b3;
+}
+
+#date-slider-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+#date-slider {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#selected-date-range {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
