@@ -75,11 +75,16 @@ flask --debug run
 .\venv\scripts\activate
 cd frontend
 ```
-(3) 리액트를 실행합니다.
+(3) 필요한 모듈을 설치하고 버전 호환성을 문제를 해결합니다.
+```
+npm uninstall date-fns
+npm install date-fns@^2.30.0
+```
+(4) 리액트를 실행합니다.
 ```
 npm start
 ````
-(4) http://localhost:3000 에서 대시보드를 확인할 수 있습니다.
+(5) http://localhost:3000 에서 대시보드를 확인할 수 있습니다.
 
 ※ 반드시 플라스크를 실행한 상태에서 리액트를 실행해야 합니다.
 
