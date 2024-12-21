@@ -1,0 +1,88 @@
+/* 전체 화면을 나누는 부모 그리드 */
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 4fr; /* 3열 구조 설정 */
+  height: 100vh; /* 전체 화면 높이 */
+  gap: 25px; /* 셀 간 간격 */
+}
+
+/* 왼쪽 1열을 세부적으로 2행으로 나누는 자식 그리드 */
+.left-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* 2행으로 나눔 */
+  gap: 10px;
+}
+
+/* 각 영역 스타일 */
+.chart-traffic {
+  background-color: #f1f1f1;;
+  padding: 10px;
+}
+
+.chart-speed {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.toll-map-area {
+  background-color: #f1f1f1;
+  padding: 10px;
+
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+
+.no-toll-map-area {
+  background-color: #d9f1f9;
+  padding: 10px;
+
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+
+.road-selection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 배치 */
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.road-option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.apply-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}
+
+.color-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-title {
+  font-size: 1.5em;          /* 글자 크기 */
+  font-weight: bold;         /* 글자 굵기 */
+  color: #ffffff;            /* 글자 색상 (흰색) */
+  text-align: center;        /* 가운데 정렬 */
+  margin-bottom: 10px;       /* 아래 여백 */
+  padding: 10px;             /* 안쪽 여백 */
+  background-color: #3A3A3A; 
+  border-radius: 8px;        /* 테두리 둥글게 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+}
