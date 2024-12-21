@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEG 데이터 시각화 : [ {{ file }} ]</title>
+    <link rel="stylesheet" href="../static/css/visualization.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts/dist/apexcharts.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <!-- 로딩 인디케이터 -->
+    <div id="loading-indicator">
+        <div class="spinner"></div>
+        <p>⏳ 시각화 중 ...</p>
+    </div>
+
+    <div id="wrap">
+        <div id="container">
+                <h1>[ {{ file }} ] 전처리 시각화</h1>
+                <div id="step"></div>
+        </div>
+        <div id="visualization-container">
+            <section id="visualize-section">
+                <div id="visualization">
+                    <div id="before">
+                        <h2>Before 데이터 시각화</h2>
+                        <div id="before-visualization"></div>
+                    </div>
+                    <div id="after">
+                        <h2>After 데이터 시각화</h2>
+                        <div id="checkbox-container"></div>
+                        <div id="after-visualization"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="module" src="/static/js/paintGraph.js" defer></script>
+    <script type="module" src="/static/js/paintFFT.js" defer></script>
+    <script src="/static/js/visualization.js" type="module"></script>
+</body>
+</html>

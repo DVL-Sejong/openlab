@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEG VA system</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="sidebar-container">
+            <div class="sidebar">
+                <div id="title">EEG VA system</div>
+                <div class="menu-box menu-selected">&#x25A0;&nbsp;&nbsp;Upload eeg data</div>
+                <div class="menu-box">&#x25A0;&nbsp;&nbsp;Analyzing eeg data</div>
+                <div class="menu-box">&#x25A0;&nbsp;&nbsp;Accuracy table</div>
+                <div class="menu-box">&#x25A0;&nbsp;&nbsp;XAI </div>
+            </div>
+
+            <!-- Analyzing EEG Data 화면 내용 -->
+
+            <div id="analyzing-screen">
+                <!-- 로딩 인디케이터 -->
+                <div id="loading-indicator">
+                    <div class="spinner"></div>
+                    <p>⏳ 결과 불러오는 중...</p>
+                </div>
+                <div class="sidebar" style="display: flex;
+                                            flex-direction: column;
+                                            align-items: center;">
+                    <div id="file-box">
+                        <div style="margin-left: 15px;">
+                            <div style="font-size: 8px; font-weight:100;">파일을 선택해주세요</div>
+                            <div id="filename2">...</div>
+                        </div>
+                        <button id="file-select-btn" style="width:30px; 
+                                    height:30px;
+                                    margin-right: 15px;
+                                    border-radius: 5px;
+                                    color: rgb(238, 238, 238);
+                                    background-color:rgb(54, 54, 54);">
+                            &#x25BC;</button>
+
+                        <div id="dropdown-menu">
+
+                        </div>
+                    </div>
+
+                    <div class="setting-box-container">
+                        <div class="setting-box setting-box-selected" data-id="0">
+                            <div class="setting-header">
+                                <div id="settingname">추천 설정1</div>
+                                <button class="delete-btn">X</button>
+                            </div>
+                            <div class="settingcontent">
+                                high-pass filter<br />
+                                remove artifact<br />
+                                평균 재참조<br />
+                                Min-Max 정규화
+                            </div>
+                            <div class="settingcontent">
+                                CNN
+                            </div>
+                        </div>
+                        <div class="setting-box" data-id="1">
+                            <div class="setting-header">
+                                <div id="settingname">추천 설정2</div>
+                                <button class="delete-btn">X</button>
+                            </div>
+                            <div class="settingcontent">
+                                high-pass filter<br />
+                                remove artifact<br />
+                                평균 재참조<br />
+                                Min-Max 정규화<br />
+                                FFT
+                            </div>
+                            <div class="settingcontent">
+                                CNN
+                            </div>
+                        </div>
+                    </div>
+                    <button id="predicet-btn">예측</button>
+                </div>
+
+                <div id="third-sidebar" class="sidebar" style="display: flex;
+                                            flex-direction: column;
+                                            align-items: center;">
+                    <div id="name-box">
+                        <div>Name:</div>
+                        <input id="input-name" />
+                    </div>
+
+                    <div class="processing-box-container">
+                        <div class="processing-box">
+                            <div id="processingname">Pre - processing</div>
+                            <div class="processingcontent">
+                                <p>high-pass filter</p>
+                                <img src="../static/img/info.png" alt="정보">
+                                <span class="tooltip">하이패스 필터 : 특정 주파수 이하의 낮은 주파수 성분(예: 드리프트 노이즈)을 제거하고,<br>더 높은 주파수 성분만
+                                    통과시키는 필터링 과정</span>
+                            </div>
+                            <div class="processingcontent processingcontent-selected">
+                                <p>remove artifact</p>
+                                <img src="../static/img/info.png" alt="정보">
+                                <span class="tooltip">아티팩트 제거 : 근육 움직임, 눈 깜빡임, 심장 박동과 같은 생리학적<br> 또는 환경적 요인으로 발생하는 불필요한
+                                    신호를
+                                    제거하는 과정</span>
+                            </div>
+                            <div class="processingcontent">
+                                <p>평균 재참조</p>
+                                <img src="../static/img/info.png" alt="정보">
+                                <span class="tooltip">평균 재참조 : EEG 채널의 전극 데이터에서 각 채널의 값에 평균 전극 값을 빼는 과정 </span>
+                            </div>
+                            <div class="processingcontent processingcontent-selected">
+                                <p>Min-Max 정규화</p>
+                                <img src="../static/img/info.png" alt="정보">
+                                <span class="tooltip">최소-최대 정규화 : 데이터의 값 범위를 0과 1 사이로 정규화하여<br>분석 및 모델 학습에 적합하게 만드는
+                                    과정</span>
+                            </div>
+                            <div class="processingcontent processingcontent-selected">
+                                <p>FFT</p>
+                                <img src="../static/img/info.png" alt="정보">
+                                <span class="tooltip">FFT 변환 : 신호를 시간 영역에서 주파수 영역으로 변환하는 과정</span>
+                            </div>
+                        </div>
+                        <div class="processing-box">
+                            <div id="processingname">Model</div>
+                            <div class="modelcontent modelcontent-selected">
+                                <p>CNN</p>
+                                <img src="../static/img/info.png" alt="정보">
+                                <span class="tooltip">CNN(Convolutional Neural Network)은 이미지나 시퀀스 데이터에서 특징을 자동으로 추출하고
+                                    <br>분석하는 데 뛰어난 성능을 보이는 딥러닝 기반 신경망</span>
+                            </div>
+                            <!-- <div class="modelcontent">
+                                <p>정규</p>
+                                <img src="../static/img/info.png" alt="정보">
+                                <span class="tooltip">정규 모델</span>
+                            </div> 추가된 모델이 없음 !! -->
+                        </div>
+                    </div>
+                    <button id="save-btn">저장</button>
+                </div>
+
+                <div class="right-container">
+                    <div id="control-btn-container">
+                        <div id="control-btn">></div>
+                    </div>
+                    <div class="result-box-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- table-screen 화면 내용 -->
+        <div id="upload-screen">
+            <div class="sidebar">
+                <div id="file-box">
+                    <div style="margin-left: 15px;">
+                        <div style="font-size: 8px; font-weight:100;">업로드할 파일을 선택해주세요</div>
+                        <div id="filename1">...</div>
+                    </div>
+                    <div style="position: relative; display: inline-block;">
+                        <input type="file" id="fileInput" style="display: none;" accept=".txt" />
+                        <button id="file-upload-btn" style="
+                                width:30px; 
+                                height:30px;
+                                margin-right: 15px;
+                                border: none;
+                                border-radius: 5px;
+                                color: rgb(255, 255, 255);
+                                background-color:rgb(7, 104, 219);">
+                            &#x25B2;
+                        </button>
+                    </div>
+                </div>
+                <div class="upload-box">
+                    <div style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: rgba(181, 181, 181, 0.5);
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        ">사용자 EEG Data</div>
+                    <div id="file-list">
+                    </div>
+                    <div style="border-top: 1px solid rgba(0, 0, 0, 0.25); width: 100%;"></div>
+                    <div style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: rgba(181, 181, 181, 0.5);
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        ">예시 EEG Data</div>
+                    <div id="example-file-list">
+                        <div class="file-list-item" file-id="0">sub_hi01.txt<button
+                                class="mini-visualize-btn">시각화</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="table-screen">
+            <div id="accuracy-table"></div>
+        </div>
+
+        <!-- xai 화면 내용 -->
+        <div id="xai-screen">
+            <div id="xai-header">
+                <h1>XAI 시각화</h1>
+                <p>16개의 모델에 대한 인지 부하 예측 결과 및 시각화입니다.</p>
+            </div>
+            <div style="overflow-y: auto; height: 100vh;">
+                <div class="xai-container">
+                    <!-- Model 1 -->
+                    <div class="model-box">
+                        <h2>Model 1</h2>
+                        <img src="../static/img/attribution_01.png" alt="Model 1 Attribution">
+                        <p>설명: Model 1은 인지 부하를 예측하며 채널 AF3, FC5에서 가장 높은 중요도를 보입니다.</p>
+                    </div>
+                    <!-- Model 2 -->
+                    <div class="model-box">
+                        <h2>Model 2</h2>
+                        <img src="../static/img/attribution_02.png" alt="Model 2 Attribution">
+                        <p>설명: Model 2는 O2 및 P8 채널에서 예측 결과에 크게 기여하는 것으로 분석되었습니다.</p>
+                    </div>
+                    <!-- Model 3 -->
+                    <div class="model-box">
+                        <h2>Model 3</h2>
+                        <img src="../static/img/attribution_03.png" alt="Model 3 Attribution">
+                        <p>설명: Model 3은 인지 부하 예측 시 FC6와 F4 채널의 영향이 두드러집니다.</p>
+                    </div>
+                    <!-- Model 4 -->
+                    <div class="model-box">
+                        <h2>Model 4</h2>
+                        <img src="../static/img/attribution_04.png" alt="Model 4 Attribution">
+                        <p>설명: Model 4는 대부분 FC5 채널이 중요 기여 요인으로 나타납니다.</p>
+                    </div>
+                    <!-- Model 5 -->
+                    <div class="model-box">
+                        <h2>Model 5</h2>
+                        <img src="../static/img/attribution_05.png" alt="Model 5 Attribution">
+                        <p>설명: Model 5에서는 T8 및 P8 채널이 주요 기여 요인으로 강조됩니다.</p>
+                    </div>
+                    <!-- Model 6 -->
+                    <div class="model-box">
+                        <h2>Model 6</h2>
+                        <img src="../static/img/attribution_06.png" alt="Model 6 Attribution">
+                        <p>설명: Model 6은 FC6와 P7 채널에서 큰 중요도가 확인됩니다.</p>
+                    </div>
+                    <!-- Model 7 -->
+                    <div class="model-box">
+                        <h2>Model 7</h2>
+                        <img src="../static/img/attribution_07.png" alt="Model 7 Attribution">
+                        <p>설명: Model 7은 O1과 O2 채널이 예측에 중요한 역할을 합니다.</p>
+                    </div>
+                    <!-- Model 8 -->
+                    <div class="model-box">
+                        <h2>Model 8</h2>
+                        <img src="../static/img/attribution_08.png" alt="Model 8 Attribution">
+                        <p>설명: Model 8에서는 P7과 FC6가 중요도를 나타냅니다.</p>
+                    </div>
+                    <!-- Model 9 -->
+                    <div class="model-box">
+                        <h2>Model 9</h2>
+                        <img src="../static/img/attribution_09.png" alt="Model 9 Attribution">
+                        <p>설명: Model 9의 분석 결과 FC5와 P8 채널이 기여도가 높습니다.</p>
+                    </div>
+                    <!-- Model 10 -->
+                    <div class="model-box">
+                        <h2>Model 10</h2>
+                        <img src="../static/img/attribution_10.png" alt="Model 10 Attribution">
+                        <p>설명: Model 10은 P8과 O2 채널에서 강한 기여도를 보입니다.</p>
+                    </div>
+                    <!-- Model 11 -->
+                    <div class="model-box">
+                        <h2>Model 11</h2>
+                        <img src="../static/img/attribution_11.png" alt="Model 11 Attribution">
+                        <p>설명: Model 11은 F7과 FC6에서 예측에 크게 기여하는 것으로 나타납니다.</p>
+                    </div>
+                    <!-- Model 12 -->
+                    <div class="model-box">
+                        <h2>Model 12</h2>
+                        <img src="../static/img/attribution_12.png" alt="Model 12 Attribution">
+                        <p>설명: Model 12는 AF4 및 F3 채널이 주요 기여 요인입니다.</p>
+                    </div>
+                    <!-- Model 13 -->
+                    <div class="model-box">
+                        <h2>Model 13</h2>
+                        <img src="../static/img/attribution_13.png" alt="Model 13 Attribution">
+                        <p>설명: Model 13에서 T7 및 FC5 채널의 중요도가 돋보입니다.</p>
+                    </div>
+                    <!-- Model 14 -->
+                    <div class="model-box">
+                        <h2>Model 14</h2>
+                        <img src="../static/img/attribution_14.png" alt="Model 14 Attribution">
+                        <p>설명: Model 14에서는 F8와 FC6 채널이 높은 중요도를 나타냅니다.</p>
+                    </div>
+                    <!-- Model 15 -->
+                    <div class="model-box">
+                        <h2>Model 15</h2>
+                        <img src="../static/img/attribution_15.png" alt="Model 15 Attribution">
+                        <p>설명: Model 15는 AF3 및 T8 채널이 주된 예측 요인입니다.</p>
+                    </div>
+                    <!-- Model 16 -->
+                    <div class="model-box">
+                        <h2>Model 16</h2>
+                        <img src="../static/img/attribution_16.png" alt="Model 16 Attribution">
+                        <p>설명: 마지막 Model 16은 P7 및 O1 채널에서 가장 높은 중요도를 나타냅니다.</p>
+                    </div>
+                </div>
+                <div class="model-box" style="margin-left:50px; margin-right:50px; margin-bottom: 400px;">
+                    <div class="model-chart">
+                        <img src="../static/img/model_1.png" alt="Model 1 Frequency Bands Chart">
+                    </div>
+                    <div class="model-description">
+                        <p><strong>주파수 대역:</strong> 델타(Delta), 세타(Theta), 알파(Alpha), 베타(Beta), 감마(Gamma)</p>
+                        <p><strong>인사이트:</strong>
+                        <ul>
+                            <li><strong>델타(Delta):</strong> 평균 중요도가 낮음</li>
+                            <li><strong>세타(Theta):</strong> 중요도가 약간 증가함</li>
+                            <li><strong>알파(Alpha):</strong> 중간 정도 수준</li>
+                            <li><strong>베타(Beta) 및 감마(Gamma):</strong> 상당한 중요도가 관찰됨</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="module" src="/static/js/script.js"></script>
+
+</body>
+
+</html>

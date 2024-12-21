@@ -1,0 +1,840 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(249, 250, 255);
+}
+
+body {
+    overflow: hidden;
+    /* 스크롤 막기 */
+}
+
+#loading-indicator {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* 반투명한 검정색 배경 */
+    backdrop-filter: blur(5px);
+
+    /* 블러 효과 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+
+    /*정렬 */
+    align-items: center;
+    flex-direction: column;
+
+    /* 세로 방향으로 배치 */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.spinner {
+    border: 6px solid rgba(255, 255, 255, 0.3);
+    border-top: 8px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.wrap {
+    display: flex;
+}
+
+#upload-screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+#analyzing-screen {
+    display: none;
+    align-items: center;
+    /* 세로 중앙 정렬 */
+
+    height: 100vh;
+}
+
+#table-screen {
+    display: none;
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#xai-screen {
+    display: none;
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar-container {
+    /* Flexbox 사용 */
+    display: flex;
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    height: 100vh;
+}
+
+/*사이드 바 css*/
+.sidebar {
+    width: 304px;
+    height: 100vh;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#control-btn-container {
+    /*정렬*/
+    display: flex;
+    flex-direction: column;
+    /* 세로 배치 */
+    justify-content: center;
+
+    height: 100vh;
+}
+
+#control-btn {
+    /*정렬*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    /*크기*/
+    width: 25px;
+    height: 60px;
+
+    /*색상*/
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+
+/* 사이드바 1 css*/
+#title {
+    /*정렬*/
+    display: flex;
+    justify-content: center;
+    /* 가로 중앙 정렬 */
+    align-items: center;
+    /* 세로 중앙 정렬 */
+
+    /*크기*/
+    width: 300px;
+    height: 150px;
+
+    /*글자*/
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(7, 104, 219);
+}
+
+.menu-box {
+    /*정렬*/
+    display: flex;
+    justify-content: left;
+    /* 가로 중앙 정렬 */
+    align-items: center;
+    /* 세로 중앙 정렬 */
+
+    margin: 0;
+    padding-left: 16px;
+
+    /*크기*/
+    height: 60px;
+
+    /*글자*/
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(183, 183, 183);
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-selected {
+    color: rgb(7, 104, 219);
+    background-color: rgb(204, 230, 255);
+}
+
+
+/* 사이드바 2 css*/
+#dropdown-menu {
+    /*정렬*/
+    display: none;
+    position: absolute;
+
+    top: 100%;
+    left: -1px;
+
+    /*크기*/
+    width: 250px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+
+    /*글자*/
+    font-size: 16px;
+
+    /*색상*/
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-item {
+    padding: 6px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#file-box {
+    position: relative;
+
+    /*정렬*/
+    display: flex;
+    justify-content: space-between;
+    /* 양 끝에 배치 */
+    align-items: center;
+    /* 세로 방향 중앙 정렬 */
+
+    margin: 26px;
+    /*크기*/
+    width: 250px;
+    height: 50px;
+
+    /*색상*/
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#filename1,
+#filename2 {
+    /*글자*/
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(98, 98, 98);
+}
+
+.upload-box {
+    display: flex;
+    flex-direction: column;
+    /* 세로 배치 */
+    gap: 0;
+
+    /*크기*/
+    width: 250px;
+    height: 80%;
+    margin: 26px;
+
+    /*색상*/
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#file-list,
+#example-file-list {
+    overflow-y: auto;
+
+    /*정렬*/
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* 세로 배치 */
+    gap: 0;
+
+}
+
+.file-list-item {
+    /*정렬*/
+    display: flex;
+    justify-content: space-between;
+    /* 양 끝에 배치 */
+    align-items: center;
+    /* 세로 방향 중앙 정렬 */
+    padding: 20px;
+
+    /*크기*/
+    height: 50px;
+    box-sizing: border-box;
+
+    /*글자*/
+    font-size: 15px;
+    font-weight: bold;
+
+    /*색상*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mini-visualize-btn {
+    /*크기*/
+    width: 70px;
+    height: 30px;
+
+    /*색상*/
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(115, 115, 115);
+}
+
+.setting-box-container {
+    /*정렬*/
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* 세로 배치 */
+    align-items: center;
+    gap: 15px;
+
+    overflow-y: auto;
+}
+
+.setting-box,
+.result-setting-box {
+    /*정렬*/
+    display: flex;
+    flex-direction: column;
+    /* 세로 배치 */
+    align-items: center;
+    gap: 10px;
+
+    margin-left: 26px;
+    margin-right: 26px;
+    padding: 15px;
+    padding-bottom: 22px;
+
+    /*크기*/
+    width: 250px;
+
+    /*색상*/
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* 크기를 고정 */
+}
+
+.setting-box-selected {
+    background-color: rgb(236, 236, 236);
+}
+
+.setting-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.delete-btn {
+    /*오른쪽 위치*/
+    margin-left: auto;
+
+    border: none;
+
+    background-color: rgba(0, 0, 0, 0);
+    /*X 글자*/
+    font-size: 16px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+#settingname {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+
+    /*글자*/
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+}
+
+#processingname {
+    text-align: center;
+
+    /*글자*/
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+}
+
+.settingcontent {
+    text-align: left;
+
+    /*크기*/
+    width: 220px;
+    min-height: 40px;
+    box-sizing: border-box;
+    /* 크기를 고정 */
+
+    padding: 10px;
+
+    /*글자*/
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+
+    /*색상*/
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#predicet-btn {
+    margin-bottom: 26px;
+    text-align: center;
+
+    /*크기*/
+    width: 250px;
+    min-height: 50px;
+
+    /*글자*/
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+    /*색상*/
+    background: linear-gradient(to right, rgb(53, 131, 216), rgb(11, 194, 251));
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+/* 사이드바 3 css */
+#name-box {
+    text-align: left;
+    margin-top: 20px;
+
+    /*크기*/
+    width: 250px;
+    height: 50px;
+
+    /*글자*/
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+}
+
+#input-name {
+    /*크기*/
+    width: 250px;
+    height: 30px;
+    box-sizing: border-box;
+
+    /*색상*/
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.processing-box-container {
+    /*정렬*/
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* 세로 배치 */
+    align-items: center;
+    gap: 15px;
+
+    /* overflow: scroll; */
+}
+
+.processing-box {
+    /*정렬*/
+    display: flex;
+    flex-direction: column;
+    /* 세로 배치 */
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 15px;
+    margin-left: 26px;
+    margin-right: 26px;
+    padding: 15px;
+    padding-bottom: 50px;
+
+    /*크기*/
+    width: 250px;
+
+    /*색상*/
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* 크기를 고정 */
+}
+
+/*settingname 과 processing name 같음*/
+.processingcontent>p,
+.modelcontent>p {
+    margin: 0;
+    padding: 0;
+    height: 17px;
+    box-sizing: border-box;
+    /* 크기를 고정 */
+}
+
+.processingcontent,
+.modelcontent {
+    position: relative;
+    /* 툴팁 위치 설정을 위한 부모 요소 기준 */
+
+    display: flex;
+    justify-content: space-between;
+    /* 양 끝에 배치 */
+    align-items: center;
+    /* 세로 방향 중앙 정렬 */
+    text-align: left;
+
+    /*크기*/
+    width: 220px;
+    min-height: 40px;
+    box-sizing: border-box;
+    /* 크기를 고정 */
+
+    padding: 10px;
+
+    /*글자*/
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+
+    /*색상*/
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.processingcontent-selected,
+.modelcontent-selected {
+    background-color: rgb(236, 236, 236);
+}
+
+.processingcontent>img,
+.modelcontent>img {
+    width: 12px;
+    height: 12px;
+}
+
+.tooltip {
+    display: none;
+    /* 기본적으로 숨김 */
+    position: absolute;
+    /* 부모 요소 기준 */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* 말풍선 배경색 */
+    color: white;
+    /* 글자 색 */
+    padding: 8px 12px;
+    /* 말풍선 패딩 */
+    border-radius: 8px;
+    /* 말풍선 모서리 둥글게 */
+    font-size: 12px;
+    /* 글자 크기 */
+    z-index: 1000;
+    /* 앞쪽에 표시 */
+    white-space: nowrap;
+    /* 줄바꿈 방지 */
+    top: 50%;
+    /* 이미지의 세로 중심 맞추기 */
+    left: 100%;
+    /* 이미지의 오른쪽에 위치 */
+    transform: translate(10px, -50%);
+    /* 약간 오른쪽으로 이동 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* 그림자 효과 */
+}
+
+
+#save-btn {
+    margin-bottom: 26px;
+    text-align: center;
+
+    /*크기*/
+    width: 250px;
+    min-height: 50px;
+
+    /*글자*/
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+    /*색상*/
+    background: linear-gradient(to right, rgb(233, 103, 5), rgb(245, 185, 27));
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+/*오른쪽 결과*/
+.right-container {
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    background-color: rgb(249, 250, 255);
+
+    width: 100vw;
+    height: 100%;
+}
+
+.result-box-container {
+    /*정렬*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 세로 배치 */
+
+    gap: 15px;
+
+    /* 스크롤 동작 */
+    overflow-y: auto;
+    /* 세로 스크롤만 활성화 */
+    overflow-x: hidden;
+    /* 가로 스크롤 비활성화 */
+
+    /* 크기 및 위치 */
+    margin: 20px;
+}
+
+.resultname {
+    /*정렬*/
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 20px;
+
+    /*글자*/
+    font-size: 20px;
+    font-weight: bold;
+
+    color: rgb(62, 62, 62);
+}
+
+.result-box {
+    /*크기*/
+    width: 1100px;
+    height: 400px;
+    box-sizing: border-box;
+
+    margin: 0;
+    /* 마진 제거 */
+
+    /*색상*/
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.model-result-box-container {
+    /*정렬*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* 위-아래 요소 배치 */
+
+    width: 350px;
+    height: 290px;
+
+    /*색상*/
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.model-result-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+    margin-top: 10px;
+    /* 상단 여백 */
+}
+
+.model-result-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* 수직 중앙 */
+    align-items: center;
+    /* 수평 중앙 */
+    flex-grow: 1;
+    /* 나머지 영역 채우기 */
+}
+
+#result-settingname {
+    /*글자*/
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+}
+
+.visualize-btn {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 26px;
+    margin-bottom: 20px;
+
+    /*크기*/
+    width: 250px;
+    height: 50px;
+
+    /*글자*/
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+    /*색상*/
+    background: linear-gradient(to right, rgb(233, 103, 5), rgb(245, 185, 27));
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.channel-visualize-btn {
+    text-align: center;
+
+    /*크기*/
+    width: 100px;
+    height: 32px;
+
+    /*글자*/
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+    /*색상*/
+    background: rgb(184, 184, 184);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.channel-btn-container {
+    /*정렬*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    margin-right: 10px;
+
+    /*크기*/
+    width: 400px;
+    height: 295px;
+}
+
+.channel-btn-container .channel-visualize-btn {
+    flex: 0 0 calc(50% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.brain-image-container {
+    position: relative;
+    /* 부모 요소를 상대 위치로 설정 */
+    display: inline-block;
+}
+
+.brain-tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    bottom: 10px;
+    /* 이미지 아래에 표시 */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #909090;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.brain-image-container:hover .brain-tooltip-text {
+    visibility: visible;
+    /* 마우스 호버 시 툴팁 표시 */
+}
+
+/*XAI 화면 관련 css*/
+#xai-header {
+    text-align: center;
+    background-color: rgb(7, 104, 219);
+    color: white;
+    padding: 20px 10px;
+}
+
+#xai-header > h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#header > p {
+    font-size: 1rem;
+}
+
+.xai-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.model-box {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.model-box img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.model-box h2 {
+    font-size: 1.2rem;
+    color: #4CAF50;
+}
+
+.model-box p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+}
+
