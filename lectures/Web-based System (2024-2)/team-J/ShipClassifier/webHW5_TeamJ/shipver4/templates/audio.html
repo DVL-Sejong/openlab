@@ -1,0 +1,65 @@
+<head>
+    <title>Acoustics Data Prediction</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<header>
+    <h1> Acoustics Data Analysis & Prediction</h1>
+    <p>This page focuses on analyzing sound characteristics and predicting data using advanced machine learning models. 
+        <br>It generates visualizations, including waveforms, sonar spectrograms, and Mel spectrograms. 
+        <br>Additionally, it calculates key acoustic features such as the average spectral centroid, spectral flatness, and RMS values.</p>  <a href="{{ url_for('download_folder') }}" style="color: 4CAF50;">Click here to download the audio sample</a>
+</header>
+    
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+    <a href="/">Home</a>  > 
+    <span>Acoustics Data Analysis & Prediction</span>
+    </div>
+    
+<body>
+        <div class="audio-content">
+            <aside class="upload-container">
+                <!-- Upload Form -->
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <h2>Please upload an acoustic data file (e.g., .wav, .mp3).</h2>
+                    <input id="fileInput" type="file" name="audio" accept=".wav,.mp3" required>
+                    <button id="loadGraphBtn" type="submit">Predict</button>
+                </form>
+    
+                <!-- Audio preview -->
+                <div id="audioPreview" class="audio-preview" style="display:none;">
+                    <audio id="uploadedAudio" controls>
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+    
+                <!-- Progress Bar -->
+                <div id="progressContainer" class="progress-container" style="display:none;">
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="result-section">
+                    <!-- 파이 차트는 왼쪽, 텍스트는 오른쪽 -->
+                        <img id="pieChartImage" src="" alt="Pie Chart" width="500" style="display:none; margin-top: 20px;">
+                        <h2 id="result" class="result-text"></h2>
+                    <!-- Visualization container (will be filled with the iframe) -->
+                    <div class="visualization" style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 600px;">
+                        <img id="soundwaveImg" style="width: 100%;" />
+                        <p>The <strong>soundwave plot</strong> shows the amplitude of the audio signal over time, representing its volume and temporal structure.</p>
+                        <img id="melSpecImg" style="width: 100%;" />
+                        <p>The <strong>Mel spectrogram</strong> visualizes the frequency content of the audio over time, emphasizing human-perceived pitch ranges.</p>
+                        <img id="sonarImg" style="width: 100%;" />
+                        <p>The <strong>STFT (Short-Time Fourier Transform) spectrogram</strong> highlights detailed frequency patterns and energy distribution, often used for analyzing soundscapes or sonar data.</p>
+                    </div> 
+                </div>                   
+            </aside>
+             <!-- Graph Section -->
+        <div class="graph-container">
+            <div id="spectral-centroid" style="width: 100%; height: 500px; display: none;"></div>
+            <div id="spectral-flatness" style="width: 100%; height: 500px; display: none;"></div>
+            <div id="rms" style="width: 100%; height: 500px; display: none;"></div>
+        </div>
+        </div>    
+    <script src="{{ url_for('static', filename='js/audio.js') }}"></script>
+</body>
+
