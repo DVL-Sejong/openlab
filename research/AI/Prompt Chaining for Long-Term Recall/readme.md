@@ -2,7 +2,7 @@
 
 Authors: Seongbum Seo, Sangbong Yoo, Yun Jang
 
-**IEEE Transactions on Visualization and Computer Graphics** (Early Access)
+**The ACM Conference on Intelligent User Interfaces (IUI 2025)** 
 
 DOI: [10.1145/3708359.3712117](https://dl.acm.org/doi/10.1145/3708359.3712117)
 
