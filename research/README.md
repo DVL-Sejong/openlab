@@ -16,6 +16,11 @@ _When adding new research, please update this README.md with a brief description
   - **Description**: [TBA]
   - **Venue**: IEEE Transactions on Intelligent Transportation Systems
 
+- [**A Sentence-Level Visualization of Attention in Large Language Models**](./Data%20Visualization/AttentionVisLLM)
+  - **Authors**:
+  - **Description**: [TBA]
+  - **Venue**: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025): Human Language Technologies (System Demonstrations)
+
 - [**A Prompt Chaining Framework for Long-Term Recall in LLM-Powered Intelligent Assistant**](./AI/Prompt%20Chaining%20for%20Long-Term%20Recall)
   - **Authors**: S. Seo, S. Yoo, Y. Jang
   - **Description**: [TBA]
