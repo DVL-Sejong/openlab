@@ -11,6 +11,11 @@ _When adding new research, please update this README.md with a brief description
 ---
 
 ## Current Research
+- [**V-DCRNN: Virtual Network-Based Diffusion Convolutional Recurrent Neural Network for Estimating Unobserved Traffic Data**](./AI/V-DCRNN)
+  - **Authors**: C. Yoon, S. Yim, S. Yoo, C. Jung, H. Yeon, Y. Jang
+  - **Description**: [TBA]
+  - **Venue**: IEEE Transactions on Intelligent Transportation Systems
+ 
 - [**CATOM : Causal Topology Map for Spatiotemporal Traffic Analysis with Granger Causality in Urban Areas**](./Visual%20Analytics/CATOM/)
   - **Authors**: C. Jung, S. Yim, G. Park, S. Oh, Y. Jang
   - **Description**: [TBA]
@@ -20,3 +25,4 @@ _When adding new research, please update this README.md with a brief description
   - **Authors**: S. Yoo, S. Kim, Y. Jang
   - **Description**: Separation in direct volume rendering via two-level transfer functions using t-SNE projections
   - **Venue**: IEEE Transactions on Visualization and Computer Grphics, [TBA]
+
