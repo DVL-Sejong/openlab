@@ -15,6 +15,11 @@ _When adding new research, please update this README.md with a brief description
   - **Authors**: C. Yoon, S. Yim, S. Yoo, C. Jung, H. Yeon, Y. Jang
   - **Description**: [TBA]
   - **Venue**: IEEE Transactions on Intelligent Transportation Systems
+
+- [**A Prompt Chaining Framework for Long-Term Recall in LLM-Powered Intelligent Assistant**](./AI/Prompt%20Chaining%20for%20Long-Term%20Recall)
+  - **Authors**: S. Seo, S. Yoo, Y. Jang
+  - **Description**: [TBA]
+  - **Venue**: Proceedings of the 30th International Conference on Intelligent User Interfaces (IUI 2025)
  
 - [**CATOM : Causal Topology Map for Spatiotemporal Traffic Analysis with Granger Causality in Urban Areas**](./Visual%20Analytics/CATOM/)
   - **Authors**: C. Jung, S. Yim, G. Park, S. Oh, Y. Jang
