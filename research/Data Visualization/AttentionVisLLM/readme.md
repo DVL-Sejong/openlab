@@ -6,7 +6,7 @@ Authors: Seongbum Seo, Sangbong Yoo, Hyelim Lee, Yun Jang, Ji Hwan Park, Jeong-N
 
 DOI: [10.18653/v1/2025.naacl-demo.27](https://aclanthology.org/2025.naacl-demo.27/)
 
-Cite
+Citation (BibTeX)
 ```
 @inproceedings{seo-etal-2025-sentence,
     title = "A Sentence-Level Visualization of Attention in Large Language Models",
