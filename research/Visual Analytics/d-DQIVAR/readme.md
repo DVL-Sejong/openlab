@@ -15,5 +15,4 @@ DOI: [...](...)
 Appendix:
 [...]
 
-Video
 https://github.com/user-attachments/assets/5448af3b-24fa-4cd9-88d1-9a3e43bd291d
