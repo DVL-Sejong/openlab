@@ -17,7 +17,7 @@ _When adding new research, please update this README.md with a brief description
   - **Venue**: IEEE Transactions on Intelligent Transportation Systems
 
 - [**A Sentence-Level Visualization of Attention in Large Language Models**](./Data%20Visualization/AttentionVisLLM)
-  - **Authors**:
+  - **Authors**: S. Seo, S. Yoo, H. Lee, Y. Jang, J. H. Park, J.-N. Kim
   - **Description**: [TBA]
   - **Venue**: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025): Human Language Technologies (System Demonstrations)
 
