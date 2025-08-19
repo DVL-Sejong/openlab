@@ -8,9 +8,9 @@ Hyein Hong is with Data Visualization Lab, Sejong University, Seoul, South Korea
 
 Sangbong Yoo is with AI, Information and Reasoning (AI/R) Laboratory, Korea Institute of Science and Technology (KIST), Seoul, South Korea.
 
-**Under review**
+**ArXiv** (under review)
 
-DOI: [...](...)
+DOI: [10.48550/arXiv.2507.11960]((https://arxiv.org/abs/2507.11960))
 
 [Appendix](./Appendix/appendix.pdf)
 
