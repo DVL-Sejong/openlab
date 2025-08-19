@@ -10,7 +10,7 @@ Sangbong Yoo is with AI, Information and Reasoning (AI/R) Laboratory, Korea Inst
 
 **ArXiv** (under review)
 
-DOI: [10.48550/arXiv.2507.11960]((https://arxiv.org/abs/2507.11960))
+DOI: [10.48550/arXiv.2507.11960](https://arxiv.org/abs/2507.11960)
 
 [Appendix](./Appendix/appendix.pdf)
 
