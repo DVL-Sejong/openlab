@@ -21,6 +21,6 @@ Citation (BibTeX)
   number={9},
   pages={5948-5961},
   keywords={Rendering (computer graphics);Transfer functions;Histograms;Image color analysis;Self-organizing feature maps;Dimensionality reduction;Data visualization;Visualization;Image segmentation;Feature extraction;Dimensionality reduction;transfer function;direct volume rendering},
-  doi={10.1109/TVCG.2024.3484471}}
-
+  doi={10.1109/TVCG.2024.3484471}
+}
 ```
