@@ -2,7 +2,7 @@
 
 Authors: Chanyoung Jung, Soobin Yim, Giwoong Park, Simon Oh, and Yun Jang
 
-**IEEE Transactions on Visualization and Computer Graphics** (Vol. 31, No. 9, September 2025)
+**IEEE Transactions on Visualization and Computer Graphics** (Vol. 31, No. 9, 6036-6052, September 2025)
 
 DOI: [10.1109/TVCG.2024.3489676](https://ieeexplore.ieee.org/document/10740670)
 
