@@ -2,7 +2,7 @@
 
 This directory provides `beijing.csv`, the fixed analysis input used in the Beijing air-quality case study in the following manuscript:
 
-**Reassessing apparent predictive gains from data preparation: A comparative assessment procedure for measurement-based engineering estimation**
+**Reassessing apparent predictive gains from data preparation: A comparative assessment procedure for measurement-based engineering estimation** (Under Review)
 
 Sangbong Yoo, SeokHwan Choi, Hyein Hong, Seongbum Seo, Jisue Kim, Gyuri Lee, Haneol Cho, Chansoo Kim, and Yun Jang.
 
@@ -47,11 +47,3 @@ This directory distributes only the Beijing case-study input. It does not redist
 | Distribution terms for `beijing.csv` | [CONFIRM applicable terms for this modified analysis input and retain required original notices] |
 
 **Modification notice.** The deposited file is a study-specific analysis input derived from recorded Beijing air-quality observations. It contains 10,000 records and the 15 analysis variables listed above, together with artificially introduced data-quality issues. It should not be presented as the original provider's unmodified dataset. Credit for the underlying observations remains with the original data providers.
-
-## Citation
-
-When using this analysis input, please cite the original dataset identified above and the associated CleanSift manuscript:
-
-> Yoo, S., Choi, S., Hong, H., Seo, S., Kim, J., Lee, G., Cho, H., Kim, C., and Jang, Y. *Reassessing apparent predictive gains from data preparation: A comparative assessment procedure for measurement-based engineering estimation*. Manuscript.
-
-Please also record the Git commit or release used to identify the deposited version. Use the final publication citation when it becomes available.
