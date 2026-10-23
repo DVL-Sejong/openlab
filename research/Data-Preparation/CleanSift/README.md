@@ -19,7 +19,7 @@ The 14 predictor fields are `year`, `month`, `day`, `hour`, `PM10`, `SO2`, `NO2`
 
 ## Data handling
 
-To reproduce the reported analysis, preserve the file's row order, column names, missing values, and nonnumeric entries. The literal string `incons` marks inconsistent entries, while missing values are stored as empty fields. Loading and evaluation procedures are described in the accompanying manuscript.
+To reproduce the reported analysis, preserve the file's row order, column names, missing values, and nonnumeric entries. Loading and evaluation procedures are described in the accompanying manuscript.
 
 ## Original source and license
 
