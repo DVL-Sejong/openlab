@@ -4,7 +4,6 @@
 
 Sangbong Yoo, SeokHwan Choi, Hyein Hong, Seongbum Seo, Jisue Kim, Gyuri Lee, Haneol Cho, Chansoo Kim, and Yun Jang.
 
-
 This directory provides `beijing.csv`, the fixed input used in the CleanSift Beijing air-quality analysis. It is derived from the Beijing Multi-Site Air Quality dataset and contains artificially introduced data-quality issues. The file is the input before candidate preparation operations, not a cleaned output.
 
 ## File description
@@ -20,7 +19,7 @@ The 14 predictor fields are `year`, `month`, `day`, `hour`, `PM10`, `SO2`, `NO2`
 
 ## Data handling
 
-For reproduction, preserve the file's row order, column names, missing values, and nonnumeric entries. The file uses `incons` as an inconsistency marker. Loading and evaluation procedures are described in the accompanying manuscript.
+To reproduce the reported analysis, preserve the file's row order, column names, missing values, and nonnumeric entries. The file uses `incons` as an inconsistency marker. Loading and evaluation procedures are described in the accompanying manuscript.
 
 ## Original source and license
 
