@@ -18,11 +18,9 @@ This directory provides `beijing.csv`, the fixed input used in the CleanSift Bei
 
 The 14 predictor fields are `year`, `month`, `day`, `hour`, `PM10`, `SO2`, `NO2`, `CO`, `O3`, `TEMP`, `PRES`, `DEWP`, `RAIN`, and `WSPM`.
 
-
 ## Data handling
 
 For reproduction, preserve the file's row order, column names, missing values, and nonnumeric entries. The file uses `incons` as an inconsistency marker. Loading and evaluation procedures are described in the accompanying manuscript.
-
 
 ## Original source and license
 
