@@ -12,7 +12,7 @@ The file is provided so that readers can start from the same input used in the r
 
 | File | Description |
 | --- | --- |
-| [`beijing.csv`](beijing.csv) | Fixed Beijing analysis input before the candidate preparation operations evaluated in the manuscript. Existing missing values and inconsistent entries are retained. |
+| [`beijing.csv`](./data/beijing.csv) | Fixed Beijing analysis input before the candidate preparation operations evaluated in the manuscript. Existing missing values and inconsistent entries are retained. |
 
 The input described in Appendix D contains **10,000 records and 15 columns**. The prediction target is `PM2.5`. The 14 predictor fields are `year`, `month`, `day`, `hour`, `PM10`, `SO2`, `NO2`, `CO`, `O3`, `TEMP`, `PRES`, `DEWP`, `RAIN`, and `WSPM`. This list identifies the fields and does not prescribe a new column order.
 
