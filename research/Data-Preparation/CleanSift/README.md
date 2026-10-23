@@ -32,18 +32,22 @@ Section 6.3.1 and Appendix D describe the Beijing evaluation. Section 4.3 and Ap
 
 ## Scope of this data release
 
-This directory distributes only the Beijing case-study input. It does not redistribute the Bike Sharing, Forest Fires, Diabetes, ETTm1, or Gas Sensor Array experimental inputs. Their public source datasets are cited in the manuscript, and Appendix D documents their input selection, preprocessing, controlled perturbation rules, and random seeds. The ETTm1 application analysis uses the public source input without synthetic perturbation.
+This directory distributes only the Beijing case-study input. It does not redistribute the Bike Sharing, Forest Fires, Diabetes, ETTm1, or Gas Sensor Array experimental inputs. Their public source datasets are identified in the manuscript, and Appendix D documents their input selection, preprocessing, controlled perturbation rules, and random seeds. The ETTm1 application analysis uses the public source input without synthetic perturbation.
 
-## Original source, attribution, and license
-
-**Before public release, replace the fields below with the confirmed source and applicable license information.**
+## Original source and license
 
 | Item | Information |
 | --- | --- |
-| Original dataset | [CONFIRM exact dataset title] |
-| Original creator(s) | [CONFIRM original creator or attribution parties] |
-| Original source URL or DOI | [CONFIRM dataset-specific URL or DOI, not only the repository homepage] |
-| Original license and license link | [CONFIRM license name, version, and URL] |
-| Distribution terms for `beijing.csv` | [CONFIRM applicable terms for this modified analysis input and retain required original notices] |
+| Original dataset | Beijing Multi-Site Air Quality |
+| Original creator listed by UCI | Song Chen |
+| Source repository | UCI Machine Learning Repository, dataset 501 |
+| Source page | [Beijing Multi-Site Air Quality](https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data) |
+| Dataset DOI | [10.24432/C5RK5G](https://doi.org/10.24432/C5RK5G) |
+| Original license | [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) |
+| License for this data release | `beijing.csv` and its study-specific modifications are distributed under CC BY 4.0. This statement applies to this data file, not to other projects in the repository. |
 
-**Modification notice.** The deposited file is a study-specific analysis input derived from recorded Beijing air-quality observations. It contains 10,000 records and the 15 analysis variables listed above, together with artificially introduced data-quality issues. It should not be presented as the original provider's unmodified dataset. Credit for the underlying observations remains with the original data providers.
+**Modification notice.** This file is a study-specific analysis input derived from the Beijing Multi-Site Air Quality dataset. It contains 10,000 records and the 15 analysis variables listed above, together with artificially introduced data-quality issues. These modifications were made for the CleanSift analysis and are not part of the original provider's dataset.
+
+The original UCI record attributes the air-quality observations to the Beijing Municipal Environmental Monitoring Center and the meteorological observations to the China Meteorological Administration. Credit for the underlying data remains with the original creator and data providers. No endorsement of this modified input by the original creator or providers is implied.
+
+Reuse and further modification are permitted under CC BY 4.0. Retain the source attribution and license link, and indicate any further changes.
