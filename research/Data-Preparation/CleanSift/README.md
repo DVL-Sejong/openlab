@@ -2,7 +2,7 @@
 
 (Under Review) **Reassessing apparent predictive gains from data preparation: A comparative assessment procedure for measurement-based engineering estimation**
 
-Sangbong Yoo, SeokHwan Choi, Hyein Hong, Seongbum Seo, Jisue Kim, Gyuri Lee, Haneol Cho, Chansoo Kim, and Yun Jang.
+Sangbong Yoo, SeokHwan Choi, and Yun Jang.
 
 This directory provides `beijing.csv`, the fixed input used in the CleanSift Beijing air-quality analysis. It is derived from the Beijing Multi-Site Air Quality dataset and contains artificially introduced data-quality issues. The file is the input before candidate preparation operations, not a cleaned output.
 
