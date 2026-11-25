@@ -1,0 +1,70 @@
+{
+ "free_viewing": {
+  "observations": 540,
+  "evaluation_set": 530,
+  "median_reference_length": 31.0,
+  "encodings": {
+   "object-level": {
+    "scored": 527,
+    "excluded": 3,
+    "nlcs": 0.7272727272727273,
+    "ned": 0.2727272727272727,
+    "jaccard": 0.6435079803393565,
+    "dtw": 3897.758365856388,
+    "frechet": 258.1535569700475
+   },
+   "majority-after": {
+    "scored": 519,
+    "excluded": 11,
+    "nlcs": 0.3333333333333333,
+    "ned": 0.6666666666666666,
+    "jaccard": 0.5821525437659242,
+    "dtw": 4711.250816242185,
+    "frechet": 261.31584700347304
+   },
+   "I-VT": {
+    "scored": 517,
+    "excluded": 13,
+    "nlcs": 0.3333333333333333,
+    "ned": 0.6756756756756757,
+    "jaccard": 0.5821525437659242,
+    "dtw": 4711.250816242185,
+    "frechet": 261.31584700347304
+   }
+  }
+ },
+ "visual_search": {
+  "observations": 12768,
+  "evaluation_set": 12552,
+  "median_reference_length": 15.0,
+  "encodings": {
+   "object-level": {
+    "scored": 12392,
+    "excluded": 160,
+    "nlcs": 0.6153846153846154,
+    "ned": 0.38461538461538464,
+    "jaccard": 0.7479539238057951,
+    "dtw": 2607.5233683519023,
+    "frechet": 157.73739090096106
+   },
+   "majority-after": {
+    "scored": 11969,
+    "excluded": 583,
+    "nlcs": 0.2727272727272727,
+    "ned": 0.7272727272727273,
+    "jaccard": 0.7156282883994339,
+    "dtw": 2960.920499785139,
+    "frechet": 157.89499502381287
+   },
+   "I-VT": {
+    "scored": 11987,
+    "excluded": 565,
+    "nlcs": 0.2727272727272727,
+    "ned": 0.7272727272727273,
+    "jaccard": 0.7156282883994339,
+    "dtw": 2960.920499785139,
+    "frechet": 157.89499502381287
+   }
+  }
+ }
+}
