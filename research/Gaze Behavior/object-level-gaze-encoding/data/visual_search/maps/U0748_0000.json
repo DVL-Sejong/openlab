@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0748_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 237237
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.997162,
+   "area_px": 3316
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.952213,
+   "area_px": 17580
+  },
+  {
+   "id": 3,
+   "label": "ceiling-merged",
+   "thing": false,
+   "score": 0.979008,
+   "area_px": 8108
+  },
+  {
+   "id": 4,
+   "label": "floor-other-merged",
+   "thing": false,
+   "score": 0.937811,
+   "area_px": 77556
+  },
+  {
+   "id": 5,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.982419,
+   "area_px": 26220
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.99394,
+   "area_px": 2132
+  },
+  {
+   "id": 7,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.985317,
+   "area_px": 1793
+  },
+  {
+   "id": 8,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.694374,
+   "area_px": 54783
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.979368,
+   "area_px": 7948
+  },
+  {
+   "id": 10,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.879197,
+   "area_px": 9290
+  },
+  {
+   "id": 11,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.933686,
+   "area_px": 10048
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.981836,
+   "area_px": 22756
+  },
+  {
+   "id": 13,
+   "label": "light",
+   "thing": false,
+   "score": 0.957436,
+   "area_px": 1233
+  }
+ ]
+}

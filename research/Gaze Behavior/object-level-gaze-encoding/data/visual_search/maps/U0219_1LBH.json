@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0219_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 1189
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.998114,
+   "area_px": 4871
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.984176,
+   "area_px": 547
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.999391,
+   "area_px": 3802
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.998636,
+   "area_px": 3521
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.995778,
+   "area_px": 323
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.995563,
+   "area_px": 269865
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.999012,
+   "area_px": 2023
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.997095,
+   "area_px": 155908
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.869075,
+   "area_px": 102
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.996951,
+   "area_px": 1200
+  },
+  {
+   "id": 11,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.90895,
+   "area_px": 696
+  },
+  {
+   "id": 12,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.986613,
+   "area_px": 10718
+  },
+  {
+   "id": 13,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.967796,
+   "area_px": 176
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.981958,
+   "area_px": 170
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.995639,
+   "area_px": 696
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.997733,
+   "area_px": 840
+  },
+  {
+   "id": 17,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.996913,
+   "area_px": 23353
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0186_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 16892
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.982588,
+   "area_px": 350
+  },
+  {
+   "id": 2,
+   "label": "bus",
+   "thing": true,
+   "score": 0.993101,
+   "area_px": 3105
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.99972,
+   "area_px": 2426
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999663,
+   "area_px": 74727
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.981255,
+   "area_px": 529
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.986155,
+   "area_px": 117049
+  },
+  {
+   "id": 7,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.961852,
+   "area_px": 77
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.999637,
+   "area_px": 13351
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.998251,
+   "area_px": 52604
+  },
+  {
+   "id": 10,
+   "label": "bus",
+   "thing": true,
+   "score": 0.993119,
+   "area_px": 5979
+  },
+  {
+   "id": 11,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.774413,
+   "area_px": 3472
+  },
+  {
+   "id": 12,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.99648,
+   "area_px": 61921
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.997234,
+   "area_px": 1456
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.96905,
+   "area_px": 6917
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999264,
+   "area_px": 13774
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.993609,
+   "area_px": 1330
+  },
+  {
+   "id": 17,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.983478,
+   "area_px": 1764
+  },
+  {
+   "id": 18,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999062,
+   "area_px": 102277
+  }
+ ]
+}

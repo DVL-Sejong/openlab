@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0281_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 4346
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.986913,
+   "area_px": 422
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.988478,
+   "area_px": 5606
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.991245,
+   "area_px": 133287
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.991524,
+   "area_px": 226
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.998455,
+   "area_px": 242900
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.999434,
+   "area_px": 2376
+  },
+  {
+   "id": 7,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.970277,
+   "area_px": 159
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.99107,
+   "area_px": 7579
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.979713,
+   "area_px": 2580
+  },
+  {
+   "id": 10,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998929,
+   "area_px": 33125
+  },
+  {
+   "id": 11,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.973857,
+   "area_px": 75
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999398,
+   "area_px": 47319
+  }
+ ]
+}

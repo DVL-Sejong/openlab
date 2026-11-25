@@ -1,0 +1,253 @@
+{
+ "stimulus": "U0937_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 20615
+  },
+  {
+   "id": 1,
+   "label": "chair",
+   "thing": true,
+   "score": 0.964157,
+   "area_px": 234
+  },
+  {
+   "id": 2,
+   "label": "chair",
+   "thing": true,
+   "score": 0.887954,
+   "area_px": 98
+  },
+  {
+   "id": 3,
+   "label": "chair",
+   "thing": true,
+   "score": 0.946575,
+   "area_px": 117
+  },
+  {
+   "id": 4,
+   "label": "chair",
+   "thing": true,
+   "score": 0.98994,
+   "area_px": 752
+  },
+  {
+   "id": 5,
+   "label": "chair",
+   "thing": true,
+   "score": 0.869552,
+   "area_px": 1121
+  },
+  {
+   "id": 6,
+   "label": "rock-merged",
+   "thing": false,
+   "score": 0.636975,
+   "area_px": 2762
+  },
+  {
+   "id": 7,
+   "label": "chair",
+   "thing": true,
+   "score": 0.915845,
+   "area_px": 379
+  },
+  {
+   "id": 8,
+   "label": "chair",
+   "thing": true,
+   "score": 0.957232,
+   "area_px": 511
+  },
+  {
+   "id": 9,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990758,
+   "area_px": 97891
+  },
+  {
+   "id": 10,
+   "label": "chair",
+   "thing": true,
+   "score": 0.886283,
+   "area_px": 127
+  },
+  {
+   "id": 11,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.995481,
+   "area_px": 10430
+  },
+  {
+   "id": 12,
+   "label": "flower",
+   "thing": false,
+   "score": 0.902242,
+   "area_px": 5617
+  },
+  {
+   "id": 13,
+   "label": "chair",
+   "thing": true,
+   "score": 0.995038,
+   "area_px": 1405
+  },
+  {
+   "id": 14,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.988747,
+   "area_px": 333
+  },
+  {
+   "id": 15,
+   "label": "chair",
+   "thing": true,
+   "score": 0.855331,
+   "area_px": 87
+  },
+  {
+   "id": 16,
+   "label": "floor-other-merged",
+   "thing": false,
+   "score": 0.858267,
+   "area_px": 80060
+  },
+  {
+   "id": 17,
+   "label": "chair",
+   "thing": true,
+   "score": 0.578649,
+   "area_px": 59
+  },
+  {
+   "id": 18,
+   "label": "chair",
+   "thing": true,
+   "score": 0.994677,
+   "area_px": 1654
+  },
+  {
+   "id": 19,
+   "label": "chair",
+   "thing": true,
+   "score": 0.996731,
+   "area_px": 762
+  },
+  {
+   "id": 20,
+   "label": "chair",
+   "thing": true,
+   "score": 0.871612,
+   "area_px": 71
+  },
+  {
+   "id": 21,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.980186,
+   "area_px": 752
+  },
+  {
+   "id": 22,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.956946,
+   "area_px": 24559
+  },
+  {
+   "id": 23,
+   "label": "chair",
+   "thing": true,
+   "score": 0.973747,
+   "area_px": 253
+  },
+  {
+   "id": 24,
+   "label": "chair",
+   "thing": true,
+   "score": 0.562589,
+   "area_px": 61
+  },
+  {
+   "id": 25,
+   "label": "chair",
+   "thing": true,
+   "score": 0.91374,
+   "area_px": 120
+  },
+  {
+   "id": 26,
+   "label": "chair",
+   "thing": true,
+   "score": 0.993394,
+   "area_px": 1825
+  },
+  {
+   "id": 27,
+   "label": "chair",
+   "thing": true,
+   "score": 0.995915,
+   "area_px": 1365
+  },
+  {
+   "id": 28,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.898392,
+   "area_px": 3395
+  },
+  {
+   "id": 29,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998612,
+   "area_px": 29744
+  },
+  {
+   "id": 30,
+   "label": "chair",
+   "thing": true,
+   "score": 0.994976,
+   "area_px": 1503
+  },
+  {
+   "id": 31,
+   "label": "chair",
+   "thing": true,
+   "score": 0.943423,
+   "area_px": 115
+  },
+  {
+   "id": 32,
+   "label": "chair",
+   "thing": true,
+   "score": 0.954681,
+   "area_px": 1040
+  },
+  {
+   "id": 33,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.987929,
+   "area_px": 236
+  },
+  {
+   "id": 34,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.994544,
+   "area_px": 189947
+  }
+ ]
+}

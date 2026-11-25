@@ -1,0 +1,176 @@
+{
+ "stimulus": "U0762_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 77977
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.981616,
+   "area_px": 1214
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.9502,
+   "area_px": 255
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.99658,
+   "area_px": 28216
+  },
+  {
+   "id": 4,
+   "label": "truck",
+   "thing": true,
+   "score": 0.986733,
+   "area_px": 25070
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.990814,
+   "area_px": 507
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.96942,
+   "area_px": 2132
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.930357,
+   "area_px": 2725
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.986508,
+   "area_px": 4900
+  },
+  {
+   "id": 9,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.961703,
+   "area_px": 11019
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.950696,
+   "area_px": 509
+  },
+  {
+   "id": 11,
+   "label": "road",
+   "thing": false,
+   "score": 0.997719,
+   "area_px": 108074
+  },
+  {
+   "id": 12,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.989334,
+   "area_px": 13720
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.882557,
+   "area_px": 559
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.941197,
+   "area_px": 820
+  },
+  {
+   "id": 15,
+   "label": "house",
+   "thing": false,
+   "score": 0.874684,
+   "area_px": 57743
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.889711,
+   "area_px": 575
+  },
+  {
+   "id": 17,
+   "label": "car",
+   "thing": true,
+   "score": 0.864497,
+   "area_px": 211
+  },
+  {
+   "id": 18,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999289,
+   "area_px": 30369
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.995422,
+   "area_px": 700
+  },
+  {
+   "id": 20,
+   "label": "car",
+   "thing": true,
+   "score": 0.978424,
+   "area_px": 1990
+  },
+  {
+   "id": 21,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.954691,
+   "area_px": 17003
+  },
+  {
+   "id": 22,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998743,
+   "area_px": 93532
+  },
+  {
+   "id": 23,
+   "label": "car",
+   "thing": true,
+   "score": 0.735982,
+   "area_px": 180
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "stimulus": "U0425_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 11976
+  },
+  {
+   "id": 1,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.924388,
+   "area_px": 178
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.971892,
+   "area_px": 172340
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.998987,
+   "area_px": 1507
+  },
+  {
+   "id": 4,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.890177,
+   "area_px": 19964
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.997998,
+   "area_px": 216013
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.999123,
+   "area_px": 1745
+  },
+  {
+   "id": 7,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994821,
+   "area_px": 31382
+  },
+  {
+   "id": 8,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.954862,
+   "area_px": 8221
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.902411,
+   "area_px": 466
+  },
+  {
+   "id": 10,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.997542,
+   "area_px": 16208
+  }
+ ]
+}

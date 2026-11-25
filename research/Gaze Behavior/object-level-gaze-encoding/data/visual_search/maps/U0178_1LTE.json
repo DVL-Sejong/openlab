@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0178_1LTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 50320
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.999827,
+   "area_px": 8439
+  },
+  {
+   "id": 2,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.959418,
+   "area_px": 16426
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.951769,
+   "area_px": 45782
+  },
+  {
+   "id": 4,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.967562,
+   "area_px": 7713
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.98834,
+   "area_px": 215157
+  },
+  {
+   "id": 6,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.923119,
+   "area_px": 75465
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.902442,
+   "area_px": 1754
+  },
+  {
+   "id": 8,
+   "label": "tie",
+   "thing": true,
+   "score": 0.999056,
+   "area_px": 471
+  },
+  {
+   "id": 9,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.95323,
+   "area_px": 58473
+  }
+ ]
+}

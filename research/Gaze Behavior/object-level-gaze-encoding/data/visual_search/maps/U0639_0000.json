@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0639_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 29607
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.977119,
+   "area_px": 254618
+  },
+  {
+   "id": 2,
+   "label": "snow",
+   "thing": false,
+   "score": 0.984001,
+   "area_px": 33024
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.986449,
+   "area_px": 13655
+  },
+  {
+   "id": 4,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.997351,
+   "area_px": 1196
+  },
+  {
+   "id": 5,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.997453,
+   "area_px": 1195
+  },
+  {
+   "id": 6,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998614,
+   "area_px": 95589
+  },
+  {
+   "id": 7,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.906183,
+   "area_px": 357
+  },
+  {
+   "id": 8,
+   "label": "roof",
+   "thing": false,
+   "score": 0.828806,
+   "area_px": 1753
+  },
+  {
+   "id": 9,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998015,
+   "area_px": 49006
+  }
+ ]
+}

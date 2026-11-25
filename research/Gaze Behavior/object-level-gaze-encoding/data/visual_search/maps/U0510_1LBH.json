@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0510_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 4279
+  },
+  {
+   "id": 1,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.948083,
+   "area_px": 208
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.989438,
+   "area_px": 6927
+  },
+  {
+   "id": 3,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.96871,
+   "area_px": 308
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.829628,
+   "area_px": 194138
+  },
+  {
+   "id": 5,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.977846,
+   "area_px": 303
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.998517,
+   "area_px": 526
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.991666,
+   "area_px": 790
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.996233,
+   "area_px": 92046
+  },
+  {
+   "id": 9,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.993456,
+   "area_px": 227
+  },
+  {
+   "id": 10,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.992742,
+   "area_px": 259
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.99241,
+   "area_px": 27727
+  },
+  {
+   "id": 12,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.992256,
+   "area_px": 209
+  },
+  {
+   "id": 13,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.943216,
+   "area_px": 39610
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998851,
+   "area_px": 100426
+  },
+  {
+   "id": 15,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.988963,
+   "area_px": 219
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996791,
+   "area_px": 10983
+  },
+  {
+   "id": 17,
+   "label": "light",
+   "thing": false,
+   "score": 0.899544,
+   "area_px": 815
+  }
+ ]
+}

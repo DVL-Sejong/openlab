@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0205_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 76200
+  },
+  {
+   "id": 1,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.978401,
+   "area_px": 2267
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.921863,
+   "area_px": 228245
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.999842,
+   "area_px": 8827
+  },
+  {
+   "id": 4,
+   "label": "book",
+   "thing": true,
+   "score": 0.882148,
+   "area_px": 813
+  },
+  {
+   "id": 5,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.977083,
+   "area_px": 9221
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.995092,
+   "area_px": 53954
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.9837,
+   "area_px": 30441
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.990299,
+   "area_px": 44160
+  },
+  {
+   "id": 9,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.92307,
+   "area_px": 891
+  },
+  {
+   "id": 10,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.892091,
+   "area_px": 7523
+  },
+  {
+   "id": 11,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.991079,
+   "area_px": 16634
+  },
+  {
+   "id": 12,
+   "label": "backpack",
+   "thing": true,
+   "score": 0.891198,
+   "area_px": 824
+  }
+ ]
+}

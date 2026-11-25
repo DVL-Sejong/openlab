@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0181_1RBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 4299
+  },
+  {
+   "id": 1,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.977473,
+   "area_px": 617
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.98822,
+   "area_px": 322275
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.999458,
+   "area_px": 2769
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.997018,
+   "area_px": 116240
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.99449,
+   "area_px": 17665
+  },
+  {
+   "id": 6,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.998813,
+   "area_px": 1756
+  },
+  {
+   "id": 7,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.998993,
+   "area_px": 964
+  },
+  {
+   "id": 8,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.96629,
+   "area_px": 13415
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0918_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 7735
+  },
+  {
+   "id": 1,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.984054,
+   "area_px": 195
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.996825,
+   "area_px": 645
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.999108,
+   "area_px": 11175
+  },
+  {
+   "id": 4,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.995118,
+   "area_px": 193
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.974654,
+   "area_px": 2627
+  },
+  {
+   "id": 6,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.98471,
+   "area_px": 312
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.996904,
+   "area_px": 123675
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.995397,
+   "area_px": 1190
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.98631,
+   "area_px": 12829
+  },
+  {
+   "id": 10,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.921661,
+   "area_px": 2463
+  },
+  {
+   "id": 11,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.73299,
+   "area_px": 794
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.961556,
+   "area_px": 213
+  },
+  {
+   "id": 13,
+   "label": "house",
+   "thing": false,
+   "score": 0.992306,
+   "area_px": 76489
+  },
+  {
+   "id": 14,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.998014,
+   "area_px": 638
+  },
+  {
+   "id": 15,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.998659,
+   "area_px": 498
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999586,
+   "area_px": 84377
+  },
+  {
+   "id": 17,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.79594,
+   "area_px": 171
+  },
+  {
+   "id": 18,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999273,
+   "area_px": 153781
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0604_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 163089
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.970357,
+   "area_px": 1343
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.980103,
+   "area_px": 1338
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.995109,
+   "area_px": 15404
+  },
+  {
+   "id": 4,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.908973,
+   "area_px": 73255
+  },
+  {
+   "id": 5,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.973976,
+   "area_px": 13378
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.991189,
+   "area_px": 43170
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.965162,
+   "area_px": 641
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.989582,
+   "area_px": 20428
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.926172,
+   "area_px": 378
+  },
+  {
+   "id": 10,
+   "label": "bench",
+   "thing": true,
+   "score": 0.997283,
+   "area_px": 3990
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.749802,
+   "area_px": 1656
+  },
+  {
+   "id": 12,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.967516,
+   "area_px": 1543
+  },
+  {
+   "id": 13,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.96632,
+   "area_px": 1312
+  },
+  {
+   "id": 14,
+   "label": "roof",
+   "thing": false,
+   "score": 0.954035,
+   "area_px": 22805
+  },
+  {
+   "id": 15,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.957085,
+   "area_px": 85271
+  },
+  {
+   "id": 16,
+   "label": "banner",
+   "thing": false,
+   "score": 0.747267,
+   "area_px": 1676
+  },
+  {
+   "id": 17,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998127,
+   "area_px": 25570
+  },
+  {
+   "id": 18,
+   "label": "bench",
+   "thing": true,
+   "score": 0.997407,
+   "area_px": 3753
+  }
+ ]
+}

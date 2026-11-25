@@ -1,0 +1,162 @@
+{
+ "stimulus": "U0128_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 98499
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.985366,
+   "area_px": 1176
+  },
+  {
+   "id": 2,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.714336,
+   "area_px": 409
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.775087,
+   "area_px": 48046
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.99789,
+   "area_px": 32917
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.999893,
+   "area_px": 3277
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.993828,
+   "area_px": 5150
+  },
+  {
+   "id": 7,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.994328,
+   "area_px": 97791
+  },
+  {
+   "id": 8,
+   "label": "ceiling-merged",
+   "thing": false,
+   "score": 0.937955,
+   "area_px": 30422
+  },
+  {
+   "id": 9,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.98654,
+   "area_px": 9370
+  },
+  {
+   "id": 10,
+   "label": "window-blind",
+   "thing": false,
+   "score": 0.932151,
+   "area_px": 7093
+  },
+  {
+   "id": 11,
+   "label": "person",
+   "thing": true,
+   "score": 0.999721,
+   "area_px": 3370
+  },
+  {
+   "id": 12,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.985332,
+   "area_px": 4391
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.939415,
+   "area_px": 1072
+  },
+  {
+   "id": 14,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.987192,
+   "area_px": 33665
+  },
+  {
+   "id": 15,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.98855,
+   "area_px": 22547
+  },
+  {
+   "id": 16,
+   "label": "backpack",
+   "thing": true,
+   "score": 0.89833,
+   "area_px": 306
+  },
+  {
+   "id": 17,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.879339,
+   "area_px": 647
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.948168,
+   "area_px": 621
+  },
+  {
+   "id": 19,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.929691,
+   "area_px": 28003
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.99779,
+   "area_px": 47096
+  },
+  {
+   "id": 21,
+   "label": "light",
+   "thing": false,
+   "score": 0.966643,
+   "area_px": 4132
+  }
+ ]
+}

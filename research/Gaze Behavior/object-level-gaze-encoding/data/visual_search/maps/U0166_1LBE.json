@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0166_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 23870
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.999771,
+   "area_px": 11243
+  },
+  {
+   "id": 2,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.953059,
+   "area_px": 30128
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.996651,
+   "area_px": 28618
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.986655,
+   "area_px": 5250
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.987191,
+   "area_px": 76358
+  },
+  {
+   "id": 6,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.942899,
+   "area_px": 4443
+  },
+  {
+   "id": 7,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.978356,
+   "area_px": 62711
+  },
+  {
+   "id": 8,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.945753,
+   "area_px": 212
+  },
+  {
+   "id": 9,
+   "label": "cell phone",
+   "thing": true,
+   "score": 0.99577,
+   "area_px": 126
+  },
+  {
+   "id": 10,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.984757,
+   "area_px": 111165
+  },
+  {
+   "id": 11,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.989353,
+   "area_px": 1844
+  },
+  {
+   "id": 12,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.938692,
+   "area_px": 752
+  },
+  {
+   "id": 13,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998788,
+   "area_px": 123280
+  }
+ ]
+}

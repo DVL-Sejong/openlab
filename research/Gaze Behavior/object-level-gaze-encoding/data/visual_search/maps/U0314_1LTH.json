@@ -1,0 +1,120 @@
+{
+ "stimulus": "U0314_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 26497
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.955265,
+   "area_px": 4617
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.986745,
+   "area_px": 6605
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.982446,
+   "area_px": 81438
+  },
+  {
+   "id": 4,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.849838,
+   "area_px": 2707
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.998747,
+   "area_px": 1327
+  },
+  {
+   "id": 6,
+   "label": "chair",
+   "thing": true,
+   "score": 0.739239,
+   "area_px": 889
+  },
+  {
+   "id": 7,
+   "label": "chair",
+   "thing": true,
+   "score": 0.968475,
+   "area_px": 341
+  },
+  {
+   "id": 8,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.978832,
+   "area_px": 14719
+  },
+  {
+   "id": 9,
+   "label": "chair",
+   "thing": true,
+   "score": 0.940939,
+   "area_px": 428
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.985873,
+   "area_px": 301607
+  },
+  {
+   "id": 11,
+   "label": "chair",
+   "thing": true,
+   "score": 0.986659,
+   "area_px": 392
+  },
+  {
+   "id": 12,
+   "label": "chair",
+   "thing": true,
+   "score": 0.841672,
+   "area_px": 214
+  },
+  {
+   "id": 13,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.960719,
+   "area_px": 3921
+  },
+  {
+   "id": 14,
+   "label": "roof",
+   "thing": false,
+   "score": 0.931364,
+   "area_px": 6203
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.91568,
+   "area_px": 28095
+  }
+ ]
+}

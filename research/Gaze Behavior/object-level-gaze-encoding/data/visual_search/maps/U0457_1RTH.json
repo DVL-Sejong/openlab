@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0457_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 19972
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.807073,
+   "area_px": 5362
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.899569,
+   "area_px": 314
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.895076,
+   "area_px": 4812
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.993935,
+   "area_px": 198306
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.988482,
+   "area_px": 30095
+  },
+  {
+   "id": 6,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.93677,
+   "area_px": 3654
+  },
+  {
+   "id": 7,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.949378,
+   "area_px": 4862
+  },
+  {
+   "id": 8,
+   "label": "house",
+   "thing": false,
+   "score": 0.979514,
+   "area_px": 103329
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.99876,
+   "area_px": 4372
+  },
+  {
+   "id": 10,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.961583,
+   "area_px": 31947
+  },
+  {
+   "id": 11,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996204,
+   "area_px": 72975
+  }
+ ]
+}

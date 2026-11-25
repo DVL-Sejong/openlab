@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0143_1LTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 2571
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990843,
+   "area_px": 22592
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.992056,
+   "area_px": 339740
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.999776,
+   "area_px": 1931
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.998134,
+   "area_px": 1238
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.965145,
+   "area_px": 27873
+  },
+  {
+   "id": 6,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998852,
+   "area_px": 1562
+  },
+  {
+   "id": 7,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999333,
+   "area_px": 80593
+  },
+  {
+   "id": 8,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998757,
+   "area_px": 1900
+  }
+ ]
+}

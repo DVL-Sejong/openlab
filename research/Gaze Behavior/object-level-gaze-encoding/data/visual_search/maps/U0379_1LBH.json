@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0379_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 13207
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.982492,
+   "area_px": 223256
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.992123,
+   "area_px": 18205
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.998571,
+   "area_px": 1027
+  },
+  {
+   "id": 4,
+   "label": "flower",
+   "thing": false,
+   "score": 0.943097,
+   "area_px": 17970
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.981951,
+   "area_px": 17514
+  },
+  {
+   "id": 6,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.97972,
+   "area_px": 3121
+  },
+  {
+   "id": 7,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.981943,
+   "area_px": 11307
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998123,
+   "area_px": 82183
+  },
+  {
+   "id": 9,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.940399,
+   "area_px": 267
+  },
+  {
+   "id": 10,
+   "label": "roof",
+   "thing": false,
+   "score": 0.971524,
+   "area_px": 20255
+  },
+  {
+   "id": 11,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996906,
+   "area_px": 71688
+  }
+ ]
+}

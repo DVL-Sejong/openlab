@@ -1,0 +1,120 @@
+{
+ "stimulus": "U0806_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 11815
+  },
+  {
+   "id": 1,
+   "label": "bird",
+   "thing": true,
+   "score": 0.829741,
+   "area_px": 108
+  },
+  {
+   "id": 2,
+   "label": "banner",
+   "thing": false,
+   "score": 0.986316,
+   "area_px": 18220
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.989368,
+   "area_px": 63530
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.991376,
+   "area_px": 252
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.987213,
+   "area_px": 2037
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.992026,
+   "area_px": 50788
+  },
+  {
+   "id": 7,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.993624,
+   "area_px": 3735
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.500693,
+   "area_px": 91
+  },
+  {
+   "id": 9,
+   "label": "gravel",
+   "thing": false,
+   "score": 0.780628,
+   "area_px": 2236
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.997772,
+   "area_px": 423
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.960801,
+   "area_px": 3884
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999289,
+   "area_px": 12345
+  },
+  {
+   "id": 13,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.949727,
+   "area_px": 7291
+  },
+  {
+   "id": 14,
+   "label": "tent",
+   "thing": false,
+   "score": 0.74182,
+   "area_px": 22684
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998953,
+   "area_px": 280561
+  }
+ ]
+}

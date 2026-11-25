@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0673_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 51792
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.94571,
+   "area_px": 668
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.996246,
+   "area_px": 1540
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.96427,
+   "area_px": 227
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.988982,
+   "area_px": 11699
+  },
+  {
+   "id": 5,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.666359,
+   "area_px": 171
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.919258,
+   "area_px": 998
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.593173,
+   "area_px": 104
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.995829,
+   "area_px": 23752
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.998222,
+   "area_px": 3291
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.99349,
+   "area_px": 93829
+  },
+  {
+   "id": 11,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.973384,
+   "area_px": 6537
+  },
+  {
+   "id": 12,
+   "label": "wall-wood",
+   "thing": false,
+   "score": 0.890531,
+   "area_px": 11682
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.962869,
+   "area_px": 612
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.948078,
+   "area_px": 66497
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.999527,
+   "area_px": 6000
+  },
+  {
+   "id": 16,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.960308,
+   "area_px": 8101
+  },
+  {
+   "id": 17,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999546,
+   "area_px": 16371
+  },
+  {
+   "id": 18,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.874663,
+   "area_px": 3780
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.877542,
+   "area_px": 412
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998685,
+   "area_px": 171937
+  }
+ ]
+}

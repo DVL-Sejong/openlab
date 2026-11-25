@@ -1,0 +1,85 @@
+{
+ "stimulus": "U1024_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 282902
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.540523,
+   "area_px": 126
+  },
+  {
+   "id": 2,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.861173,
+   "area_px": 489
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.841503,
+   "area_px": 12137
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.996997,
+   "area_px": 96738
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.921106,
+   "area_px": 374
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991288,
+   "area_px": 33780
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.937878,
+   "area_px": 843
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99811,
+   "area_px": 45411
+  },
+  {
+   "id": 9,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.972642,
+   "area_px": 480
+  },
+  {
+   "id": 10,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995269,
+   "area_px": 6720
+  }
+ ]
+}

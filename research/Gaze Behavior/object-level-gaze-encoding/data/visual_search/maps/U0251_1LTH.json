@@ -1,0 +1,57 @@
+{
+ "stimulus": "U0251_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 9160
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999086,
+   "area_px": 3025
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.981137,
+   "area_px": 104710
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.996931,
+   "area_px": 373
+  },
+  {
+   "id": 4,
+   "label": "playingfield",
+   "thing": false,
+   "score": 0.960993,
+   "area_px": 199715
+  },
+  {
+   "id": 5,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.979892,
+   "area_px": 37758
+  },
+  {
+   "id": 6,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.99904,
+   "area_px": 125259
+  }
+ ]
+}

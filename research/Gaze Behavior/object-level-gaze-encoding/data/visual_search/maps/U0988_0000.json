@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0988_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 18438
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.975403,
+   "area_px": 249095
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.996857,
+   "area_px": 15401
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.658762,
+   "area_px": 437
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.997109,
+   "area_px": 126175
+  },
+  {
+   "id": 5,
+   "label": "truck",
+   "thing": true,
+   "score": 0.998109,
+   "area_px": 14584
+  },
+  {
+   "id": 6,
+   "label": "roof",
+   "thing": false,
+   "score": 0.855919,
+   "area_px": 1843
+  },
+  {
+   "id": 7,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998717,
+   "area_px": 38081
+  },
+  {
+   "id": 8,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.998124,
+   "area_px": 15946
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0544_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 32248
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.99703,
+   "area_px": 2745
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.767063,
+   "area_px": 305
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.997426,
+   "area_px": 2081
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999229,
+   "area_px": 1770
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.924121,
+   "area_px": 300
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.992005,
+   "area_px": 299690
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.653788,
+   "area_px": 165
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.9641,
+   "area_px": 540
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.991467,
+   "area_px": 3864
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.777793,
+   "area_px": 488
+  },
+  {
+   "id": 11,
+   "label": "person",
+   "thing": true,
+   "score": 0.976653,
+   "area_px": 428
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.968394,
+   "area_px": 2458
+  },
+  {
+   "id": 13,
+   "label": "clock",
+   "thing": true,
+   "score": 0.998183,
+   "area_px": 2109
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.990348,
+   "area_px": 1684
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998494,
+   "area_px": 53498
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.948841,
+   "area_px": 508
+  },
+  {
+   "id": 17,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998314,
+   "area_px": 75119
+  }
+ ]
+}

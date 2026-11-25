@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0719_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 29472
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.998925,
+   "area_px": 16703
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.924829,
+   "area_px": 263634
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.997654,
+   "area_px": 127389
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999155,
+   "area_px": 1126
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994268,
+   "area_px": 14837
+  },
+  {
+   "id": 6,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.949605,
+   "area_px": 153
+  },
+  {
+   "id": 7,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998668,
+   "area_px": 3838
+  },
+  {
+   "id": 8,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.917647,
+   "area_px": 22848
+  }
+ ]
+}

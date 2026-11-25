@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0351_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 33696
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.99914,
+   "area_px": 20368
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.977503,
+   "area_px": 207039
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.992161,
+   "area_px": 257
+  },
+  {
+   "id": 4,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.862075,
+   "area_px": 195
+  },
+  {
+   "id": 5,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.92447,
+   "area_px": 3470
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.99877,
+   "area_px": 794
+  },
+  {
+   "id": 7,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.692013,
+   "area_px": 1035
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.997013,
+   "area_px": 167256
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.980881,
+   "area_px": 165
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.99924,
+   "area_px": 13573
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.984057,
+   "area_px": 6292
+  },
+  {
+   "id": 12,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.932062,
+   "area_px": 7365
+  },
+  {
+   "id": 13,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.978856,
+   "area_px": 180
+  },
+  {
+   "id": 14,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.944366,
+   "area_px": 196
+  },
+  {
+   "id": 15,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.844534,
+   "area_px": 2666
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998969,
+   "area_px": 15453
+  }
+ ]
+}

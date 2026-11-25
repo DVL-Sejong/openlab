@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0692_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 18424
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.950123,
+   "area_px": 6673
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999518,
+   "area_px": 10397
+  },
+  {
+   "id": 3,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.672015,
+   "area_px": 9007
+  },
+  {
+   "id": 4,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.937576,
+   "area_px": 6803
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.922332,
+   "area_px": 255500
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.998523,
+   "area_px": 30434
+  },
+  {
+   "id": 7,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.905809,
+   "area_px": 2816
+  },
+  {
+   "id": 8,
+   "label": "snow",
+   "thing": false,
+   "score": 0.610227,
+   "area_px": 405
+  },
+  {
+   "id": 9,
+   "label": "house",
+   "thing": false,
+   "score": 0.86913,
+   "area_px": 51163
+  },
+  {
+   "id": 10,
+   "label": "gravel",
+   "thing": false,
+   "score": 0.972389,
+   "area_px": 47342
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.98854,
+   "area_px": 34148
+  },
+  {
+   "id": 12,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.664705,
+   "area_px": 1994
+  },
+  {
+   "id": 13,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.969652,
+   "area_px": 4894
+  }
+ ]
+}

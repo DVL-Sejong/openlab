@@ -1,0 +1,43 @@
+{
+ "stimulus": "U0880_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 26485
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.893314,
+   "area_px": 3182
+  },
+  {
+   "id": 2,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.979077,
+   "area_px": 46816
+  },
+  {
+   "id": 3,
+   "label": "house",
+   "thing": false,
+   "score": 0.935974,
+   "area_px": 343170
+  },
+  {
+   "id": 4,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998982,
+   "area_px": 60347
+  }
+ ]
+}

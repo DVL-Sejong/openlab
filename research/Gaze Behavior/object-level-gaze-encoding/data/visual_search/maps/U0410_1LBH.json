@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0410_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 14247
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.989124,
+   "area_px": 347283
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.998904,
+   "area_px": 348
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.99666,
+   "area_px": 273
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.92373,
+   "area_px": 86
+  },
+  {
+   "id": 5,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.912042,
+   "area_px": 2300
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.988293,
+   "area_px": 324
+  },
+  {
+   "id": 7,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.953764,
+   "area_px": 52717
+  },
+  {
+   "id": 8,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.984479,
+   "area_px": 9672
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.938056,
+   "area_px": 74
+  },
+  {
+   "id": 10,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.953304,
+   "area_px": 14426
+  },
+  {
+   "id": 11,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999292,
+   "area_px": 19857
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996898,
+   "area_px": 18393
+  }
+ ]
+}

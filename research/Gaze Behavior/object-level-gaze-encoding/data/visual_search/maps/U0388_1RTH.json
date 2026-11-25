@@ -1,0 +1,113 @@
+{
+ "stimulus": "U0388_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 8930
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.991607,
+   "area_px": 374
+  },
+  {
+   "id": 2,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.978761,
+   "area_px": 26278
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.994516,
+   "area_px": 24637
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.989578,
+   "area_px": 2347
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.998876,
+   "area_px": 514
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.997634,
+   "area_px": 357
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.794203,
+   "area_px": 36
+  },
+  {
+   "id": 8,
+   "label": "river",
+   "thing": false,
+   "score": 0.966794,
+   "area_px": 106576
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.977588,
+   "area_px": 90811
+  },
+  {
+   "id": 10,
+   "label": "person",
+   "thing": true,
+   "score": 0.761026,
+   "area_px": 25
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.992023,
+   "area_px": 39510
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999716,
+   "area_px": 168709
+  },
+  {
+   "id": 13,
+   "label": "dog",
+   "thing": true,
+   "score": 0.992644,
+   "area_px": 128
+  },
+  {
+   "id": 14,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996183,
+   "area_px": 10768
+  }
+ ]
+}

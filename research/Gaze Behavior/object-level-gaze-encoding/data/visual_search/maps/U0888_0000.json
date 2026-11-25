@@ -1,0 +1,260 @@
+{
+ "stimulus": "U0888_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 15559
+  },
+  {
+   "id": 1,
+   "label": "chair",
+   "thing": true,
+   "score": 0.974135,
+   "area_px": 198
+  },
+  {
+   "id": 2,
+   "label": "chair",
+   "thing": true,
+   "score": 0.959621,
+   "area_px": 209
+  },
+  {
+   "id": 3,
+   "label": "chair",
+   "thing": true,
+   "score": 0.915511,
+   "area_px": 317
+  },
+  {
+   "id": 4,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.955483,
+   "area_px": 585
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.98947,
+   "area_px": 17046
+  },
+  {
+   "id": 6,
+   "label": "chair",
+   "thing": true,
+   "score": 0.895094,
+   "area_px": 277
+  },
+  {
+   "id": 7,
+   "label": "chair",
+   "thing": true,
+   "score": 0.955236,
+   "area_px": 144
+  },
+  {
+   "id": 8,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.992568,
+   "area_px": 27655
+  },
+  {
+   "id": 9,
+   "label": "chair",
+   "thing": true,
+   "score": 0.924413,
+   "area_px": 372
+  },
+  {
+   "id": 10,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.913939,
+   "area_px": 709
+  },
+  {
+   "id": 11,
+   "label": "chair",
+   "thing": true,
+   "score": 0.943985,
+   "area_px": 2069
+  },
+  {
+   "id": 12,
+   "label": "chair",
+   "thing": true,
+   "score": 0.931325,
+   "area_px": 410
+  },
+  {
+   "id": 13,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.985847,
+   "area_px": 42208
+  },
+  {
+   "id": 14,
+   "label": "floor-other-merged",
+   "thing": false,
+   "score": 0.913226,
+   "area_px": 14846
+  },
+  {
+   "id": 15,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.864876,
+   "area_px": 206
+  },
+  {
+   "id": 16,
+   "label": "chair",
+   "thing": true,
+   "score": 0.968303,
+   "area_px": 229
+  },
+  {
+   "id": 17,
+   "label": "chair",
+   "thing": true,
+   "score": 0.953873,
+   "area_px": 307
+  },
+  {
+   "id": 18,
+   "label": "chair",
+   "thing": true,
+   "score": 0.954718,
+   "area_px": 304
+  },
+  {
+   "id": 19,
+   "label": "chair",
+   "thing": true,
+   "score": 0.967418,
+   "area_px": 326
+  },
+  {
+   "id": 20,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.976807,
+   "area_px": 802
+  },
+  {
+   "id": 21,
+   "label": "chair",
+   "thing": true,
+   "score": 0.898946,
+   "area_px": 272
+  },
+  {
+   "id": 22,
+   "label": "chair",
+   "thing": true,
+   "score": 0.906746,
+   "area_px": 261
+  },
+  {
+   "id": 23,
+   "label": "chair",
+   "thing": true,
+   "score": 0.963042,
+   "area_px": 306
+  },
+  {
+   "id": 24,
+   "label": "chair",
+   "thing": true,
+   "score": 0.941038,
+   "area_px": 299
+  },
+  {
+   "id": 25,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.977508,
+   "area_px": 22674
+  },
+  {
+   "id": 26,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.997178,
+   "area_px": 39144
+  },
+  {
+   "id": 27,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.889736,
+   "area_px": 1818
+  },
+  {
+   "id": 28,
+   "label": "chair",
+   "thing": true,
+   "score": 0.927001,
+   "area_px": 481
+  },
+  {
+   "id": 29,
+   "label": "chair",
+   "thing": true,
+   "score": 0.95776,
+   "area_px": 165
+  },
+  {
+   "id": 30,
+   "label": "chair",
+   "thing": true,
+   "score": 0.914149,
+   "area_px": 99
+  },
+  {
+   "id": 31,
+   "label": "roof",
+   "thing": false,
+   "score": 0.939714,
+   "area_px": 32168
+  },
+  {
+   "id": 32,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.956375,
+   "area_px": 57056
+  },
+  {
+   "id": 33,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.526691,
+   "area_px": 3021
+  },
+  {
+   "id": 34,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995488,
+   "area_px": 197338
+  },
+  {
+   "id": 35,
+   "label": "chair",
+   "thing": true,
+   "score": 0.88295,
+   "area_px": 120
+  }
+ ]
+}

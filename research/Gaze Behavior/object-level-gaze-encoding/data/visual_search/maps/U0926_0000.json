@@ -1,0 +1,43 @@
+{
+ "stimulus": "U0926_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 327243
+  },
+  {
+   "id": 1,
+   "label": "road",
+   "thing": false,
+   "score": 0.997226,
+   "area_px": 122046
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999028,
+   "area_px": 12701
+  },
+  {
+   "id": 3,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991755,
+   "area_px": 12511
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999113,
+   "area_px": 5499
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0766_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 41030
+  },
+  {
+   "id": 1,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.752959,
+   "area_px": 3717
+  },
+  {
+   "id": 2,
+   "label": "road",
+   "thing": false,
+   "score": 0.998697,
+   "area_px": 50766
+  },
+  {
+   "id": 3,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991094,
+   "area_px": 13346
+  },
+  {
+   "id": 4,
+   "label": "house",
+   "thing": false,
+   "score": 0.97668,
+   "area_px": 161494
+  },
+  {
+   "id": 5,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99876,
+   "area_px": 209647
+  }
+ ]
+}

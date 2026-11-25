@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0154_1RTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 125305
+  },
+  {
+   "id": 1,
+   "label": "backpack",
+   "thing": true,
+   "score": 0.970366,
+   "area_px": 435
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.80542,
+   "area_px": 27688
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.998214,
+   "area_px": 87691
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.999537,
+   "area_px": 1683
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.991672,
+   "area_px": 747
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.974052,
+   "area_px": 67353
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.917202,
+   "area_px": 3309
+  },
+  {
+   "id": 8,
+   "label": "bench",
+   "thing": true,
+   "score": 0.999063,
+   "area_px": 6236
+  },
+  {
+   "id": 9,
+   "label": "gravel",
+   "thing": false,
+   "score": 0.955366,
+   "area_px": 16468
+  },
+  {
+   "id": 10,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.904743,
+   "area_px": 32261
+  },
+  {
+   "id": 11,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999357,
+   "area_px": 110824
+  }
+ ]
+}

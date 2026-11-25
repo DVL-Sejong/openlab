@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0449_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 11851
+  },
+  {
+   "id": 1,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.967288,
+   "area_px": 256
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.995286,
+   "area_px": 198806
+  },
+  {
+   "id": 3,
+   "label": "truck",
+   "thing": true,
+   "score": 0.986605,
+   "area_px": 11374
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.999134,
+   "area_px": 1008
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.997226,
+   "area_px": 1069
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.991157,
+   "area_px": 95736
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.823673,
+   "area_px": 854
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.975367,
+   "area_px": 16778
+  },
+  {
+   "id": 9,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.94175,
+   "area_px": 1159
+  },
+  {
+   "id": 10,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.949349,
+   "area_px": 1052
+  },
+  {
+   "id": 11,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.828433,
+   "area_px": 30366
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.993053,
+   "area_px": 109691
+  }
+ ]
+}

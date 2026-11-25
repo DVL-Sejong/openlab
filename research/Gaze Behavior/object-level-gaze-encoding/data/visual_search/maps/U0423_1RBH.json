@@ -1,0 +1,57 @@
+{
+ "stimulus": "U0423_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 45865
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.962475,
+   "area_px": 171
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.999048,
+   "area_px": 608
+  },
+  {
+   "id": 3,
+   "label": "snow",
+   "thing": false,
+   "score": 0.998647,
+   "area_px": 165743
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.998892,
+   "area_px": 676
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.977267,
+   "area_px": 327
+  },
+  {
+   "id": 6,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.99642,
+   "area_px": 266610
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0907_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 6673
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.886435,
+   "area_px": 23007
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.998807,
+   "area_px": 32767
+  },
+  {
+   "id": 3,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.977764,
+   "area_px": 12985
+  },
+  {
+   "id": 4,
+   "label": "bench",
+   "thing": true,
+   "score": 0.999459,
+   "area_px": 6339
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.98938,
+   "area_px": 226926
+  },
+  {
+   "id": 6,
+   "label": "floor-other-merged",
+   "thing": false,
+   "score": 0.582397,
+   "area_px": 9505
+  },
+  {
+   "id": 7,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999201,
+   "area_px": 161798
+  }
+ ]
+}

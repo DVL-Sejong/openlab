@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0972_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 31087
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.954616,
+   "area_px": 259
+  },
+  {
+   "id": 2,
+   "label": "bench",
+   "thing": true,
+   "score": 0.999045,
+   "area_px": 23637
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.967876,
+   "area_px": 127998
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.997509,
+   "area_px": 27925
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.979194,
+   "area_px": 3663
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.996041,
+   "area_px": 1742
+  },
+  {
+   "id": 7,
+   "label": "bench",
+   "thing": true,
+   "score": 0.891134,
+   "area_px": 730
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.959282,
+   "area_px": 42292
+  },
+  {
+   "id": 9,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.971415,
+   "area_px": 8301
+  },
+  {
+   "id": 10,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.940502,
+   "area_px": 2887
+  },
+  {
+   "id": 11,
+   "label": "bench",
+   "thing": true,
+   "score": 0.517079,
+   "area_px": 323
+  },
+  {
+   "id": 12,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998988,
+   "area_px": 7604
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.993958,
+   "area_px": 1534
+  },
+  {
+   "id": 14,
+   "label": "roof",
+   "thing": false,
+   "score": 0.829406,
+   "area_px": 4452
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999412,
+   "area_px": 175202
+  },
+  {
+   "id": 16,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998981,
+   "area_px": 20364
+  }
+ ]
+}

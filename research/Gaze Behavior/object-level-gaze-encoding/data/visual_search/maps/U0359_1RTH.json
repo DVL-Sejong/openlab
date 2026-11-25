@@ -1,0 +1,197 @@
+{
+ "stimulus": "U0359_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 13734
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.966123,
+   "area_px": 349
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.983859,
+   "area_px": 1389
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.964605,
+   "area_px": 743
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.997888,
+   "area_px": 3307
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.998887,
+   "area_px": 38296
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.948711,
+   "area_px": 3865
+  },
+  {
+   "id": 7,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.983041,
+   "area_px": 15391
+  },
+  {
+   "id": 8,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.977031,
+   "area_px": 188437
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.972675,
+   "area_px": 786
+  },
+  {
+   "id": 10,
+   "label": "person",
+   "thing": true,
+   "score": 0.994622,
+   "area_px": 694
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.95239,
+   "area_px": 61831
+  },
+  {
+   "id": 12,
+   "label": "motorcycle",
+   "thing": true,
+   "score": 0.997802,
+   "area_px": 2414
+  },
+  {
+   "id": 13,
+   "label": "road",
+   "thing": false,
+   "score": 0.99669,
+   "area_px": 18553
+  },
+  {
+   "id": 14,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.988171,
+   "area_px": 228
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.975074,
+   "area_px": 844
+  },
+  {
+   "id": 16,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.996647,
+   "area_px": 81113
+  },
+  {
+   "id": 17,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.986578,
+   "area_px": 890
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.986171,
+   "area_px": 4713
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.995664,
+   "area_px": 4188
+  },
+  {
+   "id": 20,
+   "label": "car",
+   "thing": true,
+   "score": 0.989555,
+   "area_px": 1014
+  },
+  {
+   "id": 21,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998471,
+   "area_px": 15026
+  },
+  {
+   "id": 22,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.990813,
+   "area_px": 178
+  },
+  {
+   "id": 23,
+   "label": "car",
+   "thing": true,
+   "score": 0.993098,
+   "area_px": 11549
+  },
+  {
+   "id": 24,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.997589,
+   "area_px": 1669
+  },
+  {
+   "id": 25,
+   "label": "motorcycle",
+   "thing": true,
+   "score": 0.987086,
+   "area_px": 1153
+  },
+  {
+   "id": 26,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998796,
+   "area_px": 7646
+  }
+ ]
+}

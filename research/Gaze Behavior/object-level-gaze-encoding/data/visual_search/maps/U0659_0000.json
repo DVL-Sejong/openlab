@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0659_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 119476
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.99433,
+   "area_px": 292
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.993994,
+   "area_px": 1153
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.99906,
+   "area_px": 1788
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.99936,
+   "area_px": 9028
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.993891,
+   "area_px": 1887
+  },
+  {
+   "id": 6,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.889522,
+   "area_px": 6073
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.97559,
+   "area_px": 341
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.995622,
+   "area_px": 130462
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991322,
+   "area_px": 12211
+  },
+  {
+   "id": 10,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.867419,
+   "area_px": 1751
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.919719,
+   "area_px": 83
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.9954,
+   "area_px": 5211
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.975867,
+   "area_px": 173
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.807286,
+   "area_px": 87
+  },
+  {
+   "id": 15,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.959825,
+   "area_px": 3409
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999629,
+   "area_px": 78395
+  },
+  {
+   "id": 17,
+   "label": "car",
+   "thing": true,
+   "score": 0.992627,
+   "area_px": 430
+  },
+  {
+   "id": 18,
+   "label": "roof",
+   "thing": false,
+   "score": 0.894718,
+   "area_px": 9202
+  },
+  {
+   "id": 19,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999158,
+   "area_px": 97282
+  },
+  {
+   "id": 20,
+   "label": "banner",
+   "thing": false,
+   "score": 0.555213,
+   "area_px": 1266
+  }
+ ]
+}

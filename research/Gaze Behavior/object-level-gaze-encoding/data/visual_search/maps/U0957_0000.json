@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0957_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 3977
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.985793,
+   "area_px": 134101
+  },
+  {
+   "id": 2,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.880253,
+   "area_px": 2483
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.969379,
+   "area_px": 135867
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.996944,
+   "area_px": 873
+  },
+  {
+   "id": 5,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.911705,
+   "area_px": 2290
+  },
+  {
+   "id": 6,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999041,
+   "area_px": 91898
+  },
+  {
+   "id": 7,
+   "label": "roof",
+   "thing": false,
+   "score": 0.925836,
+   "area_px": 36851
+  },
+  {
+   "id": 8,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996774,
+   "area_px": 71660
+  }
+ ]
+}

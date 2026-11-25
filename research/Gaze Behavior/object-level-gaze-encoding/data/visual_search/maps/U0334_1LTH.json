@@ -1,0 +1,162 @@
+{
+ "stimulus": "U0334_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 9566
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.921883,
+   "area_px": 1017
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.839217,
+   "area_px": 277
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.966218,
+   "area_px": 7843
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999518,
+   "area_px": 32035
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.904741,
+   "area_px": 403
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.981029,
+   "area_px": 6215
+  },
+  {
+   "id": 7,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.848329,
+   "area_px": 7366
+  },
+  {
+   "id": 8,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.691228,
+   "area_px": 99
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.997603,
+   "area_px": 610
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.989217,
+   "area_px": 12916
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.879741,
+   "area_px": 151
+  },
+  {
+   "id": 12,
+   "label": "road",
+   "thing": false,
+   "score": 0.996626,
+   "area_px": 166865
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.998948,
+   "area_px": 1613
+  },
+  {
+   "id": 14,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.997822,
+   "area_px": 1257
+  },
+  {
+   "id": 15,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.981434,
+   "area_px": 33735
+  },
+  {
+   "id": 16,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.941688,
+   "area_px": 7587
+  },
+  {
+   "id": 17,
+   "label": "car",
+   "thing": true,
+   "score": 0.854095,
+   "area_px": 352
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.929152,
+   "area_px": 374
+  },
+  {
+   "id": 19,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.997973,
+   "area_px": 1299
+  },
+  {
+   "id": 20,
+   "label": "backpack",
+   "thing": true,
+   "score": 0.944746,
+   "area_px": 573
+  },
+  {
+   "id": 21,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999278,
+   "area_px": 187847
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0840_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 26846
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.996682,
+   "area_px": 579
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.99956,
+   "area_px": 6694
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.995777,
+   "area_px": 8209
+  },
+  {
+   "id": 4,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.92664,
+   "area_px": 88
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.643802,
+   "area_px": 909
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.997433,
+   "area_px": 106091
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.998275,
+   "area_px": 7722
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.987713,
+   "area_px": 32517
+  },
+  {
+   "id": 9,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.881881,
+   "area_px": 3458
+  },
+  {
+   "id": 10,
+   "label": "house",
+   "thing": false,
+   "score": 0.991584,
+   "area_px": 109097
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.572069,
+   "area_px": 564
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.9997,
+   "area_px": 95161
+  },
+  {
+   "id": 13,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.995441,
+   "area_px": 271
+  },
+  {
+   "id": 14,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.907789,
+   "area_px": 83
+  },
+  {
+   "id": 15,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.838216,
+   "area_px": 544
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998941,
+   "area_px": 81167
+  }
+ ]
+}

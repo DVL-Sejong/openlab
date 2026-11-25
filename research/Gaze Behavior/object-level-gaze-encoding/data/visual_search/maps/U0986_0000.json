@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0986_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 614
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.975711,
+   "area_px": 239763
+  },
+  {
+   "id": 2,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.953662,
+   "area_px": 12631
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.994543,
+   "area_px": 164414
+  },
+  {
+   "id": 4,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994077,
+   "area_px": 51424
+  },
+  {
+   "id": 5,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.976745,
+   "area_px": 11154
+  }
+ ]
+}

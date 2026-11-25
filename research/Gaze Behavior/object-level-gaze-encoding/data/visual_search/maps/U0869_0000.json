@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0869_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 9454
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.996581,
+   "area_px": 1334
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.981648,
+   "area_px": 875
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.951925,
+   "area_px": 1258
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.996617,
+   "area_px": 848
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.998076,
+   "area_px": 4326
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.898798,
+   "area_px": 302
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.999287,
+   "area_px": 22801
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.998524,
+   "area_px": 4538
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.996835,
+   "area_px": 305759
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.998195,
+   "area_px": 2435
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.995759,
+   "area_px": 49481
+  },
+  {
+   "id": 12,
+   "label": "house",
+   "thing": false,
+   "score": 0.930053,
+   "area_px": 28629
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.975335,
+   "area_px": 15855
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.998406,
+   "area_px": 2485
+  },
+  {
+   "id": 15,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.997693,
+   "area_px": 1453
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.958342,
+   "area_px": 1460
+  },
+  {
+   "id": 17,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997829,
+   "area_px": 26707
+  }
+ ]
+}

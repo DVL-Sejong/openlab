@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0121_1RTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 41503
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.985479,
+   "area_px": 77858
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.999558,
+   "area_px": 2093
+  },
+  {
+   "id": 3,
+   "label": "flower",
+   "thing": false,
+   "score": 0.614419,
+   "area_px": 425
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.997555,
+   "area_px": 740
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.930288,
+   "area_px": 626
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.975434,
+   "area_px": 45769
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.774549,
+   "area_px": 38090
+  },
+  {
+   "id": 8,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.986438,
+   "area_px": 65840
+  },
+  {
+   "id": 9,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.887052,
+   "area_px": 543
+  },
+  {
+   "id": 10,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.913646,
+   "area_px": 21092
+  },
+  {
+   "id": 11,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.867495,
+   "area_px": 13390
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998364,
+   "area_px": 172031
+  }
+ ]
+}

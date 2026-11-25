@@ -1,0 +1,85 @@
+{
+ "stimulus": "U0144_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 20788
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.996368,
+   "area_px": 689
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.966585,
+   "area_px": 7018
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.99973,
+   "area_px": 4202
+  },
+  {
+   "id": 4,
+   "label": "snow",
+   "thing": false,
+   "score": 0.999388,
+   "area_px": 125252
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998574,
+   "area_px": 1035
+  },
+  {
+   "id": 6,
+   "label": "bench",
+   "thing": true,
+   "score": 0.982378,
+   "area_px": 220
+  },
+  {
+   "id": 7,
+   "label": "bench",
+   "thing": true,
+   "score": 0.873833,
+   "area_px": 63
+  },
+  {
+   "id": 8,
+   "label": "bench",
+   "thing": true,
+   "score": 0.99887,
+   "area_px": 634
+  },
+  {
+   "id": 9,
+   "label": "bench",
+   "thing": true,
+   "score": 0.990432,
+   "area_px": 686
+  },
+  {
+   "id": 10,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.99958,
+   "area_px": 319413
+  }
+ ]
+}

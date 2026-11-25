@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0895_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 1763
+  },
+  {
+   "id": 1,
+   "label": "bus",
+   "thing": true,
+   "score": 0.537819,
+   "area_px": 530
+  },
+  {
+   "id": 2,
+   "label": "bus",
+   "thing": true,
+   "score": 0.937025,
+   "area_px": 687
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.996157,
+   "area_px": 333541
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.998119,
+   "area_px": 17209
+  },
+  {
+   "id": 5,
+   "label": "flower",
+   "thing": false,
+   "score": 0.94748,
+   "area_px": 2608
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.998866,
+   "area_px": 4425
+  },
+  {
+   "id": 7,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.997942,
+   "area_px": 36536
+  },
+  {
+   "id": 8,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995478,
+   "area_px": 82701
+  }
+ ]
+}

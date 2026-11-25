@@ -1,0 +1,78 @@
+{
+ "stimulus": "U1002_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 29580
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.963757,
+   "area_px": 78083
+  },
+  {
+   "id": 2,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.887718,
+   "area_px": 22082
+  },
+  {
+   "id": 3,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.995028,
+   "area_px": 339
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.998016,
+   "area_px": 184488
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.997455,
+   "area_px": 80158
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.995991,
+   "area_px": 1322
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.998468,
+   "area_px": 787
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998771,
+   "area_px": 17530
+  },
+  {
+   "id": 9,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999283,
+   "area_px": 65631
+  }
+ ]
+}

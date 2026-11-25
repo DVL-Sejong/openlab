@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0933_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 12548
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.966255,
+   "area_px": 378332
+  },
+  {
+   "id": 2,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.89804,
+   "area_px": 5684
+  },
+  {
+   "id": 3,
+   "label": "bottle",
+   "thing": true,
+   "score": 0.887592,
+   "area_px": 163
+  },
+  {
+   "id": 4,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.95285,
+   "area_px": 38792
+  },
+  {
+   "id": 5,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.911511,
+   "area_px": 44481
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0502_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 13308
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.993788,
+   "area_px": 1759
+  },
+  {
+   "id": 2,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.968001,
+   "area_px": 402
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.999659,
+   "area_px": 40676
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.937196,
+   "area_px": 49784
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.903779,
+   "area_px": 1529
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.998393,
+   "area_px": 921
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.997059,
+   "area_px": 126394
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.995386,
+   "area_px": 2591
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.996752,
+   "area_px": 189058
+  },
+  {
+   "id": 10,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.855868,
+   "area_px": 10316
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.96208,
+   "area_px": 516
+  },
+  {
+   "id": 12,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.987518,
+   "area_px": 807
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.997101,
+   "area_px": 7476
+  },
+  {
+   "id": 14,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.977842,
+   "area_px": 327
+  },
+  {
+   "id": 15,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.937476,
+   "area_px": 6826
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996341,
+   "area_px": 27310
+  }
+ ]
+}

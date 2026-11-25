@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0856_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 17991
+  },
+  {
+   "id": 1,
+   "label": "bird",
+   "thing": true,
+   "score": 0.8464,
+   "area_px": 65
+  },
+  {
+   "id": 2,
+   "label": "bird",
+   "thing": true,
+   "score": 0.937338,
+   "area_px": 73
+  },
+  {
+   "id": 3,
+   "label": "bird",
+   "thing": true,
+   "score": 0.868044,
+   "area_px": 125
+  },
+  {
+   "id": 4,
+   "label": "bird",
+   "thing": true,
+   "score": 0.984406,
+   "area_px": 396
+  },
+  {
+   "id": 5,
+   "label": "bird",
+   "thing": true,
+   "score": 0.987839,
+   "area_px": 386
+  },
+  {
+   "id": 6,
+   "label": "bird",
+   "thing": true,
+   "score": 0.991988,
+   "area_px": 462
+  },
+  {
+   "id": 7,
+   "label": "bird",
+   "thing": true,
+   "score": 0.98815,
+   "area_px": 257
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.988963,
+   "area_px": 155543
+  },
+  {
+   "id": 9,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.982405,
+   "area_px": 5471
+  },
+  {
+   "id": 10,
+   "label": "bird",
+   "thing": true,
+   "score": 0.973547,
+   "area_px": 107
+  },
+  {
+   "id": 11,
+   "label": "chair",
+   "thing": true,
+   "score": 0.562451,
+   "area_px": 1034
+  },
+  {
+   "id": 12,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.93883,
+   "area_px": 53595
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.723839,
+   "area_px": 1771
+  },
+  {
+   "id": 14,
+   "label": "bird",
+   "thing": true,
+   "score": 0.985502,
+   "area_px": 347
+  },
+  {
+   "id": 15,
+   "label": "bird",
+   "thing": true,
+   "score": 0.988366,
+   "area_px": 357
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999216,
+   "area_px": 235299
+  },
+  {
+   "id": 17,
+   "label": "bench",
+   "thing": true,
+   "score": 0.999457,
+   "area_px": 6721
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "stimulus": "U0352_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 50012
+  },
+  {
+   "id": 1,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.831871,
+   "area_px": 335
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.99651,
+   "area_px": 679
+  },
+  {
+   "id": 3,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.802611,
+   "area_px": 269
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.986374,
+   "area_px": 95082
+  },
+  {
+   "id": 5,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.756158,
+   "area_px": 1426
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.88445,
+   "area_px": 199
+  },
+  {
+   "id": 7,
+   "label": "clock",
+   "thing": true,
+   "score": 0.994568,
+   "area_px": 1283
+  },
+  {
+   "id": 8,
+   "label": "roof",
+   "thing": false,
+   "score": 0.970082,
+   "area_px": 5244
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.977303,
+   "area_px": 171
+  },
+  {
+   "id": 10,
+   "label": "road",
+   "thing": false,
+   "score": 0.994806,
+   "area_px": 129262
+  },
+  {
+   "id": 11,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.654898,
+   "area_px": 1210
+  },
+  {
+   "id": 12,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.982423,
+   "area_px": 70142
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.9993,
+   "area_px": 47445
+  },
+  {
+   "id": 14,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.997856,
+   "area_px": 77241
+  }
+ ]
+}

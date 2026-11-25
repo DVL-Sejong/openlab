@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0475_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 58928
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.689629,
+   "area_px": 2058
+  },
+  {
+   "id": 2,
+   "label": "boat",
+   "thing": true,
+   "score": 0.999521,
+   "area_px": 9435
+  },
+  {
+   "id": 3,
+   "label": "banner",
+   "thing": false,
+   "score": 0.740314,
+   "area_px": 1006
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.864199,
+   "area_px": 1130
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.969128,
+   "area_px": 514
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.999086,
+   "area_px": 1402
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.988705,
+   "area_px": 349
+  },
+  {
+   "id": 8,
+   "label": "river",
+   "thing": false,
+   "score": 0.852444,
+   "area_px": 113827
+  },
+  {
+   "id": 9,
+   "label": "boat",
+   "thing": true,
+   "score": 0.67019,
+   "area_px": 2874
+  },
+  {
+   "id": 10,
+   "label": "bird",
+   "thing": true,
+   "score": 0.669741,
+   "area_px": 129
+  },
+  {
+   "id": 11,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.789111,
+   "area_px": 5400
+  },
+  {
+   "id": 12,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.98613,
+   "area_px": 61297
+  },
+  {
+   "id": 13,
+   "label": "house",
+   "thing": false,
+   "score": 0.989455,
+   "area_px": 124257
+  },
+  {
+   "id": 14,
+   "label": "boat",
+   "thing": true,
+   "score": 0.847026,
+   "area_px": 986
+  },
+  {
+   "id": 15,
+   "label": "bird",
+   "thing": true,
+   "score": 0.964642,
+   "area_px": 220
+  },
+  {
+   "id": 16,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.929124,
+   "area_px": 4732
+  },
+  {
+   "id": 17,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998259,
+   "area_px": 6717
+  },
+  {
+   "id": 18,
+   "label": "roof",
+   "thing": false,
+   "score": 0.899424,
+   "area_px": 31436
+  },
+  {
+   "id": 19,
+   "label": "boat",
+   "thing": true,
+   "score": 0.531239,
+   "area_px": 1463
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999069,
+   "area_px": 51840
+  }
+ ]
+}

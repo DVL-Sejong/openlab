@@ -1,0 +1,43 @@
+{
+ "stimulus": "U1020_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5951
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.989381,
+   "area_px": 102998
+  },
+  {
+   "id": 2,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.962678,
+   "area_px": 39081
+  },
+  {
+   "id": 3,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.796659,
+   "area_px": 312148
+  },
+  {
+   "id": 4,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.907674,
+   "area_px": 19822
+  }
+ ]
+}

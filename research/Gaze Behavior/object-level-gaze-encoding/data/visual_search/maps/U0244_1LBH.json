@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0244_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 27637
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.98607,
+   "area_px": 650
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.980688,
+   "area_px": 12207
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.998991,
+   "area_px": 10282
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.978731,
+   "area_px": 3689
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.987295,
+   "area_px": 477
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.997889,
+   "area_px": 1658
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.997566,
+   "area_px": 84257
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.999305,
+   "area_px": 5662
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991564,
+   "area_px": 26250
+  },
+  {
+   "id": 10,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.98774,
+   "area_px": 114
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.900434,
+   "area_px": 184
+  },
+  {
+   "id": 12,
+   "label": "house",
+   "thing": false,
+   "score": 0.944195,
+   "area_px": 97582
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.993735,
+   "area_px": 1080
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.990495,
+   "area_px": 756
+  },
+  {
+   "id": 15,
+   "label": "roof",
+   "thing": false,
+   "score": 0.790553,
+   "area_px": 1516
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999518,
+   "area_px": 55613
+  },
+  {
+   "id": 17,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.961782,
+   "area_px": 98
+  },
+  {
+   "id": 18,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.994891,
+   "area_px": 513
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.880336,
+   "area_px": 220
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999519,
+   "area_px": 149555
+  }
+ ]
+}

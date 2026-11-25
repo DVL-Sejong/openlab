@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0724_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 66287
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.981499,
+   "area_px": 44128
+  },
+  {
+   "id": 2,
+   "label": "gravel",
+   "thing": false,
+   "score": 0.989427,
+   "area_px": 41224
+  },
+  {
+   "id": 3,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.909016,
+   "area_px": 122246
+  },
+  {
+   "id": 4,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.992266,
+   "area_px": 52861
+  },
+  {
+   "id": 5,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998669,
+   "area_px": 13430
+  },
+  {
+   "id": 6,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999546,
+   "area_px": 68700
+  },
+  {
+   "id": 7,
+   "label": "railroad",
+   "thing": false,
+   "score": 0.988025,
+   "area_px": 71124
+  }
+ ]
+}

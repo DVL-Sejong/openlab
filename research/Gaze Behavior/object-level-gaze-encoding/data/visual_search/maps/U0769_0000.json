@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0769_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 3897
+  },
+  {
+   "id": 1,
+   "label": "truck",
+   "thing": true,
+   "score": 0.872425,
+   "area_px": 396
+  },
+  {
+   "id": 2,
+   "label": "bench",
+   "thing": true,
+   "score": 0.99801,
+   "area_px": 980
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.996536,
+   "area_px": 100051
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.994108,
+   "area_px": 121551
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.996453,
+   "area_px": 8583
+  },
+  {
+   "id": 6,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998638,
+   "area_px": 217351
+  },
+  {
+   "id": 7,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999434,
+   "area_px": 27191
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0699_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 24206
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.578627,
+   "area_px": 1056
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.966395,
+   "area_px": 141
+  },
+  {
+   "id": 3,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.513812,
+   "area_px": 1599
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.995786,
+   "area_px": 35787
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.990026,
+   "area_px": 36845
+  },
+  {
+   "id": 6,
+   "label": "house",
+   "thing": false,
+   "score": 0.952335,
+   "area_px": 157830
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.587589,
+   "area_px": 2246
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998747,
+   "area_px": 156128
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.557006,
+   "area_px": 3507
+  },
+  {
+   "id": 10,
+   "label": "roof",
+   "thing": false,
+   "score": 0.910395,
+   "area_px": 35212
+  },
+  {
+   "id": 11,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.986981,
+   "area_px": 25443
+  }
+ ]
+}

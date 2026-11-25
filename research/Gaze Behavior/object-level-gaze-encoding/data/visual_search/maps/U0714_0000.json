@@ -1,0 +1,113 @@
+{
+ "stimulus": "U0714_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 10188
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.956144,
+   "area_px": 1999
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.979009,
+   "area_px": 847
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.996153,
+   "area_px": 1757
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.99947,
+   "area_px": 11383
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.984297,
+   "area_px": 156983
+  },
+  {
+   "id": 6,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.975441,
+   "area_px": 232
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.996885,
+   "area_px": 183246
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.982928,
+   "area_px": 3371
+  },
+  {
+   "id": 9,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.952695,
+   "area_px": 84
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991159,
+   "area_px": 20436
+  },
+  {
+   "id": 11,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.948171,
+   "area_px": 71
+  },
+  {
+   "id": 12,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.958718,
+   "area_px": 76
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.999173,
+   "area_px": 6148
+  },
+  {
+   "id": 14,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999491,
+   "area_px": 83179
+  }
+ ]
+}

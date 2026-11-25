@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0391_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 24813
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.996507,
+   "area_px": 23267
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.98934,
+   "area_px": 134492
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.95273,
+   "area_px": 132
+  },
+  {
+   "id": 4,
+   "label": "floor-other-merged",
+   "thing": false,
+   "score": 0.954121,
+   "area_px": 50678
+  },
+  {
+   "id": 5,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.998188,
+   "area_px": 11304
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.997067,
+   "area_px": 25346
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.997833,
+   "area_px": 14923
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.997776,
+   "area_px": 175182
+  },
+  {
+   "id": 9,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995634,
+   "area_px": 19863
+  }
+ ]
+}

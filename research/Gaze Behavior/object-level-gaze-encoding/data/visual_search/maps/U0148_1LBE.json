@@ -1,0 +1,120 @@
+{
+ "stimulus": "U0148_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 21781
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.952852,
+   "area_px": 320
+  },
+  {
+   "id": 2,
+   "label": "road",
+   "thing": false,
+   "score": 0.515169,
+   "area_px": 10175
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.784341,
+   "area_px": 6022
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.997774,
+   "area_px": 67061
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.617513,
+   "area_px": 40386
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.999829,
+   "area_px": 2135
+  },
+  {
+   "id": 7,
+   "label": "bench",
+   "thing": true,
+   "score": 0.673372,
+   "area_px": 1334
+  },
+  {
+   "id": 8,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.963039,
+   "area_px": 823
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.998804,
+   "area_px": 1242
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.961642,
+   "area_px": 18955
+  },
+  {
+   "id": 11,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.93667,
+   "area_px": 4808
+  },
+  {
+   "id": 12,
+   "label": "house",
+   "thing": false,
+   "score": 0.883805,
+   "area_px": 9210
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999464,
+   "area_px": 196004
+  },
+  {
+   "id": 14,
+   "label": "bench",
+   "thing": true,
+   "score": 0.904231,
+   "area_px": 7878
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997092,
+   "area_px": 91866
+  }
+ ]
+}

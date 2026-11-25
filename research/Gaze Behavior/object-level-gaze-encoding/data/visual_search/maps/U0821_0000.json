@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0821_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 12136
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.987027,
+   "area_px": 157040
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.817943,
+   "area_px": 400
+  },
+  {
+   "id": 3,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.557668,
+   "area_px": 1122
+  },
+  {
+   "id": 4,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.9042,
+   "area_px": 32554
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.977151,
+   "area_px": 141502
+  },
+  {
+   "id": 6,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.976551,
+   "area_px": 5980
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.865189,
+   "area_px": 254
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999079,
+   "area_px": 123264
+  },
+  {
+   "id": 9,
+   "label": "bench",
+   "thing": true,
+   "score": 0.782135,
+   "area_px": 1455
+  },
+  {
+   "id": 10,
+   "label": "bench",
+   "thing": true,
+   "score": 0.862529,
+   "area_px": 1324
+  },
+  {
+   "id": 11,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.955508,
+   "area_px": 2969
+  }
+ ]
+}

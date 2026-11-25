@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0463_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 2324
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.943554,
+   "area_px": 1026
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999271,
+   "area_px": 5771
+  },
+  {
+   "id": 3,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.888628,
+   "area_px": 211
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990355,
+   "area_px": 167305
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.993018,
+   "area_px": 371
+  },
+  {
+   "id": 6,
+   "label": "bench",
+   "thing": true,
+   "score": 0.945327,
+   "area_px": 370
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.997895,
+   "area_px": 172033
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.999366,
+   "area_px": 11062
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.992967,
+   "area_px": 14712
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.998901,
+   "area_px": 1634
+  },
+  {
+   "id": 11,
+   "label": "bench",
+   "thing": true,
+   "score": 0.920811,
+   "area_px": 352
+  },
+  {
+   "id": 12,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.982903,
+   "area_px": 15638
+  },
+  {
+   "id": 13,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998919,
+   "area_px": 87191
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0934_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 41967
+  },
+  {
+   "id": 1,
+   "label": "book",
+   "thing": true,
+   "score": 0.852476,
+   "area_px": 118
+  },
+  {
+   "id": 2,
+   "label": "book",
+   "thing": true,
+   "score": 0.759993,
+   "area_px": 165
+  },
+  {
+   "id": 3,
+   "label": "book",
+   "thing": true,
+   "score": 0.806714,
+   "area_px": 87
+  },
+  {
+   "id": 4,
+   "label": "book",
+   "thing": true,
+   "score": 0.720749,
+   "area_px": 140
+  },
+  {
+   "id": 5,
+   "label": "book",
+   "thing": true,
+   "score": 0.744976,
+   "area_px": 151
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.970215,
+   "area_px": 318996
+  },
+  {
+   "id": 7,
+   "label": "book",
+   "thing": true,
+   "score": 0.666698,
+   "area_px": 163
+  },
+  {
+   "id": 8,
+   "label": "book",
+   "thing": true,
+   "score": 0.880359,
+   "area_px": 145
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.990836,
+   "area_px": 1947
+  },
+  {
+   "id": 10,
+   "label": "book",
+   "thing": true,
+   "score": 0.739281,
+   "area_px": 88
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.992972,
+   "area_px": 106055
+  },
+  {
+   "id": 12,
+   "label": "book",
+   "thing": true,
+   "score": 0.769203,
+   "area_px": 232
+  },
+  {
+   "id": 13,
+   "label": "book",
+   "thing": true,
+   "score": 0.864866,
+   "area_px": 131
+  },
+  {
+   "id": 14,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.993362,
+   "area_px": 6261
+  },
+  {
+   "id": 15,
+   "label": "book",
+   "thing": true,
+   "score": 0.682596,
+   "area_px": 97
+  },
+  {
+   "id": 16,
+   "label": "book",
+   "thing": true,
+   "score": 0.631355,
+   "area_px": 99
+  },
+  {
+   "id": 17,
+   "label": "book",
+   "thing": true,
+   "score": 0.808702,
+   "area_px": 128
+  },
+  {
+   "id": 18,
+   "label": "book",
+   "thing": true,
+   "score": 0.850113,
+   "area_px": 118
+  },
+  {
+   "id": 19,
+   "label": "light",
+   "thing": false,
+   "score": 0.953089,
+   "area_px": 2912
+  }
+ ]
+}

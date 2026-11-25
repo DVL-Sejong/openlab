@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0827_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 16235
+  },
+  {
+   "id": 1,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.997316,
+   "area_px": 99434
+  },
+  {
+   "id": 2,
+   "label": "road",
+   "thing": false,
+   "score": 0.996789,
+   "area_px": 98723
+  },
+  {
+   "id": 3,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991653,
+   "area_px": 25544
+  },
+  {
+   "id": 4,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.975103,
+   "area_px": 8399
+  },
+  {
+   "id": 5,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999477,
+   "area_px": 231665
+  }
+ ]
+}

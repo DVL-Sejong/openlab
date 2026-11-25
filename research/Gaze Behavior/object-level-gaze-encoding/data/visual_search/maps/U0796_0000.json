@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0796_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 17218
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.968843,
+   "area_px": 301197
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.959079,
+   "area_px": 360
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.982179,
+   "area_px": 38950
+  },
+  {
+   "id": 4,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.971226,
+   "area_px": 1167
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.978095,
+   "area_px": 115281
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.980725,
+   "area_px": 754
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.964155,
+   "area_px": 601
+  },
+  {
+   "id": 8,
+   "label": "floor-other-merged",
+   "thing": false,
+   "score": 0.830123,
+   "area_px": 4033
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.82904,
+   "area_px": 439
+  }
+ ]
+}

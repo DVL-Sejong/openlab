@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0348_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 8527
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.928119,
+   "area_px": 25680
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.994269,
+   "area_px": 176612
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.992202,
+   "area_px": 279
+  },
+  {
+   "id": 4,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998774,
+   "area_px": 1385
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.986263,
+   "area_px": 79760
+  },
+  {
+   "id": 6,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.889081,
+   "area_px": 2646
+  },
+  {
+   "id": 7,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999188,
+   "area_px": 185111
+  }
+ ]
+}

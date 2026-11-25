@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0882_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 23170
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.908617,
+   "area_px": 387
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.996682,
+   "area_px": 31314
+  },
+  {
+   "id": 3,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.932561,
+   "area_px": 1845
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.988871,
+   "area_px": 145409
+  },
+  {
+   "id": 5,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.610152,
+   "area_px": 447
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.971705,
+   "area_px": 1330
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.691295,
+   "area_px": 249
+  },
+  {
+   "id": 8,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.862501,
+   "area_px": 113
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.995815,
+   "area_px": 37770
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.994145,
+   "area_px": 1097
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.988169,
+   "area_px": 15758
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.998033,
+   "area_px": 1411
+  },
+  {
+   "id": 13,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.910614,
+   "area_px": 2787
+  },
+  {
+   "id": 14,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.976288,
+   "area_px": 930
+  },
+  {
+   "id": 15,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.962294,
+   "area_px": 1371
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999243,
+   "area_px": 106137
+  },
+  {
+   "id": 17,
+   "label": "bench",
+   "thing": true,
+   "score": 0.992406,
+   "area_px": 1600
+  },
+  {
+   "id": 18,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.997457,
+   "area_px": 284
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.891023,
+   "area_px": 1021
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997552,
+   "area_px": 105570
+  }
+ ]
+}

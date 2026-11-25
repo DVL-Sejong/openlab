@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0396_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 1487
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.996316,
+   "area_px": 119324
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.994222,
+   "area_px": 234
+  },
+  {
+   "id": 3,
+   "label": "snow",
+   "thing": false,
+   "score": 0.998997,
+   "area_px": 140007
+  },
+  {
+   "id": 4,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.993681,
+   "area_px": 21536
+  },
+  {
+   "id": 5,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.99658,
+   "area_px": 197412
+  }
+ ]
+}

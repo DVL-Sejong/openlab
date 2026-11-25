@@ -1,0 +1,78 @@
+{
+ "stimulus": "U1030_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 6588
+  },
+  {
+   "id": 1,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.99699,
+   "area_px": 99100
+  },
+  {
+   "id": 2,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.983488,
+   "area_px": 10487
+  },
+  {
+   "id": 3,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.915711,
+   "area_px": 27094
+  },
+  {
+   "id": 4,
+   "label": "bench",
+   "thing": true,
+   "score": 0.999555,
+   "area_px": 7671
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.983323,
+   "area_px": 43244
+  },
+  {
+   "id": 6,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.926138,
+   "area_px": 2330
+  },
+  {
+   "id": 7,
+   "label": "tent",
+   "thing": false,
+   "score": 0.974926,
+   "area_px": 28162
+  },
+  {
+   "id": 8,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.928865,
+   "area_px": 13099
+  },
+  {
+   "id": 9,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997137,
+   "area_px": 242225
+  }
+ ]
+}

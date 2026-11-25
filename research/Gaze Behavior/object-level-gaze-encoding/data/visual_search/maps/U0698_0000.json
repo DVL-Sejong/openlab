@@ -1,0 +1,85 @@
+{
+ "stimulus": "U0698_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 15070
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.864466,
+   "area_px": 853
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.979082,
+   "area_px": 235375
+  },
+  {
+   "id": 3,
+   "label": "river",
+   "thing": false,
+   "score": 0.834341,
+   "area_px": 12721
+  },
+  {
+   "id": 4,
+   "label": "surfboard",
+   "thing": true,
+   "score": 0.920487,
+   "area_px": 7737
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.888786,
+   "area_px": 5874
+  },
+  {
+   "id": 6,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.9728,
+   "area_px": 6522
+  },
+  {
+   "id": 7,
+   "label": "house",
+   "thing": false,
+   "score": 0.946004,
+   "area_px": 17743
+  },
+  {
+   "id": 8,
+   "label": "bench",
+   "thing": true,
+   "score": 0.935705,
+   "area_px": 2197
+  },
+  {
+   "id": 9,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.981087,
+   "area_px": 4969
+  },
+  {
+   "id": 10,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999543,
+   "area_px": 170939
+  }
+ ]
+}

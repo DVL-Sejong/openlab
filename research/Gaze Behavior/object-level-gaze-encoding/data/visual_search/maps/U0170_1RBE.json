@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0170_1RBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 22198
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.911142,
+   "area_px": 806
+  },
+  {
+   "id": 2,
+   "label": "book",
+   "thing": true,
+   "score": 0.866847,
+   "area_px": 177
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.97149,
+   "area_px": 309682
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.999671,
+   "area_px": 3503
+  },
+  {
+   "id": 5,
+   "label": "book",
+   "thing": true,
+   "score": 0.847988,
+   "area_px": 104
+  },
+  {
+   "id": 6,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.828996,
+   "area_px": 39137
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.994427,
+   "area_px": 8868
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.992923,
+   "area_px": 91857
+  },
+  {
+   "id": 9,
+   "label": "book",
+   "thing": true,
+   "score": 0.740823,
+   "area_px": 125
+  },
+  {
+   "id": 10,
+   "label": "book",
+   "thing": true,
+   "score": 0.826419,
+   "area_px": 111
+  },
+  {
+   "id": 11,
+   "label": "light",
+   "thing": false,
+   "score": 0.95073,
+   "area_px": 3432
+  }
+ ]
+}

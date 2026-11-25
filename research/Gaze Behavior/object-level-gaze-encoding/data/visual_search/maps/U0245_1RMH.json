@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0245_1RMH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 35652
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.978232,
+   "area_px": 489
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.982497,
+   "area_px": 339
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.985003,
+   "area_px": 221
+  },
+  {
+   "id": 4,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.950041,
+   "area_px": 151
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.998311,
+   "area_px": 3970
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.967345,
+   "area_px": 202
+  },
+  {
+   "id": 7,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.835312,
+   "area_px": 8348
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.996055,
+   "area_px": 141673
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.997505,
+   "area_px": 1517
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994181,
+   "area_px": 47146
+  },
+  {
+   "id": 11,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.953455,
+   "area_px": 3561
+  },
+  {
+   "id": 12,
+   "label": "house",
+   "thing": false,
+   "score": 0.988674,
+   "area_px": 41535
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.995063,
+   "area_px": 1165
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.980775,
+   "area_px": 11549
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999372,
+   "area_px": 11814
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999644,
+   "area_px": 168318
+  },
+  {
+   "id": 17,
+   "label": "bench",
+   "thing": true,
+   "score": 0.996585,
+   "area_px": 2350
+  }
+ ]
+}

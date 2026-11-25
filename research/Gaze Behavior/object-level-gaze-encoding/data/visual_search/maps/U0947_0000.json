@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0947_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 67745
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999243,
+   "area_px": 35596
+  },
+  {
+   "id": 2,
+   "label": "road",
+   "thing": false,
+   "score": 0.996193,
+   "area_px": 197033
+  },
+  {
+   "id": 3,
+   "label": "bench",
+   "thing": true,
+   "score": 0.999442,
+   "area_px": 4642
+  },
+  {
+   "id": 4,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.996287,
+   "area_px": 143232
+  },
+  {
+   "id": 5,
+   "label": "wall-wood",
+   "thing": false,
+   "score": 0.730361,
+   "area_px": 15101
+  },
+  {
+   "id": 6,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.971716,
+   "area_px": 6100
+  },
+  {
+   "id": 7,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.850859,
+   "area_px": 8162
+  },
+  {
+   "id": 8,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.858186,
+   "area_px": 2389
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "stimulus": "U0525_1RMH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5107
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.891006,
+   "area_px": 122
+  },
+  {
+   "id": 2,
+   "label": "bird",
+   "thing": true,
+   "score": 0.919301,
+   "area_px": 50
+  },
+  {
+   "id": 3,
+   "label": "bird",
+   "thing": true,
+   "score": 0.996719,
+   "area_px": 1134
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.952321,
+   "area_px": 3318
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.978264,
+   "area_px": 13676
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.979049,
+   "area_px": 602
+  },
+  {
+   "id": 7,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.970512,
+   "area_px": 195121
+  },
+  {
+   "id": 8,
+   "label": "bench",
+   "thing": true,
+   "score": 0.974121,
+   "area_px": 138
+  },
+  {
+   "id": 9,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.939892,
+   "area_px": 11464
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.888029,
+   "area_px": 516
+  },
+  {
+   "id": 11,
+   "label": "bird",
+   "thing": true,
+   "score": 0.995576,
+   "area_px": 951
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.997654,
+   "area_px": 4799
+  },
+  {
+   "id": 13,
+   "label": "bird",
+   "thing": true,
+   "score": 0.972573,
+   "area_px": 122
+  },
+  {
+   "id": 14,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999004,
+   "area_px": 242880
+  }
+ ]
+}

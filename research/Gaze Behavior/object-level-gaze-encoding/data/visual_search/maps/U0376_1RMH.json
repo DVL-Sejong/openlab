@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0376_1RMH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 49377
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.997209,
+   "area_px": 20845
+  },
+  {
+   "id": 2,
+   "label": "chair",
+   "thing": true,
+   "score": 0.882856,
+   "area_px": 740
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.998923,
+   "area_px": 35075
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999666,
+   "area_px": 69484
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.910958,
+   "area_px": 1812
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.898898,
+   "area_px": 435
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.996714,
+   "area_px": 43468
+  },
+  {
+   "id": 8,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.999092,
+   "area_px": 2343
+  },
+  {
+   "id": 9,
+   "label": "chair",
+   "thing": true,
+   "score": 0.954009,
+   "area_px": 336
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994343,
+   "area_px": 37884
+  },
+  {
+   "id": 11,
+   "label": "truck",
+   "thing": true,
+   "score": 0.96164,
+   "area_px": 17508
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.955765,
+   "area_px": 721
+  },
+  {
+   "id": 13,
+   "label": "house",
+   "thing": false,
+   "score": 0.990538,
+   "area_px": 88478
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.997096,
+   "area_px": 3117
+  },
+  {
+   "id": 15,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.943096,
+   "area_px": 1378
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99952,
+   "area_px": 19930
+  },
+  {
+   "id": 17,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.973356,
+   "area_px": 499
+  },
+  {
+   "id": 18,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.961933,
+   "area_px": 764
+  },
+  {
+   "id": 19,
+   "label": "roof",
+   "thing": false,
+   "score": 0.902927,
+   "area_px": 11671
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999457,
+   "area_px": 74135
+  }
+ ]
+}

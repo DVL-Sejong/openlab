@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0372_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 32790
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999715,
+   "area_px": 2961
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.994828,
+   "area_px": 110482
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.9771,
+   "area_px": 370
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.996934,
+   "area_px": 567
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.997993,
+   "area_px": 471
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.888915,
+   "area_px": 117
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.996984,
+   "area_px": 105849
+  },
+  {
+   "id": 8,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.945889,
+   "area_px": 182
+  },
+  {
+   "id": 9,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.981579,
+   "area_px": 353
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.995661,
+   "area_px": 15699
+  },
+  {
+   "id": 11,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.89649,
+   "area_px": 1713
+  },
+  {
+   "id": 12,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.959394,
+   "area_px": 525
+  },
+  {
+   "id": 13,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.993457,
+   "area_px": 481
+  },
+  {
+   "id": 14,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.993807,
+   "area_px": 606
+  },
+  {
+   "id": 15,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.960511,
+   "area_px": 16682
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999503,
+   "area_px": 175109
+  },
+  {
+   "id": 17,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.997817,
+   "area_px": 334
+  },
+  {
+   "id": 18,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.855442,
+   "area_px": 2256
+  },
+  {
+   "id": 19,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997011,
+   "area_px": 12453
+  }
+ ]
+}

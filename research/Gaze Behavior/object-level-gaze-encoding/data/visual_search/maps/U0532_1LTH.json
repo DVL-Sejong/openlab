@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0532_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 28785
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.997158,
+   "area_px": 2679
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999596,
+   "area_px": 3284
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.97547,
+   "area_px": 280
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.99697,
+   "area_px": 90877
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.998811,
+   "area_px": 10083
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.565984,
+   "area_px": 639
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.993711,
+   "area_px": 120137
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.998142,
+   "area_px": 3276
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.929182,
+   "area_px": 263
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.99715,
+   "area_px": 2877
+  },
+  {
+   "id": 11,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.975607,
+   "area_px": 52286
+  },
+  {
+   "id": 12,
+   "label": "truck",
+   "thing": true,
+   "score": 0.975211,
+   "area_px": 4655
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.996038,
+   "area_px": 2221
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.943799,
+   "area_px": 6197
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999051,
+   "area_px": 57419
+  },
+  {
+   "id": 16,
+   "label": "gravel",
+   "thing": false,
+   "score": 0.977631,
+   "area_px": 6748
+  },
+  {
+   "id": 17,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999495,
+   "area_px": 87294
+  }
+ ]
+}

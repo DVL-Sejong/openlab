@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0224_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 3810
+  },
+  {
+   "id": 1,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.985116,
+   "area_px": 709
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.995559,
+   "area_px": 3568
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.9908,
+   "area_px": 1138
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.9961,
+   "area_px": 5542
+  },
+  {
+   "id": 5,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.966249,
+   "area_px": 228
+  },
+  {
+   "id": 6,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.979214,
+   "area_px": 100
+  },
+  {
+   "id": 7,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.99114,
+   "area_px": 227415
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.960533,
+   "area_px": 192
+  },
+  {
+   "id": 9,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.996984,
+   "area_px": 737
+  },
+  {
+   "id": 10,
+   "label": "person",
+   "thing": true,
+   "score": 0.994039,
+   "area_px": 311
+  },
+  {
+   "id": 11,
+   "label": "road",
+   "thing": false,
+   "score": 0.99619,
+   "area_px": 200425
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.999374,
+   "area_px": 3634
+  },
+  {
+   "id": 13,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.928162,
+   "area_px": 25551
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.99083,
+   "area_px": 2140
+  },
+  {
+   "id": 15,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.97586,
+   "area_px": 345
+  },
+  {
+   "id": 16,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.968212,
+   "area_px": 402
+  },
+  {
+   "id": 17,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.988283,
+   "area_px": 495
+  },
+  {
+   "id": 18,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.952451,
+   "area_px": 3258
+  }
+ ]
+}

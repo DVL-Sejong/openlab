@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0211_1RBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 14097
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.998658,
+   "area_px": 909
+  },
+  {
+   "id": 2,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.908506,
+   "area_px": 1722
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.963248,
+   "area_px": 33844
+  },
+  {
+   "id": 4,
+   "label": "house",
+   "thing": false,
+   "score": 0.970121,
+   "area_px": 286510
+  },
+  {
+   "id": 5,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998616,
+   "area_px": 142918
+  }
+ ]
+}

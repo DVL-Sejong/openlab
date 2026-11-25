@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0919_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5291
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.994019,
+   "area_px": 1582
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.989725,
+   "area_px": 2207
+  },
+  {
+   "id": 3,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.915223,
+   "area_px": 1294
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999107,
+   "area_px": 39621
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.98813,
+   "area_px": 164646
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.993142,
+   "area_px": 2458
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.998273,
+   "area_px": 52967
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994183,
+   "area_px": 27441
+  },
+  {
+   "id": 9,
+   "label": "motorcycle",
+   "thing": true,
+   "score": 0.999381,
+   "area_px": 3873
+  },
+  {
+   "id": 10,
+   "label": "motorcycle",
+   "thing": true,
+   "score": 0.997574,
+   "area_px": 4802
+  },
+  {
+   "id": 11,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.988512,
+   "area_px": 3541
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999212,
+   "area_px": 167500
+  },
+  {
+   "id": 13,
+   "label": "light",
+   "thing": false,
+   "score": 0.94247,
+   "area_px": 2777
+  }
+ ]
+}

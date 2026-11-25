@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0780_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 8445
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.951281,
+   "area_px": 169358
+  },
+  {
+   "id": 2,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.958546,
+   "area_px": 5903
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.997351,
+   "area_px": 165123
+  },
+  {
+   "id": 4,
+   "label": "bench",
+   "thing": true,
+   "score": 0.985866,
+   "area_px": 555
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.990696,
+   "area_px": 24976
+  },
+  {
+   "id": 6,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.793275,
+   "area_px": 10997
+  },
+  {
+   "id": 7,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999361,
+   "area_px": 38080
+  },
+  {
+   "id": 8,
+   "label": "roof",
+   "thing": false,
+   "score": 0.955104,
+   "area_px": 19610
+  },
+  {
+   "id": 9,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.990689,
+   "area_px": 36953
+  }
+ ]
+}

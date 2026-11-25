@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0663_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 13045
+  },
+  {
+   "id": 1,
+   "label": "bird",
+   "thing": true,
+   "score": 0.966964,
+   "area_px": 86
+  },
+  {
+   "id": 2,
+   "label": "bird",
+   "thing": true,
+   "score": 0.904484,
+   "area_px": 89
+  },
+  {
+   "id": 3,
+   "label": "bird",
+   "thing": true,
+   "score": 0.975648,
+   "area_px": 156
+  },
+  {
+   "id": 4,
+   "label": "river",
+   "thing": false,
+   "score": 0.874357,
+   "area_px": 61882
+  },
+  {
+   "id": 5,
+   "label": "bird",
+   "thing": true,
+   "score": 0.990362,
+   "area_px": 19512
+  },
+  {
+   "id": 6,
+   "label": "bird",
+   "thing": true,
+   "score": 0.94155,
+   "area_px": 180
+  },
+  {
+   "id": 7,
+   "label": "snow",
+   "thing": false,
+   "score": 0.992428,
+   "area_px": 139147
+  },
+  {
+   "id": 8,
+   "label": "bird",
+   "thing": true,
+   "score": 0.959672,
+   "area_px": 167
+  },
+  {
+   "id": 9,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.808049,
+   "area_px": 8411
+  },
+  {
+   "id": 10,
+   "label": "bird",
+   "thing": true,
+   "score": 0.97229,
+   "area_px": 219
+  },
+  {
+   "id": 11,
+   "label": "bird",
+   "thing": true,
+   "score": 0.869189,
+   "area_px": 187
+  },
+  {
+   "id": 12,
+   "label": "bird",
+   "thing": true,
+   "score": 0.867925,
+   "area_px": 122
+  },
+  {
+   "id": 13,
+   "label": "bird",
+   "thing": true,
+   "score": 0.717348,
+   "area_px": 78
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.901716,
+   "area_px": 3778
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999585,
+   "area_px": 51407
+  },
+  {
+   "id": 16,
+   "label": "bird",
+   "thing": true,
+   "score": 0.960661,
+   "area_px": 148
+  },
+  {
+   "id": 17,
+   "label": "bird",
+   "thing": true,
+   "score": 0.929658,
+   "area_px": 93
+  },
+  {
+   "id": 18,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999575,
+   "area_px": 181293
+  }
+ ]
+}

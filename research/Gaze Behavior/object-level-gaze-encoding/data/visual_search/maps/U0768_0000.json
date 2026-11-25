@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0768_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 10512
+  },
+  {
+   "id": 1,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.975686,
+   "area_px": 30680
+  },
+  {
+   "id": 2,
+   "label": "snow",
+   "thing": false,
+   "score": 0.976729,
+   "area_px": 222777
+  },
+  {
+   "id": 3,
+   "label": "bird",
+   "thing": true,
+   "score": 0.78846,
+   "area_px": 28
+  },
+  {
+   "id": 4,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999587,
+   "area_px": 102235
+  },
+  {
+   "id": 5,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998641,
+   "area_px": 113768
+  }
+ ]
+}

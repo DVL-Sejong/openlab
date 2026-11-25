@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0311_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 3767
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.994351,
+   "area_px": 10410
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.998864,
+   "area_px": 965
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.993656,
+   "area_px": 16581
+  },
+  {
+   "id": 4,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.986499,
+   "area_px": 3838
+  },
+  {
+   "id": 5,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.924837,
+   "area_px": 16300
+  },
+  {
+   "id": 6,
+   "label": "house",
+   "thing": false,
+   "score": 0.967143,
+   "area_px": 319081
+  },
+  {
+   "id": 7,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998302,
+   "area_px": 48437
+  },
+  {
+   "id": 8,
+   "label": "suitcase",
+   "thing": true,
+   "score": 0.931263,
+   "area_px": 381
+  },
+  {
+   "id": 9,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.99706,
+   "area_px": 60240
+  }
+ ]
+}

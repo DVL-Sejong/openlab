@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0589_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 10407
+  },
+  {
+   "id": 1,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.998257,
+   "area_px": 61521
+  },
+  {
+   "id": 2,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.845146,
+   "area_px": 19521
+  },
+  {
+   "id": 3,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.992814,
+   "area_px": 35698
+  },
+  {
+   "id": 4,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.984254,
+   "area_px": 13895
+  },
+  {
+   "id": 5,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.985892,
+   "area_px": 76524
+  },
+  {
+   "id": 6,
+   "label": "house",
+   "thing": false,
+   "score": 0.942674,
+   "area_px": 250896
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.936403,
+   "area_px": 914
+  },
+  {
+   "id": 8,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.786895,
+   "area_px": 2236
+  },
+  {
+   "id": 9,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.985945,
+   "area_px": 8388
+  }
+ ]
+}

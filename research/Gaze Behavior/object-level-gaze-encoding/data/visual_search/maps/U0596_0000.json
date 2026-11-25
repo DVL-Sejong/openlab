@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0596_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 20711
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.98545,
+   "area_px": 419
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.997719,
+   "area_px": 3102
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.961628,
+   "area_px": 12613
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.912579,
+   "area_px": 3224
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.950917,
+   "area_px": 464
+  },
+  {
+   "id": 6,
+   "label": "banner",
+   "thing": false,
+   "score": 0.542976,
+   "area_px": 28159
+  },
+  {
+   "id": 7,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.985667,
+   "area_px": 85529
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.998907,
+   "area_px": 1744
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.994568,
+   "area_px": 116897
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.929243,
+   "area_px": 2703
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.831546,
+   "area_px": 115
+  },
+  {
+   "id": 12,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991521,
+   "area_px": 42502
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.97889,
+   "area_px": 310
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.985543,
+   "area_px": 125
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.982425,
+   "area_px": 324
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.964433,
+   "area_px": 269
+  },
+  {
+   "id": 17,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99968,
+   "area_px": 160682
+  },
+  {
+   "id": 18,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.980756,
+   "area_px": 108
+  }
+ ]
+}

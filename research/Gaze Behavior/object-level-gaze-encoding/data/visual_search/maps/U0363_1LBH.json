@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0363_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 44276
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.99437,
+   "area_px": 364907
+  },
+  {
+   "id": 2,
+   "label": "snow",
+   "thing": false,
+   "score": 0.875522,
+   "area_px": 3427
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.9965,
+   "area_px": 545
+  },
+  {
+   "id": 4,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.997111,
+   "area_px": 488
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.990091,
+   "area_px": 8732
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.940597,
+   "area_px": 311
+  },
+  {
+   "id": 7,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.993609,
+   "area_px": 27853
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.997726,
+   "area_px": 26680
+  },
+  {
+   "id": 9,
+   "label": "light",
+   "thing": false,
+   "score": 0.93777,
+   "area_px": 2781
+  }
+ ]
+}

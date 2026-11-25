@@ -1,0 +1,134 @@
+{
+ "stimulus": "U1031_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 26656
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999699,
+   "area_px": 6238
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999161,
+   "area_px": 19010
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.998601,
+   "area_px": 15542
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.965739,
+   "area_px": 343
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.978551,
+   "area_px": 103748
+  },
+  {
+   "id": 6,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.99453,
+   "area_px": 14315
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.997942,
+   "area_px": 2393
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.997525,
+   "area_px": 23972
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.999114,
+   "area_px": 10679
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.992985,
+   "area_px": 9026
+  },
+  {
+   "id": 11,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.98516,
+   "area_px": 12884
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.999392,
+   "area_px": 4347
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.999468,
+   "area_px": 3032
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.91958,
+   "area_px": 1840
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998677,
+   "area_px": 24138
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999615,
+   "area_px": 200694
+  },
+  {
+   "id": 17,
+   "label": "light",
+   "thing": false,
+   "score": 0.931456,
+   "area_px": 1143
+  }
+ ]
+}

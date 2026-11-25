@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0136_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 193440
+  },
+  {
+   "id": 1,
+   "label": "flower",
+   "thing": false,
+   "score": 0.920003,
+   "area_px": 4665
+  },
+  {
+   "id": 2,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.917682,
+   "area_px": 312
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.998173,
+   "area_px": 1504
+  },
+  {
+   "id": 4,
+   "label": "bench",
+   "thing": true,
+   "score": 0.954819,
+   "area_px": 474
+  },
+  {
+   "id": 5,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.888674,
+   "area_px": 207726
+  },
+  {
+   "id": 6,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.830315,
+   "area_px": 4139
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.99972,
+   "area_px": 2465
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.950669,
+   "area_px": 22409
+  },
+  {
+   "id": 9,
+   "label": "bench",
+   "thing": true,
+   "score": 0.897733,
+   "area_px": 492
+  },
+  {
+   "id": 10,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.93277,
+   "area_px": 435
+  },
+  {
+   "id": 11,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.959505,
+   "area_px": 41939
+  }
+ ]
+}

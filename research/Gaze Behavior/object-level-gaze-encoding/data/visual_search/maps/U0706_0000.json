@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0706_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 8238
+  },
+  {
+   "id": 1,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.980752,
+   "area_px": 75
+  },
+  {
+   "id": 2,
+   "label": "bench",
+   "thing": true,
+   "score": 0.745367,
+   "area_px": 133
+  },
+  {
+   "id": 3,
+   "label": "bench",
+   "thing": true,
+   "score": 0.775926,
+   "area_px": 175
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.963297,
+   "area_px": 2922
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.994832,
+   "area_px": 50977
+  },
+  {
+   "id": 6,
+   "label": "bench",
+   "thing": true,
+   "score": 0.988979,
+   "area_px": 384
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.994133,
+   "area_px": 202858
+  },
+  {
+   "id": 8,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.998529,
+   "area_px": 1286
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.98976,
+   "area_px": 10051
+  },
+  {
+   "id": 10,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.897336,
+   "area_px": 6780
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.945769,
+   "area_px": 6733
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999238,
+   "area_px": 24873
+  },
+  {
+   "id": 13,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999653,
+   "area_px": 164515
+  }
+ ]
+}

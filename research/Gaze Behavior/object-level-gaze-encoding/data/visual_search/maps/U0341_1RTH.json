@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0341_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 46289
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999589,
+   "area_px": 17212
+  },
+  {
+   "id": 2,
+   "label": "banner",
+   "thing": false,
+   "score": 0.924308,
+   "area_px": 1724
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.950517,
+   "area_px": 158375
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.997035,
+   "area_px": 1347
+  },
+  {
+   "id": 5,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.950653,
+   "area_px": 57100
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.994902,
+   "area_px": 26254
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.787678,
+   "area_px": 1506
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991748,
+   "area_px": 61157
+  },
+  {
+   "id": 9,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.979871,
+   "area_px": 1251
+  },
+  {
+   "id": 10,
+   "label": "truck",
+   "thing": true,
+   "score": 0.991045,
+   "area_px": 11584
+  },
+  {
+   "id": 11,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.998647,
+   "area_px": 3546
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.995927,
+   "area_px": 37087
+  },
+  {
+   "id": 13,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.93597,
+   "area_px": 55568
+  }
+ ]
+}

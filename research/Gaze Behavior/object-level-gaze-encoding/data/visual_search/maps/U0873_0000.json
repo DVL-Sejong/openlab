@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0873_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 45644
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.987562,
+   "area_px": 475
+  },
+  {
+   "id": 2,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.897076,
+   "area_px": 722
+  },
+  {
+   "id": 3,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.999166,
+   "area_px": 4279
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.933245,
+   "area_px": 67
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.99715,
+   "area_px": 7690
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.999075,
+   "area_px": 30369
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.798225,
+   "area_px": 82
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.985802,
+   "area_px": 510
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.992734,
+   "area_px": 16212
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.919821,
+   "area_px": 636
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.996128,
+   "area_px": 129388
+  },
+  {
+   "id": 12,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.962318,
+   "area_px": 5217
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.943682,
+   "area_px": 109
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.89303,
+   "area_px": 8539
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999502,
+   "area_px": 12728
+  },
+  {
+   "id": 16,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.98239,
+   "area_px": 27677
+  },
+  {
+   "id": 17,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.849992,
+   "area_px": 314
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.732551,
+   "area_px": 142
+  },
+  {
+   "id": 19,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.982461,
+   "area_px": 197
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999445,
+   "area_px": 189003
+  }
+ ]
+}

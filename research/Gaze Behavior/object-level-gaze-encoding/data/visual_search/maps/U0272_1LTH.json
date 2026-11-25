@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0272_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 8741
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.990363,
+   "area_px": 949
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.951021,
+   "area_px": 959
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.882777,
+   "area_px": 69
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.905823,
+   "area_px": 2548
+  },
+  {
+   "id": 5,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.921437,
+   "area_px": 84
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.994992,
+   "area_px": 497
+  },
+  {
+   "id": 7,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.939917,
+   "area_px": 89
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.996557,
+   "area_px": 189294
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.999492,
+   "area_px": 3748
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994371,
+   "area_px": 27260
+  },
+  {
+   "id": 11,
+   "label": "truck",
+   "thing": true,
+   "score": 0.909585,
+   "area_px": 6179
+  },
+  {
+   "id": 12,
+   "label": "house",
+   "thing": false,
+   "score": 0.928468,
+   "area_px": 26920
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.999106,
+   "area_px": 15220
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.996524,
+   "area_px": 2874
+  },
+  {
+   "id": 15,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.954866,
+   "area_px": 1436
+  },
+  {
+   "id": 16,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.999483,
+   "area_px": 6269
+  },
+  {
+   "id": 17,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.993368,
+   "area_px": 1692
+  },
+  {
+   "id": 18,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.8995,
+   "area_px": 4902
+  },
+  {
+   "id": 19,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999435,
+   "area_px": 180270
+  }
+ ]
+}

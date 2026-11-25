@@ -1,0 +1,267 @@
+{
+ "stimulus": "U0371_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 7402
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.986064,
+   "area_px": 212
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.98355,
+   "area_px": 188
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.972817,
+   "area_px": 382
+  },
+  {
+   "id": 4,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.947308,
+   "area_px": 111
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.993309,
+   "area_px": 498
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.995987,
+   "area_px": 3978
+  },
+  {
+   "id": 7,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.991138,
+   "area_px": 529
+  },
+  {
+   "id": 8,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.992186,
+   "area_px": 57650
+  },
+  {
+   "id": 9,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990053,
+   "area_px": 139775
+  },
+  {
+   "id": 10,
+   "label": "truck",
+   "thing": true,
+   "score": 0.949012,
+   "area_px": 1427
+  },
+  {
+   "id": 11,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.997423,
+   "area_px": 2509
+  },
+  {
+   "id": 12,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.985926,
+   "area_px": 1915
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.91706,
+   "area_px": 109
+  },
+  {
+   "id": 14,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.918102,
+   "area_px": 93
+  },
+  {
+   "id": 15,
+   "label": "person",
+   "thing": true,
+   "score": 0.857201,
+   "area_px": 519
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.999168,
+   "area_px": 3670
+  },
+  {
+   "id": 17,
+   "label": "road",
+   "thing": false,
+   "score": 0.997381,
+   "area_px": 120241
+  },
+  {
+   "id": 18,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.997253,
+   "area_px": 850
+  },
+  {
+   "id": 19,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.961647,
+   "area_px": 109
+  },
+  {
+   "id": 20,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.987503,
+   "area_px": 4701
+  },
+  {
+   "id": 21,
+   "label": "car",
+   "thing": true,
+   "score": 0.996582,
+   "area_px": 1691
+  },
+  {
+   "id": 22,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.992548,
+   "area_px": 156
+  },
+  {
+   "id": 23,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.918006,
+   "area_px": 455
+  },
+  {
+   "id": 24,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.947605,
+   "area_px": 357
+  },
+  {
+   "id": 25,
+   "label": "car",
+   "thing": true,
+   "score": 0.761746,
+   "area_px": 273
+  },
+  {
+   "id": 26,
+   "label": "car",
+   "thing": true,
+   "score": 0.978015,
+   "area_px": 5720
+  },
+  {
+   "id": 27,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.998354,
+   "area_px": 802
+  },
+  {
+   "id": 28,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.899203,
+   "area_px": 377
+  },
+  {
+   "id": 29,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.836829,
+   "area_px": 1865
+  },
+  {
+   "id": 30,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99948,
+   "area_px": 46795
+  },
+  {
+   "id": 31,
+   "label": "bench",
+   "thing": true,
+   "score": 0.798854,
+   "area_px": 416
+  },
+  {
+   "id": 32,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.931912,
+   "area_px": 381
+  },
+  {
+   "id": 33,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.977876,
+   "area_px": 77
+  },
+  {
+   "id": 34,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996913,
+   "area_px": 73477
+  },
+  {
+   "id": 35,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.955905,
+   "area_px": 80
+  },
+  {
+   "id": 36,
+   "label": "car",
+   "thing": true,
+   "score": 0.989892,
+   "area_px": 210
+  }
+ ]
+}

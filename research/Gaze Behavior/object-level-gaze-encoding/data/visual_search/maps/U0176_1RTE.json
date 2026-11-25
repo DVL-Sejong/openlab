@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0176_1RTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 4972
+  },
+  {
+   "id": 1,
+   "label": "backpack",
+   "thing": true,
+   "score": 0.997815,
+   "area_px": 1508
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.9956,
+   "area_px": 14693
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.968303,
+   "area_px": 184
+  },
+  {
+   "id": 4,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.99252,
+   "area_px": 26952
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.999769,
+   "area_px": 3638
+  },
+  {
+   "id": 6,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.993799,
+   "area_px": 509
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.996754,
+   "area_px": 139443
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.965348,
+   "area_px": 6728
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.995518,
+   "area_px": 151422
+  },
+  {
+   "id": 10,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.601121,
+   "area_px": 2404
+  },
+  {
+   "id": 11,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.780299,
+   "area_px": 1724
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.965651,
+   "area_px": 265
+  },
+  {
+   "id": 13,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.995136,
+   "area_px": 543
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.954143,
+   "area_px": 16624
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999775,
+   "area_px": 43131
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.99958,
+   "area_px": 65260
+  }
+ ]
+}

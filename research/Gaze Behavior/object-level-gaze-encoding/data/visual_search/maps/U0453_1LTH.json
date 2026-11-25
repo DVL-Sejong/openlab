@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0453_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 9144
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.707808,
+   "area_px": 1444
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.963265,
+   "area_px": 134
+  },
+  {
+   "id": 3,
+   "label": "bench",
+   "thing": true,
+   "score": 0.997369,
+   "area_px": 1090
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.997526,
+   "area_px": 615
+  },
+  {
+   "id": 5,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.980378,
+   "area_px": 869
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.980816,
+   "area_px": 203396
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.962024,
+   "area_px": 117
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.969393,
+   "area_px": 207
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.991331,
+   "area_px": 2543
+  },
+  {
+   "id": 10,
+   "label": "person",
+   "thing": true,
+   "score": 0.920759,
+   "area_px": 84
+  },
+  {
+   "id": 11,
+   "label": "road",
+   "thing": false,
+   "score": 0.993534,
+   "area_px": 159564
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.90519,
+   "area_px": 156
+  },
+  {
+   "id": 13,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.985579,
+   "area_px": 50938
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.992013,
+   "area_px": 534
+  },
+  {
+   "id": 15,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.98975,
+   "area_px": 1471
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.868824,
+   "area_px": 143
+  },
+  {
+   "id": 17,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998575,
+   "area_px": 35342
+  },
+  {
+   "id": 18,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.627318,
+   "area_px": 2053
+  },
+  {
+   "id": 19,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.977286,
+   "area_px": 10156
+  }
+ ]
+}

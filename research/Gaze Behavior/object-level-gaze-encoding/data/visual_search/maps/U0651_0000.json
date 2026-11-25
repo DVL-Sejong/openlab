@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0651_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 14802
+  },
+  {
+   "id": 1,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.921025,
+   "area_px": 15781
+  },
+  {
+   "id": 2,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.940531,
+   "area_px": 773
+  },
+  {
+   "id": 3,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.901905,
+   "area_px": 101177
+  },
+  {
+   "id": 4,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.962116,
+   "area_px": 9912
+  },
+  {
+   "id": 5,
+   "label": "house",
+   "thing": false,
+   "score": 0.927531,
+   "area_px": 224019
+  },
+  {
+   "id": 6,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998301,
+   "area_px": 112182
+  },
+  {
+   "id": 7,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.925067,
+   "area_px": 1354
+  }
+ ]
+}

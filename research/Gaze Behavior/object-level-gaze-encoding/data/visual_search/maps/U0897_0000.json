@@ -1,0 +1,239 @@
+{
+ "stimulus": "U0897_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 33039
+  },
+  {
+   "id": 1,
+   "label": "truck",
+   "thing": true,
+   "score": 0.904291,
+   "area_px": 1198
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.964312,
+   "area_px": 948
+  },
+  {
+   "id": 3,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.529548,
+   "area_px": 330
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.993568,
+   "area_px": 1356
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.925556,
+   "area_px": 3470
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.996117,
+   "area_px": 1716
+  },
+  {
+   "id": 7,
+   "label": "banner",
+   "thing": false,
+   "score": 0.905696,
+   "area_px": 3448
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.920716,
+   "area_px": 259
+  },
+  {
+   "id": 9,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990455,
+   "area_px": 62100
+  },
+  {
+   "id": 10,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.972155,
+   "area_px": 6204
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.937959,
+   "area_px": 584
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.847085,
+   "area_px": 166
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.877247,
+   "area_px": 849
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.519128,
+   "area_px": 98
+  },
+  {
+   "id": 15,
+   "label": "road",
+   "thing": false,
+   "score": 0.997278,
+   "area_px": 44529
+  },
+  {
+   "id": 16,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.861614,
+   "area_px": 574
+  },
+  {
+   "id": 17,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.990931,
+   "area_px": 24411
+  },
+  {
+   "id": 18,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.631053,
+   "area_px": 6093
+  },
+  {
+   "id": 19,
+   "label": "truck",
+   "thing": true,
+   "score": 0.891016,
+   "area_px": 628
+  },
+  {
+   "id": 20,
+   "label": "car",
+   "thing": true,
+   "score": 0.95202,
+   "area_px": 534
+  },
+  {
+   "id": 21,
+   "label": "truck",
+   "thing": true,
+   "score": 0.677378,
+   "area_px": 691
+  },
+  {
+   "id": 22,
+   "label": "house",
+   "thing": false,
+   "score": 0.887231,
+   "area_px": 12993
+  },
+  {
+   "id": 23,
+   "label": "car",
+   "thing": true,
+   "score": 0.914998,
+   "area_px": 1341
+  },
+  {
+   "id": 24,
+   "label": "car",
+   "thing": true,
+   "score": 0.986894,
+   "area_px": 1022
+  },
+  {
+   "id": 25,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.922255,
+   "area_px": 8504
+  },
+  {
+   "id": 26,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999469,
+   "area_px": 204402
+  },
+  {
+   "id": 27,
+   "label": "car",
+   "thing": true,
+   "score": 0.892465,
+   "area_px": 388
+  },
+  {
+   "id": 28,
+   "label": "car",
+   "thing": true,
+   "score": 0.852885,
+   "area_px": 795
+  },
+  {
+   "id": 29,
+   "label": "car",
+   "thing": true,
+   "score": 0.983657,
+   "area_px": 1144
+  },
+  {
+   "id": 30,
+   "label": "car",
+   "thing": true,
+   "score": 0.804817,
+   "area_px": 407
+  },
+  {
+   "id": 31,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.95991,
+   "area_px": 5937
+  },
+  {
+   "id": 32,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998856,
+   "area_px": 49842
+  }
+ ]
+}

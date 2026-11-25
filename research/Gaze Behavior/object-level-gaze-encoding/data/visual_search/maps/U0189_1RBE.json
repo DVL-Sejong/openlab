@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0189_1RBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 16216
+  },
+  {
+   "id": 1,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.948905,
+   "area_px": 36548
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.999429,
+   "area_px": 4062
+  },
+  {
+   "id": 3,
+   "label": "snow",
+   "thing": false,
+   "score": 0.996213,
+   "area_px": 157796
+  },
+  {
+   "id": 4,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999454,
+   "area_px": 133628
+  },
+  {
+   "id": 5,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998987,
+   "area_px": 78156
+  },
+  {
+   "id": 6,
+   "label": "light",
+   "thing": false,
+   "score": 0.892698,
+   "area_px": 839
+  },
+  {
+   "id": 7,
+   "label": "bench",
+   "thing": true,
+   "score": 0.909152,
+   "area_px": 52755
+  }
+ ]
+}

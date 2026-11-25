@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0506_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 14991
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.989383,
+   "area_px": 219755
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.997435,
+   "area_px": 72882
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.894129,
+   "area_px": 415
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.992864,
+   "area_px": 539
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.981467,
+   "area_px": 7049
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.680878,
+   "area_px": 642
+  },
+  {
+   "id": 7,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997686,
+   "area_px": 162312
+  },
+  {
+   "id": 8,
+   "label": "light",
+   "thing": false,
+   "score": 0.745627,
+   "area_px": 1415
+  }
+ ]
+}

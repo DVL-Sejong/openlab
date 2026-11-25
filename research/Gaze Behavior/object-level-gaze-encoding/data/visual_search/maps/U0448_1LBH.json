@@ -1,0 +1,120 @@
+{
+ "stimulus": "U0448_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 10193
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.948496,
+   "area_px": 184
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.773373,
+   "area_px": 376
+  },
+  {
+   "id": 3,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.817352,
+   "area_px": 101
+  },
+  {
+   "id": 4,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.601003,
+   "area_px": 62
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990767,
+   "area_px": 263774
+  },
+  {
+   "id": 6,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.997314,
+   "area_px": 12370
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.98647,
+   "area_px": 242
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.998237,
+   "area_px": 86293
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.982187,
+   "area_px": 213
+  },
+  {
+   "id": 10,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.803545,
+   "area_px": 370
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.996513,
+   "area_px": 21047
+  },
+  {
+   "id": 12,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.782032,
+   "area_px": 1105
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998127,
+   "area_px": 20535
+  },
+  {
+   "id": 14,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.889603,
+   "area_px": 5763
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.990462,
+   "area_px": 57372
+  }
+ ]
+}

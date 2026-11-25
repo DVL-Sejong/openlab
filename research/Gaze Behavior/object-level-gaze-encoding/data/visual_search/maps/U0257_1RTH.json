@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0257_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 2431
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.880279,
+   "area_px": 175
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.975108,
+   "area_px": 91
+  },
+  {
+   "id": 3,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.987581,
+   "area_px": 19788
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.991085,
+   "area_px": 56511
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.997146,
+   "area_px": 233029
+  },
+  {
+   "id": 6,
+   "label": "truck",
+   "thing": true,
+   "score": 0.834546,
+   "area_px": 336
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.963109,
+   "area_px": 143
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.745213,
+   "area_px": 117
+  },
+  {
+   "id": 9,
+   "label": "river",
+   "thing": false,
+   "score": 0.927679,
+   "area_px": 22329
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.990326,
+   "area_px": 174
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.955993,
+   "area_px": 118
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.885261,
+   "area_px": 110
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.982541,
+   "area_px": 177
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.987759,
+   "area_px": 172
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.990591,
+   "area_px": 165
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999544,
+   "area_px": 74697
+  },
+  {
+   "id": 17,
+   "label": "car",
+   "thing": true,
+   "score": 0.945511,
+   "area_px": 141
+  },
+  {
+   "id": 18,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.996977,
+   "area_px": 69296
+  }
+ ]
+}

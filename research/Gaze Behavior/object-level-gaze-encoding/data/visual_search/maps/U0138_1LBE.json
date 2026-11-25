@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0138_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 442780
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.99031,
+   "area_px": 1663
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.996919,
+   "area_px": 1980
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.999365,
+   "area_px": 3269
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.999722,
+   "area_px": 2595
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.889386,
+   "area_px": 6459
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.916447,
+   "area_px": 455
+  },
+  {
+   "id": 7,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.986626,
+   "area_px": 20527
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.859218,
+   "area_px": 272
+  }
+ ]
+}

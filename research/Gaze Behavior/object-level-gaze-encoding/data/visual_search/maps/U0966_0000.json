@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0966_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 12331
+  },
+  {
+   "id": 1,
+   "label": "truck",
+   "thing": true,
+   "score": 0.994052,
+   "area_px": 9318
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.989603,
+   "area_px": 1459
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.949048,
+   "area_px": 51726
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.998837,
+   "area_px": 67887
+  },
+  {
+   "id": 5,
+   "label": "snow",
+   "thing": false,
+   "score": 0.980843,
+   "area_px": 32212
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.995176,
+   "area_px": 548
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.993604,
+   "area_px": 94852
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.948511,
+   "area_px": 4272
+  },
+  {
+   "id": 9,
+   "label": "house",
+   "thing": false,
+   "score": 0.995594,
+   "area_px": 127553
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.998117,
+   "area_px": 2594
+  },
+  {
+   "id": 11,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999198,
+   "area_px": 36171
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995257,
+   "area_px": 39077
+  }
+ ]
+}

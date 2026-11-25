@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0546_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 11614
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.958105,
+   "area_px": 188
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.87509,
+   "area_px": 164
+  },
+  {
+   "id": 3,
+   "label": "bench",
+   "thing": true,
+   "score": 0.67545,
+   "area_px": 276
+  },
+  {
+   "id": 4,
+   "label": "train",
+   "thing": true,
+   "score": 0.996822,
+   "area_px": 51539
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.981575,
+   "area_px": 23427
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.984886,
+   "area_px": 226
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.991417,
+   "area_px": 288
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.991121,
+   "area_px": 299
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.970277,
+   "area_px": 41619
+  },
+  {
+   "id": 10,
+   "label": "train",
+   "thing": true,
+   "score": 0.998465,
+   "area_px": 35174
+  },
+  {
+   "id": 11,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.996503,
+   "area_px": 939
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999288,
+   "area_px": 202456
+  },
+  {
+   "id": 13,
+   "label": "bench",
+   "thing": true,
+   "score": 0.974173,
+   "area_px": 1435
+  },
+  {
+   "id": 14,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.997116,
+   "area_px": 18295
+  },
+  {
+   "id": 15,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.786118,
+   "area_px": 590
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998977,
+   "area_px": 42080
+  },
+  {
+   "id": 17,
+   "label": "railroad",
+   "thing": false,
+   "score": 0.968694,
+   "area_px": 49391
+  }
+ ]
+}

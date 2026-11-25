@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0713_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 18807
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.953659,
+   "area_px": 342
+  },
+  {
+   "id": 2,
+   "label": "bench",
+   "thing": true,
+   "score": 0.727773,
+   "area_px": 86
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.982103,
+   "area_px": 58187
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.994912,
+   "area_px": 125627
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.943674,
+   "area_px": 208
+  },
+  {
+   "id": 6,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.899247,
+   "area_px": 1996
+  },
+  {
+   "id": 7,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.695083,
+   "area_px": 10393
+  },
+  {
+   "id": 8,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998427,
+   "area_px": 1576
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.993745,
+   "area_px": 55109
+  },
+  {
+   "id": 10,
+   "label": "bench",
+   "thing": true,
+   "score": 0.996246,
+   "area_px": 1200
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.980709,
+   "area_px": 821
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.958082,
+   "area_px": 549
+  },
+  {
+   "id": 13,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.962675,
+   "area_px": 2763
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.995036,
+   "area_px": 5655
+  },
+  {
+   "id": 15,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.648369,
+   "area_px": 532
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997893,
+   "area_px": 191247
+  },
+  {
+   "id": 17,
+   "label": "light",
+   "thing": false,
+   "score": 0.906762,
+   "area_px": 1671
+  },
+  {
+   "id": 18,
+   "label": "bench",
+   "thing": true,
+   "score": 0.994761,
+   "area_px": 3231
+  }
+ ]
+}

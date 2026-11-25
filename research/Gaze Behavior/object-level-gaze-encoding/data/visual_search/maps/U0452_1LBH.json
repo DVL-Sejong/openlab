@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0452_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5384
+  },
+  {
+   "id": 1,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.950521,
+   "area_px": 113
+  },
+  {
+   "id": 2,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.956653,
+   "area_px": 775
+  },
+  {
+   "id": 3,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.972314,
+   "area_px": 289
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999546,
+   "area_px": 5945
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.985688,
+   "area_px": 260369
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.970965,
+   "area_px": 290
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.998334,
+   "area_px": 579
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.768023,
+   "area_px": 114
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.996687,
+   "area_px": 189955
+  },
+  {
+   "id": 10,
+   "label": "person",
+   "thing": true,
+   "score": 0.947724,
+   "area_px": 284
+  },
+  {
+   "id": 11,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.994656,
+   "area_px": 688
+  },
+  {
+   "id": 12,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.966479,
+   "area_px": 454
+  },
+  {
+   "id": 13,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.989136,
+   "area_px": 11790
+  },
+  {
+   "id": 14,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.9982,
+   "area_px": 1740
+  },
+  {
+   "id": 15,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.995872,
+   "area_px": 1065
+  },
+  {
+   "id": 16,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.803123,
+   "area_px": 166
+  }
+ ]
+}

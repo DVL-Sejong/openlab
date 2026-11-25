@@ -1,0 +1,50 @@
+{
+ "stimulus": "U1004_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5848
+  },
+  {
+   "id": 1,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.966822,
+   "area_px": 67039
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.976847,
+   "area_px": 276568
+  },
+  {
+   "id": 3,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.948084,
+   "area_px": 35790
+  },
+  {
+   "id": 4,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.970784,
+   "area_px": 1836
+  },
+  {
+   "id": 5,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.826896,
+   "area_px": 92919
+  }
+ ]
+}

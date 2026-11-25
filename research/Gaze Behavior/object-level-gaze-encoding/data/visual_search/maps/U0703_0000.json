@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0703_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 28079
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.815476,
+   "area_px": 1744
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.977769,
+   "area_px": 1252
+  },
+  {
+   "id": 3,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.831114,
+   "area_px": 6270
+  },
+  {
+   "id": 4,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.988174,
+   "area_px": 35231
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.979312,
+   "area_px": 42330
+  },
+  {
+   "id": 6,
+   "label": "chair",
+   "thing": true,
+   "score": 0.990065,
+   "area_px": 2646
+  },
+  {
+   "id": 7,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.990718,
+   "area_px": 50740
+  },
+  {
+   "id": 8,
+   "label": "chair",
+   "thing": true,
+   "score": 0.997417,
+   "area_px": 3395
+  },
+  {
+   "id": 9,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.962827,
+   "area_px": 6413
+  },
+  {
+   "id": 10,
+   "label": "house",
+   "thing": false,
+   "score": 0.985153,
+   "area_px": 164074
+  },
+  {
+   "id": 11,
+   "label": "chair",
+   "thing": true,
+   "score": 0.996246,
+   "area_px": 2560
+  },
+  {
+   "id": 12,
+   "label": "chair",
+   "thing": true,
+   "score": 0.991831,
+   "area_px": 1266
+  },
+  {
+   "id": 13,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.884433,
+   "area_px": 588
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.991054,
+   "area_px": 80800
+  },
+  {
+   "id": 15,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.944624,
+   "area_px": 8546
+  },
+  {
+   "id": 16,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.812382,
+   "area_px": 6372
+  },
+  {
+   "id": 17,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.979386,
+   "area_px": 900
+  },
+  {
+   "id": 18,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.966981,
+   "area_px": 33139
+  },
+  {
+   "id": 19,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.735675,
+   "area_px": 3655
+  }
+ ]
+}

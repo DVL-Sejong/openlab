@@ -1,0 +1,120 @@
+{
+ "stimulus": "U0741_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 22708
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999084,
+   "area_px": 5579
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999635,
+   "area_px": 87948
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.974295,
+   "area_px": 13814
+  },
+  {
+   "id": 4,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.712331,
+   "area_px": 8743
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.997355,
+   "area_px": 69578
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.996631,
+   "area_px": 1547
+  },
+  {
+   "id": 7,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994896,
+   "area_px": 49165
+  },
+  {
+   "id": 8,
+   "label": "truck",
+   "thing": true,
+   "score": 0.952482,
+   "area_px": 7655
+  },
+  {
+   "id": 9,
+   "label": "house",
+   "thing": false,
+   "score": 0.993456,
+   "area_px": 73291
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.999471,
+   "area_px": 2708
+  },
+  {
+   "id": 11,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999441,
+   "area_px": 19541
+  },
+  {
+   "id": 12,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.912553,
+   "area_px": 9514
+  },
+  {
+   "id": 13,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.996372,
+   "area_px": 1129
+  },
+  {
+   "id": 14,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999286,
+   "area_px": 105950
+  },
+  {
+   "id": 15,
+   "label": "roof",
+   "thing": false,
+   "score": 0.720646,
+   "area_px": 1130
+  }
+ ]
+}

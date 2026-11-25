@@ -1,0 +1,211 @@
+{
+ "stimulus": "U0191_1LBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5932
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.977672,
+   "area_px": 284
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.99196,
+   "area_px": 2850
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.978858,
+   "area_px": 724
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.912176,
+   "area_px": 125
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.984896,
+   "area_px": 926
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.931917,
+   "area_px": 87
+  },
+  {
+   "id": 7,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.986663,
+   "area_px": 65255
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.840243,
+   "area_px": 144
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.999694,
+   "area_px": 2554
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.980724,
+   "area_px": 8732
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.941229,
+   "area_px": 213
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.897048,
+   "area_px": 168
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.989928,
+   "area_px": 346
+  },
+  {
+   "id": 14,
+   "label": "road",
+   "thing": false,
+   "score": 0.997075,
+   "area_px": 58788
+  },
+  {
+   "id": 15,
+   "label": "person",
+   "thing": true,
+   "score": 0.965274,
+   "area_px": 227
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.997345,
+   "area_px": 21464
+  },
+  {
+   "id": 17,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.936664,
+   "area_px": 62
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.905309,
+   "area_px": 112
+  },
+  {
+   "id": 19,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.99457,
+   "area_px": 75499
+  },
+  {
+   "id": 20,
+   "label": "house",
+   "thing": false,
+   "score": 0.952954,
+   "area_px": 36232
+  },
+  {
+   "id": 21,
+   "label": "car",
+   "thing": true,
+   "score": 0.806385,
+   "area_px": 1078
+  },
+  {
+   "id": 22,
+   "label": "car",
+   "thing": true,
+   "score": 0.997517,
+   "area_px": 1561
+  },
+  {
+   "id": 23,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.981665,
+   "area_px": 9989
+  },
+  {
+   "id": 24,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999854,
+   "area_px": 74797
+  },
+  {
+   "id": 25,
+   "label": "car",
+   "thing": true,
+   "score": 0.998788,
+   "area_px": 3677
+  },
+  {
+   "id": 26,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.990681,
+   "area_px": 310
+  },
+  {
+   "id": 27,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998793,
+   "area_px": 107554
+  },
+  {
+   "id": 28,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.943303,
+   "area_px": 310
+  }
+ ]
+}

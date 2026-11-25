@@ -1,0 +1,99 @@
+{
+ "stimulus": "U1032_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 32594
+  },
+  {
+   "id": 1,
+   "label": "chair",
+   "thing": true,
+   "score": 0.997756,
+   "area_px": 1780
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.64994,
+   "area_px": 1581
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.994224,
+   "area_px": 180993
+  },
+  {
+   "id": 4,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.96642,
+   "area_px": 692
+  },
+  {
+   "id": 5,
+   "label": "chair",
+   "thing": true,
+   "score": 0.989706,
+   "area_px": 1410
+  },
+  {
+   "id": 6,
+   "label": "chair",
+   "thing": true,
+   "score": 0.995118,
+   "area_px": 606
+  },
+  {
+   "id": 7,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.849245,
+   "area_px": 8738
+  },
+  {
+   "id": 8,
+   "label": "house",
+   "thing": false,
+   "score": 0.944934,
+   "area_px": 140685
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.980042,
+   "area_px": 5987
+  },
+  {
+   "id": 10,
+   "label": "chair",
+   "thing": true,
+   "score": 0.993987,
+   "area_px": 1520
+  },
+  {
+   "id": 11,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998846,
+   "area_px": 41062
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998477,
+   "area_px": 62352
+  }
+ ]
+}

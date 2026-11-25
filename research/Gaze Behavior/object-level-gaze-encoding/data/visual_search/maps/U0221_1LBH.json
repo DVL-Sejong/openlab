@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0221_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 6692
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.994408,
+   "area_px": 1262
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999676,
+   "area_px": 21746
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.998976,
+   "area_px": 1397
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.985668,
+   "area_px": 341
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.967638,
+   "area_px": 266262
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.847565,
+   "area_px": 264
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.994958,
+   "area_px": 1413
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.999002,
+   "area_px": 665
+  },
+  {
+   "id": 9,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.761347,
+   "area_px": 83
+  },
+  {
+   "id": 10,
+   "label": "road",
+   "thing": false,
+   "score": 0.996106,
+   "area_px": 66720
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.995577,
+   "area_px": 2510
+  },
+  {
+   "id": 12,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.995575,
+   "area_px": 578
+  },
+  {
+   "id": 13,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.996138,
+   "area_px": 32777
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.990948,
+   "area_px": 369
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998774,
+   "area_px": 25792
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999215,
+   "area_px": 48602
+  },
+  {
+   "id": 17,
+   "label": "light",
+   "thing": false,
+   "score": 0.941273,
+   "area_px": 2527
+  }
+ ]
+}

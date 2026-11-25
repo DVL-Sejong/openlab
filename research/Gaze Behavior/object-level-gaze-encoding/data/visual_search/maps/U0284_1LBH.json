@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0284_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 16199
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.996474,
+   "area_px": 1655
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.992031,
+   "area_px": 3824
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.990648,
+   "area_px": 809
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.998357,
+   "area_px": 5683
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.996586,
+   "area_px": 22848
+  },
+  {
+   "id": 6,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.657023,
+   "area_px": 544
+  },
+  {
+   "id": 7,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.96818,
+   "area_px": 61973
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.955095,
+   "area_px": 539
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.99882,
+   "area_px": 1641
+  },
+  {
+   "id": 10,
+   "label": "road",
+   "thing": false,
+   "score": 0.998033,
+   "area_px": 331890
+  },
+  {
+   "id": 11,
+   "label": "person",
+   "thing": true,
+   "score": 0.972728,
+   "area_px": 333
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.999226,
+   "area_px": 5971
+  },
+  {
+   "id": 13,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.954046,
+   "area_px": 174
+  },
+  {
+   "id": 14,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.995985,
+   "area_px": 18601
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.998235,
+   "area_px": 2097
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.953063,
+   "area_px": 3420
+  },
+  {
+   "id": 17,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.80355,
+   "area_px": 293
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.96017,
+   "area_px": 615
+  },
+  {
+   "id": 19,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.962704,
+   "area_px": 891
+  }
+ ]
+}

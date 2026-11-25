@@ -1,0 +1,190 @@
+{
+ "stimulus": "U0378_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5845
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.997018,
+   "area_px": 335
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.988064,
+   "area_px": 198949
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.800783,
+   "area_px": 7509
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.968108,
+   "area_px": 126
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.974129,
+   "area_px": 399
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.999331,
+   "area_px": 985
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.998959,
+   "area_px": 4497
+  },
+  {
+   "id": 8,
+   "label": "suitcase",
+   "thing": true,
+   "score": 0.574221,
+   "area_px": 543
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.920589,
+   "area_px": 61
+  },
+  {
+   "id": 10,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.89376,
+   "area_px": 665
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.998534,
+   "area_px": 1650
+  },
+  {
+   "id": 12,
+   "label": "road",
+   "thing": false,
+   "score": 0.996426,
+   "area_px": 95076
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.984173,
+   "area_px": 691
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.991588,
+   "area_px": 506
+  },
+  {
+   "id": 15,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.993152,
+   "area_px": 71506
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.997258,
+   "area_px": 2926
+  },
+  {
+   "id": 17,
+   "label": "person",
+   "thing": true,
+   "score": 0.970042,
+   "area_px": 97
+  },
+  {
+   "id": 18,
+   "label": "bus",
+   "thing": true,
+   "score": 0.818462,
+   "area_px": 1554
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.9988,
+   "area_px": 2343
+  },
+  {
+   "id": 20,
+   "label": "car",
+   "thing": true,
+   "score": 0.997476,
+   "area_px": 1612
+  },
+  {
+   "id": 21,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999148,
+   "area_px": 51284
+  },
+  {
+   "id": 22,
+   "label": "suitcase",
+   "thing": true,
+   "score": 0.730854,
+   "area_px": 302
+  },
+  {
+   "id": 23,
+   "label": "car",
+   "thing": true,
+   "score": 0.997801,
+   "area_px": 846
+  },
+  {
+   "id": 24,
+   "label": "suitcase",
+   "thing": true,
+   "score": 0.940396,
+   "area_px": 541
+  },
+  {
+   "id": 25,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.992128,
+   "area_px": 29152
+  }
+ ]
+}

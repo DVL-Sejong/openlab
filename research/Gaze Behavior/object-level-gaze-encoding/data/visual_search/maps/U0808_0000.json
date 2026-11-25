@@ -1,0 +1,120 @@
+{
+ "stimulus": "U0808_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 2247
+  },
+  {
+   "id": 1,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.981041,
+   "area_px": 242
+  },
+  {
+   "id": 2,
+   "label": "chair",
+   "thing": true,
+   "score": 0.83354,
+   "area_px": 151
+  },
+  {
+   "id": 3,
+   "label": "chair",
+   "thing": true,
+   "score": 0.910989,
+   "area_px": 193
+  },
+  {
+   "id": 4,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.988858,
+   "area_px": 296
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.989396,
+   "area_px": 183247
+  },
+  {
+   "id": 6,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.997229,
+   "area_px": 130670
+  },
+  {
+   "id": 7,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.98921,
+   "area_px": 485
+  },
+  {
+   "id": 8,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.961467,
+   "area_px": 337
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.993423,
+   "area_px": 19705
+  },
+  {
+   "id": 10,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.928665,
+   "area_px": 4316
+  },
+  {
+   "id": 11,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.958753,
+   "area_px": 852
+  },
+  {
+   "id": 12,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.758039,
+   "area_px": 358
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998249,
+   "area_px": 10348
+  },
+  {
+   "id": 14,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.89056,
+   "area_px": 1372
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998724,
+   "area_px": 125181
+  }
+ ]
+}

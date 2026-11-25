@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0627_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 27048
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999668,
+   "area_px": 10373
+  },
+  {
+   "id": 2,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.59098,
+   "area_px": 675
+  },
+  {
+   "id": 3,
+   "label": "flower",
+   "thing": false,
+   "score": 0.90762,
+   "area_px": 13139
+  },
+  {
+   "id": 4,
+   "label": "bench",
+   "thing": true,
+   "score": 0.621711,
+   "area_px": 786
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.994546,
+   "area_px": 112385
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.988495,
+   "area_px": 11440
+  },
+  {
+   "id": 7,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.955441,
+   "area_px": 9722
+  },
+  {
+   "id": 8,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.675085,
+   "area_px": 630
+  },
+  {
+   "id": 9,
+   "label": "house",
+   "thing": false,
+   "score": 0.992595,
+   "area_px": 136501
+  },
+  {
+   "id": 10,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.975786,
+   "area_px": 2206
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.811121,
+   "area_px": 4087
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999459,
+   "area_px": 97036
+  },
+  {
+   "id": 13,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995998,
+   "area_px": 53972
+  }
+ ]
+}

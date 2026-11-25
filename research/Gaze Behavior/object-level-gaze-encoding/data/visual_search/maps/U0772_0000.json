@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0772_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 9323
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.98948,
+   "area_px": 541
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.996207,
+   "area_px": 1206
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.989676,
+   "area_px": 2051
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.986923,
+   "area_px": 7616
+  },
+  {
+   "id": 5,
+   "label": "banner",
+   "thing": false,
+   "score": 0.890274,
+   "area_px": 3455
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.985876,
+   "area_px": 83186
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.907118,
+   "area_px": 183
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.999395,
+   "area_px": 10247
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.998459,
+   "area_px": 177929
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.985978,
+   "area_px": 8319
+  },
+  {
+   "id": 11,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.953624,
+   "area_px": 8026
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.906478,
+   "area_px": 156
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.992416,
+   "area_px": 21962
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.99252,
+   "area_px": 1066
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999277,
+   "area_px": 48648
+  },
+  {
+   "id": 16,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.951925,
+   "area_px": 5798
+  },
+  {
+   "id": 17,
+   "label": "car",
+   "thing": true,
+   "score": 0.999442,
+   "area_px": 3295
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.938665,
+   "area_px": 271
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.997577,
+   "area_px": 796
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999536,
+   "area_px": 85926
+  }
+ ]
+}

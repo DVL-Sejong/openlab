@@ -1,0 +1,113 @@
+{
+ "stimulus": "U0230_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 8758
+  },
+  {
+   "id": 1,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.997823,
+   "area_px": 712
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999026,
+   "area_px": 8823
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.985934,
+   "area_px": 200658
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.981158,
+   "area_px": 308
+  },
+  {
+   "id": 5,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.830588,
+   "area_px": 1477
+  },
+  {
+   "id": 6,
+   "label": "dog",
+   "thing": true,
+   "score": 0.796468,
+   "area_px": 198
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.9974,
+   "area_px": 104302
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.998847,
+   "area_px": 4891
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.990439,
+   "area_px": 20038
+  },
+  {
+   "id": 10,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.956709,
+   "area_px": 1535
+  },
+  {
+   "id": 11,
+   "label": "bench",
+   "thing": true,
+   "score": 0.988886,
+   "area_px": 1275
+  },
+  {
+   "id": 12,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.982724,
+   "area_px": 16213
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998391,
+   "area_px": 6758
+  },
+  {
+   "id": 14,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.990853,
+   "area_px": 104054
+  }
+ ]
+}

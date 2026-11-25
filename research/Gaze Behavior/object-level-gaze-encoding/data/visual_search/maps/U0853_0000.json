@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0853_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 43175
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.990734,
+   "area_px": 916
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.990596,
+   "area_px": 14706
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.98081,
+   "area_px": 1687
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.985265,
+   "area_px": 44630
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.98085,
+   "area_px": 3271
+  },
+  {
+   "id": 6,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.919973,
+   "area_px": 35555
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.993321,
+   "area_px": 27571
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.993549,
+   "area_px": 1498
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.990767,
+   "area_px": 153479
+  },
+  {
+   "id": 10,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.978197,
+   "area_px": 107
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.892811,
+   "area_px": 9237
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999109,
+   "area_px": 57376
+  },
+  {
+   "id": 13,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.866795,
+   "area_px": 5269
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.998933,
+   "area_px": 665
+  },
+  {
+   "id": 15,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.958105,
+   "area_px": 16167
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998576,
+   "area_px": 64691
+  }
+ ]
+}

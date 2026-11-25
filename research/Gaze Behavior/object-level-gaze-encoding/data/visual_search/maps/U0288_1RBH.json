@@ -1,0 +1,50 @@
+{
+ "stimulus": "U0288_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 23637
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.991168,
+   "area_px": 335448
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.976311,
+   "area_px": 242
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.995636,
+   "area_px": 96136
+  },
+  {
+   "id": 4,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.960678,
+   "area_px": 594
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991883,
+   "area_px": 23943
+  }
+ ]
+}

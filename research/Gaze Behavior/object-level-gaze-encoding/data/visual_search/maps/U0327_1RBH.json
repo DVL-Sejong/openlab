@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0327_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 234923
+  },
+  {
+   "id": 1,
+   "label": "bird",
+   "thing": true,
+   "score": 0.733222,
+   "area_px": 118
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.736858,
+   "area_px": 2319
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.84844,
+   "area_px": 693
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.988256,
+   "area_px": 124717
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.97663,
+   "area_px": 1060
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.996475,
+   "area_px": 1605
+  },
+  {
+   "id": 7,
+   "label": "bird",
+   "thing": true,
+   "score": 0.907794,
+   "area_px": 237
+  },
+  {
+   "id": 8,
+   "label": "bird",
+   "thing": true,
+   "score": 0.850419,
+   "area_px": 202
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.906879,
+   "area_px": 3001
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.921358,
+   "area_px": 2053
+  },
+  {
+   "id": 11,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.833694,
+   "area_px": 15952
+  },
+  {
+   "id": 12,
+   "label": "bird",
+   "thing": true,
+   "score": 0.945777,
+   "area_px": 261
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.98778,
+   "area_px": 995
+  },
+  {
+   "id": 14,
+   "label": "bird",
+   "thing": true,
+   "score": 0.961413,
+   "area_px": 140
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998919,
+   "area_px": 34872
+  },
+  {
+   "id": 16,
+   "label": "bird",
+   "thing": true,
+   "score": 0.968844,
+   "area_px": 188
+  },
+  {
+   "id": 17,
+   "label": "bird",
+   "thing": true,
+   "score": 0.930586,
+   "area_px": 119
+  },
+  {
+   "id": 18,
+   "label": "bird",
+   "thing": true,
+   "score": 0.897523,
+   "area_px": 98
+  },
+  {
+   "id": 19,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997492,
+   "area_px": 56447
+  }
+ ]
+}

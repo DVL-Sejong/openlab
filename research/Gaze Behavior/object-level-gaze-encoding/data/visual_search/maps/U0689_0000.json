@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0689_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 61080
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.994573,
+   "area_px": 633
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.828746,
+   "area_px": 114
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.902266,
+   "area_px": 29268
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.924419,
+   "area_px": 166561
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.893641,
+   "area_px": 115
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.994205,
+   "area_px": 14856
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.978602,
+   "area_px": 5448
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.962647,
+   "area_px": 706
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.902578,
+   "area_px": 98
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.90908,
+   "area_px": 72895
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.983177,
+   "area_px": 417
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.857855,
+   "area_px": 101
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.997288,
+   "area_px": 2277
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.998832,
+   "area_px": 1240
+  },
+  {
+   "id": 15,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.929845,
+   "area_px": 1534
+  },
+  {
+   "id": 16,
+   "label": "motorcycle",
+   "thing": true,
+   "score": 0.998674,
+   "area_px": 2524
+  },
+  {
+   "id": 17,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998613,
+   "area_px": 120133
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "stimulus": "U0940_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 26812
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.967749,
+   "area_px": 73880
+  },
+  {
+   "id": 2,
+   "label": "truck",
+   "thing": true,
+   "score": 0.947082,
+   "area_px": 8335
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.994273,
+   "area_px": 16570
+  },
+  {
+   "id": 4,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.979556,
+   "area_px": 12829
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.969799,
+   "area_px": 302
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.945012,
+   "area_px": 256417
+  },
+  {
+   "id": 7,
+   "label": "truck",
+   "thing": true,
+   "score": 0.576628,
+   "area_px": 2970
+  },
+  {
+   "id": 8,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.6331,
+   "area_px": 3747
+  },
+  {
+   "id": 9,
+   "label": "railroad",
+   "thing": false,
+   "score": 0.936899,
+   "area_px": 78138
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0835_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 42020
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.873807,
+   "area_px": 553
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.943906,
+   "area_px": 48124
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.90214,
+   "area_px": 7998
+  },
+  {
+   "id": 4,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.935193,
+   "area_px": 2816
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.986567,
+   "area_px": 118374
+  },
+  {
+   "id": 6,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.956684,
+   "area_px": 20451
+  },
+  {
+   "id": 7,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.954241,
+   "area_px": 24561
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99903,
+   "area_px": 144617
+  },
+  {
+   "id": 9,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.884349,
+   "area_px": 20180
+  },
+  {
+   "id": 10,
+   "label": "roof",
+   "thing": false,
+   "score": 0.965476,
+   "area_px": 44581
+  },
+  {
+   "id": 11,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.970147,
+   "area_px": 5725
+  }
+ ]
+}

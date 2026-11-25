@@ -1,0 +1,183 @@
+{
+ "stimulus": "U0887_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 105269
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.9457,
+   "area_px": 214
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.832323,
+   "area_px": 318
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.998809,
+   "area_px": 7138
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.99888,
+   "area_px": 1695
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.844043,
+   "area_px": 189
+  },
+  {
+   "id": 6,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.990269,
+   "area_px": 317
+  },
+  {
+   "id": 7,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.953896,
+   "area_px": 215
+  },
+  {
+   "id": 8,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.907163,
+   "area_px": 99
+  },
+  {
+   "id": 9,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.616331,
+   "area_px": 218
+  },
+  {
+   "id": 10,
+   "label": "road",
+   "thing": false,
+   "score": 0.992524,
+   "area_px": 21916
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.998891,
+   "area_px": 4064
+  },
+  {
+   "id": 12,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.996072,
+   "area_px": 216
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.966716,
+   "area_px": 83
+  },
+  {
+   "id": 14,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.989949,
+   "area_px": 108047
+  },
+  {
+   "id": 15,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.987411,
+   "area_px": 475
+  },
+  {
+   "id": 16,
+   "label": "truck",
+   "thing": true,
+   "score": 0.936639,
+   "area_px": 1936
+  },
+  {
+   "id": 17,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.968247,
+   "area_px": 679
+  },
+  {
+   "id": 18,
+   "label": "car",
+   "thing": true,
+   "score": 0.963483,
+   "area_px": 219
+  },
+  {
+   "id": 19,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999622,
+   "area_px": 96414
+  },
+  {
+   "id": 20,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.914751,
+   "area_px": 1397
+  },
+  {
+   "id": 21,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.770928,
+   "area_px": 255
+  },
+  {
+   "id": 22,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.857677,
+   "area_px": 269
+  },
+  {
+   "id": 23,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.944588,
+   "area_px": 208
+  },
+  {
+   "id": 24,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999262,
+   "area_px": 128150
+  }
+ ]
+}

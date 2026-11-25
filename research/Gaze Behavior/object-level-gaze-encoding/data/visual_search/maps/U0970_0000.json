@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0970_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 9816
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.931095,
+   "area_px": 330
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.99383,
+   "area_px": 731
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.996704,
+   "area_px": 2796
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.9991,
+   "area_px": 5696
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.950136,
+   "area_px": 10189
+  },
+  {
+   "id": 6,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.934335,
+   "area_px": 3851
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.994998,
+   "area_px": 136698
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.994547,
+   "area_px": 454
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.964707,
+   "area_px": 37247
+  },
+  {
+   "id": 10,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.922656,
+   "area_px": 222
+  },
+  {
+   "id": 11,
+   "label": "house",
+   "thing": false,
+   "score": 0.981411,
+   "area_px": 14372
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.946755,
+   "area_px": 300
+  },
+  {
+   "id": 13,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.925609,
+   "area_px": 15046
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999482,
+   "area_px": 87519
+  },
+  {
+   "id": 15,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.999331,
+   "area_px": 139992
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995818,
+   "area_px": 14741
+  }
+ ]
+}

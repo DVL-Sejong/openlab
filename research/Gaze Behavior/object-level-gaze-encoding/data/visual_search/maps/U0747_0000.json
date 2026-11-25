@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0747_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 19358
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.981824,
+   "area_px": 322
+  },
+  {
+   "id": 2,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.986482,
+   "area_px": 33137
+  },
+  {
+   "id": 3,
+   "label": "road",
+   "thing": false,
+   "score": 0.995173,
+   "area_px": 172994
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.977359,
+   "area_px": 1044
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.995258,
+   "area_px": 73340
+  },
+  {
+   "id": 6,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.880033,
+   "area_px": 3351
+  },
+  {
+   "id": 7,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.994554,
+   "area_px": 101995
+  },
+  {
+   "id": 8,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999591,
+   "area_px": 74459
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "stimulus": "U0885_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 43206
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.789513,
+   "area_px": 597
+  },
+  {
+   "id": 2,
+   "label": "bench",
+   "thing": true,
+   "score": 0.975832,
+   "area_px": 1004
+  },
+  {
+   "id": 3,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.811634,
+   "area_px": 9254
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.975645,
+   "area_px": 308920
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.836527,
+   "area_px": 6111
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.981299,
+   "area_px": 86503
+  },
+  {
+   "id": 7,
+   "label": "bench",
+   "thing": true,
+   "score": 0.989573,
+   "area_px": 2703
+  },
+  {
+   "id": 8,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.800335,
+   "area_px": 13723
+  },
+  {
+   "id": 9,
+   "label": "bench",
+   "thing": true,
+   "score": 0.908805,
+   "area_px": 1664
+  },
+  {
+   "id": 10,
+   "label": "light",
+   "thing": false,
+   "score": 0.919591,
+   "area_px": 6315
+  }
+ ]
+}

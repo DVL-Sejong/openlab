@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0343_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 3730
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.982877,
+   "area_px": 289
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.991191,
+   "area_px": 377
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.997141,
+   "area_px": 732
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.99558,
+   "area_px": 2008
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990803,
+   "area_px": 313914
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.998405,
+   "area_px": 1243
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.993652,
+   "area_px": 16236
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.96793,
+   "area_px": 4026
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.972736,
+   "area_px": 118
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.996208,
+   "area_px": 2413
+  },
+  {
+   "id": 11,
+   "label": "road",
+   "thing": false,
+   "score": 0.996318,
+   "area_px": 66396
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.995387,
+   "area_px": 344
+  },
+  {
+   "id": 13,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.973791,
+   "area_px": 17760
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.932762,
+   "area_px": 169
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.994106,
+   "area_px": 5926
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.997979,
+   "area_px": 1226
+  },
+  {
+   "id": 17,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998879,
+   "area_px": 40163
+  },
+  {
+   "id": 18,
+   "label": "roof",
+   "thing": false,
+   "score": 0.921103,
+   "area_px": 2930
+  }
+ ]
+}

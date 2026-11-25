@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0203_1RTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 22248
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.996082,
+   "area_px": 22535
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.946257,
+   "area_px": 86209
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.999646,
+   "area_px": 3133
+  },
+  {
+   "id": 4,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.952607,
+   "area_px": 7538
+  },
+  {
+   "id": 5,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.983088,
+   "area_px": 5763
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.998322,
+   "area_px": 296720
+  },
+  {
+   "id": 7,
+   "label": "couch",
+   "thing": true,
+   "score": 0.671244,
+   "area_px": 3524
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.993512,
+   "area_px": 24615
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.998897,
+   "area_px": 1948
+  },
+  {
+   "id": 10,
+   "label": "chair",
+   "thing": true,
+   "score": 0.933531,
+   "area_px": 1735
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.892145,
+   "area_px": 1725
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.915816,
+   "area_px": 2307
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0823_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 134466
+  },
+  {
+   "id": 1,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.856361,
+   "area_px": 2823
+  },
+  {
+   "id": 2,
+   "label": "truck",
+   "thing": true,
+   "score": 0.958779,
+   "area_px": 16736
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.91056,
+   "area_px": 4813
+  },
+  {
+   "id": 4,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.929694,
+   "area_px": 244258
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.99808,
+   "area_px": 3433
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.999699,
+   "area_px": 6888
+  },
+  {
+   "id": 7,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99924,
+   "area_px": 65074
+  },
+  {
+   "id": 8,
+   "label": "truck",
+   "thing": true,
+   "score": 0.911689,
+   "area_px": 1509
+  }
+ ]
+}

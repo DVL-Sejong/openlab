@@ -1,0 +1,162 @@
+{
+ "stimulus": "U0480_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 9980
+  },
+  {
+   "id": 1,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.986645,
+   "area_px": 2294
+  },
+  {
+   "id": 2,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.95273,
+   "area_px": 1361
+  },
+  {
+   "id": 3,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.99578,
+   "area_px": 3178
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.955168,
+   "area_px": 22755
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.959111,
+   "area_px": 1226
+  },
+  {
+   "id": 6,
+   "label": "bench",
+   "thing": true,
+   "score": 0.853424,
+   "area_px": 506
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.997294,
+   "area_px": 912
+  },
+  {
+   "id": 8,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.996866,
+   "area_px": 5030
+  },
+  {
+   "id": 9,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.987361,
+   "area_px": 3774
+  },
+  {
+   "id": 10,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.980636,
+   "area_px": 2842
+  },
+  {
+   "id": 11,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.995375,
+   "area_px": 2765
+  },
+  {
+   "id": 12,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.982916,
+   "area_px": 244641
+  },
+  {
+   "id": 13,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.97584,
+   "area_px": 1684
+  },
+  {
+   "id": 14,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.934236,
+   "area_px": 1733
+  },
+  {
+   "id": 15,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.980794,
+   "area_px": 983
+  },
+  {
+   "id": 16,
+   "label": "bench",
+   "thing": true,
+   "score": 0.896,
+   "area_px": 200
+  },
+  {
+   "id": 17,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.929575,
+   "area_px": 1506
+  },
+  {
+   "id": 18,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.749305,
+   "area_px": 170
+  },
+  {
+   "id": 19,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.992551,
+   "area_px": 4486
+  },
+  {
+   "id": 20,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.996131,
+   "area_px": 3690
+  },
+  {
+   "id": 21,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999463,
+   "area_px": 164284
+  }
+ ]
+}

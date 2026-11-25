@@ -1,0 +1,85 @@
+{
+ "stimulus": "U0646_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 997
+  },
+  {
+   "id": 1,
+   "label": "bridge",
+   "thing": false,
+   "score": 0.957651,
+   "area_px": 5058
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.994125,
+   "area_px": 15168
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.996214,
+   "area_px": 234447
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.828144,
+   "area_px": 222
+  },
+  {
+   "id": 5,
+   "label": "river",
+   "thing": false,
+   "score": 0.951694,
+   "area_px": 6780
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.96772,
+   "area_px": 13669
+  },
+  {
+   "id": 7,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.729033,
+   "area_px": 901
+  },
+  {
+   "id": 8,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.986136,
+   "area_px": 13316
+  },
+  {
+   "id": 9,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999591,
+   "area_px": 105928
+  },
+  {
+   "id": 10,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999172,
+   "area_px": 83514
+  }
+ ]
+}

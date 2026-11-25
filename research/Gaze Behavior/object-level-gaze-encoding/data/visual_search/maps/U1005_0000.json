@@ -1,0 +1,43 @@
+{
+ "stimulus": "U1005_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 15096
+  },
+  {
+   "id": 1,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.996612,
+   "area_px": 172507
+  },
+  {
+   "id": 2,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.910233,
+   "area_px": 8749
+  },
+  {
+   "id": 3,
+   "label": "tent",
+   "thing": false,
+   "score": 0.95829,
+   "area_px": 13246
+  },
+  {
+   "id": 4,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999187,
+   "area_px": 270402
+  }
+ ]
+}

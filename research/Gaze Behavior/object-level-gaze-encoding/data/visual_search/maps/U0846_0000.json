@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0846_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 98343
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999002,
+   "area_px": 4394
+  },
+  {
+   "id": 2,
+   "label": "bench",
+   "thing": true,
+   "score": 0.993288,
+   "area_px": 7285
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.999376,
+   "area_px": 6194
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.971974,
+   "area_px": 134934
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.997646,
+   "area_px": 13890
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.939752,
+   "area_px": 5532
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.996015,
+   "area_px": 13563
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.996918,
+   "area_px": 2934
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.99928,
+   "area_px": 4482
+  },
+  {
+   "id": 10,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.991975,
+   "area_px": 22199
+  },
+  {
+   "id": 11,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.944877,
+   "area_px": 42842
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998211,
+   "area_px": 116585
+  },
+  {
+   "id": 13,
+   "label": "bench",
+   "thing": true,
+   "score": 0.969043,
+   "area_px": 6823
+  }
+ ]
+}

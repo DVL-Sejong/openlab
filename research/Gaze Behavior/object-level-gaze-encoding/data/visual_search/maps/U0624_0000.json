@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0624_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 65272
+  },
+  {
+   "id": 1,
+   "label": "boat",
+   "thing": true,
+   "score": 0.971747,
+   "area_px": 692
+  },
+  {
+   "id": 2,
+   "label": "boat",
+   "thing": true,
+   "score": 0.907142,
+   "area_px": 351
+  },
+  {
+   "id": 3,
+   "label": "boat",
+   "thing": true,
+   "score": 0.99288,
+   "area_px": 651
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.983494,
+   "area_px": 52230
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.981268,
+   "area_px": 3525
+  },
+  {
+   "id": 6,
+   "label": "boat",
+   "thing": true,
+   "score": 0.869698,
+   "area_px": 705
+  },
+  {
+   "id": 7,
+   "label": "river",
+   "thing": false,
+   "score": 0.875978,
+   "area_px": 74697
+  },
+  {
+   "id": 8,
+   "label": "boat",
+   "thing": true,
+   "score": 0.98637,
+   "area_px": 746
+  },
+  {
+   "id": 9,
+   "label": "boat",
+   "thing": true,
+   "score": 0.945885,
+   "area_px": 475
+  },
+  {
+   "id": 10,
+   "label": "road",
+   "thing": false,
+   "score": 0.865628,
+   "area_px": 3640
+  },
+  {
+   "id": 11,
+   "label": "boat",
+   "thing": true,
+   "score": 0.886242,
+   "area_px": 8471
+  },
+  {
+   "id": 12,
+   "label": "boat",
+   "thing": true,
+   "score": 0.961946,
+   "area_px": 4872
+  },
+  {
+   "id": 13,
+   "label": "boat",
+   "thing": true,
+   "score": 0.851899,
+   "area_px": 187
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999591,
+   "area_px": 204163
+  },
+  {
+   "id": 15,
+   "label": "boat",
+   "thing": true,
+   "score": 0.982748,
+   "area_px": 32214
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.924652,
+   "area_px": 27109
+  }
+ ]
+}

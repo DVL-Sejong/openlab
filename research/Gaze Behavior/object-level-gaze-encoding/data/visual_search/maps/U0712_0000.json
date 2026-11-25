@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0712_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 4862
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.997237,
+   "area_px": 2052
+  },
+  {
+   "id": 2,
+   "label": "road",
+   "thing": false,
+   "score": 0.996783,
+   "area_px": 122756
+  },
+  {
+   "id": 3,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.583162,
+   "area_px": 913
+  },
+  {
+   "id": 4,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.784278,
+   "area_px": 283
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.982304,
+   "area_px": 18414
+  },
+  {
+   "id": 6,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.886843,
+   "area_px": 1237
+  },
+  {
+   "id": 7,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.821627,
+   "area_px": 3672
+  },
+  {
+   "id": 8,
+   "label": "house",
+   "thing": false,
+   "score": 0.987686,
+   "area_px": 54455
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.951435,
+   "area_px": 180
+  },
+  {
+   "id": 10,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99967,
+   "area_px": 61328
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.771283,
+   "area_px": 67
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997941,
+   "area_px": 209781
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "stimulus": "U0725_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 18135
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.99668,
+   "area_px": 844
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.970823,
+   "area_px": 689
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.999575,
+   "area_px": 7493
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.990528,
+   "area_px": 13728
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.942719,
+   "area_px": 264
+  },
+  {
+   "id": 6,
+   "label": "water-other",
+   "thing": false,
+   "score": 0.814078,
+   "area_px": 3216
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.997125,
+   "area_px": 184185
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.99896,
+   "area_px": 1018
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.995124,
+   "area_px": 33988
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.950155,
+   "area_px": 385
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.933809,
+   "area_px": 331
+  },
+  {
+   "id": 12,
+   "label": "house",
+   "thing": false,
+   "score": 0.948962,
+   "area_px": 36375
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.983971,
+   "area_px": 934
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.994,
+   "area_px": 1502
+  },
+  {
+   "id": 15,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.980002,
+   "area_px": 29938
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998896,
+   "area_px": 5062
+  },
+  {
+   "id": 17,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.999534,
+   "area_px": 1367
+  },
+  {
+   "id": 18,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999616,
+   "area_px": 140546
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0961_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 33014
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.912306,
+   "area_px": 443
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.983602,
+   "area_px": 223
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.776707,
+   "area_px": 254
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.877273,
+   "area_px": 156
+  },
+  {
+   "id": 5,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.786683,
+   "area_px": 959
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.981543,
+   "area_px": 58568
+  },
+  {
+   "id": 7,
+   "label": "truck",
+   "thing": true,
+   "score": 0.978766,
+   "area_px": 1387
+  },
+  {
+   "id": 8,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.995204,
+   "area_px": 71176
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.799818,
+   "area_px": 137
+  },
+  {
+   "id": 10,
+   "label": "road",
+   "thing": false,
+   "score": 0.994774,
+   "area_px": 46798
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.999417,
+   "area_px": 1771
+  },
+  {
+   "id": 12,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.993902,
+   "area_px": 63924
+  },
+  {
+   "id": 13,
+   "label": "truck",
+   "thing": true,
+   "score": 0.897379,
+   "area_px": 719
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999547,
+   "area_px": 70190
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.998409,
+   "area_px": 583
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999214,
+   "area_px": 129698
+  }
+ ]
+}

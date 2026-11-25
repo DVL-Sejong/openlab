@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0466_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 1974
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.995927,
+   "area_px": 202813
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.999467,
+   "area_px": 2025
+  },
+  {
+   "id": 3,
+   "label": "dog",
+   "thing": true,
+   "score": 0.987449,
+   "area_px": 346
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.995198,
+   "area_px": 871
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998767,
+   "area_px": 1701
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991721,
+   "area_px": 160075
+  },
+  {
+   "id": 7,
+   "label": "bench",
+   "thing": true,
+   "score": 0.968081,
+   "area_px": 399
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.997772,
+   "area_px": 51206
+  },
+  {
+   "id": 9,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.997786,
+   "area_px": 35008
+  },
+  {
+   "id": 10,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.986424,
+   "area_px": 20323
+  },
+  {
+   "id": 11,
+   "label": "bench",
+   "thing": true,
+   "score": 0.880596,
+   "area_px": 254
+  },
+  {
+   "id": 12,
+   "label": "bench",
+   "thing": true,
+   "score": 0.998837,
+   "area_px": 3005
+  }
+ ]
+}

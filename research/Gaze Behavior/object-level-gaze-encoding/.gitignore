@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/visual_search/Dataset_EyeData*
+data/visual_search/eyeData/
+data/*/gaze/
+data/*/observations.csv

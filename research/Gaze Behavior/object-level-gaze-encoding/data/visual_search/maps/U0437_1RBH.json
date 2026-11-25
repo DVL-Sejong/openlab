@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0437_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 3343
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.966852,
+   "area_px": 230
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.997054,
+   "area_px": 197993
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.977705,
+   "area_px": 322
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.940815,
+   "area_px": 333
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.976423,
+   "area_px": 776
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.989018,
+   "area_px": 67009
+  },
+  {
+   "id": 7,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.977667,
+   "area_px": 21430
+  },
+  {
+   "id": 8,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998863,
+   "area_px": 188564
+  }
+ ]
+}

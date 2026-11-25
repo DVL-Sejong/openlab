@@ -1,0 +1,183 @@
+{
+ "stimulus": "U0847_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 25381
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.945758,
+   "area_px": 664
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.997322,
+   "area_px": 5705
+  },
+  {
+   "id": 3,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.876939,
+   "area_px": 169
+  },
+  {
+   "id": 4,
+   "label": "chair",
+   "thing": true,
+   "score": 0.821064,
+   "area_px": 246
+  },
+  {
+   "id": 5,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.926786,
+   "area_px": 411
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.998481,
+   "area_px": 3444
+  },
+  {
+   "id": 7,
+   "label": "chair",
+   "thing": true,
+   "score": 0.966424,
+   "area_px": 148
+  },
+  {
+   "id": 8,
+   "label": "banner",
+   "thing": false,
+   "score": 0.803146,
+   "area_px": 16849
+  },
+  {
+   "id": 9,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.994042,
+   "area_px": 247924
+  },
+  {
+   "id": 10,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.797794,
+   "area_px": 301
+  },
+  {
+   "id": 11,
+   "label": "ceiling-merged",
+   "thing": false,
+   "score": 0.928467,
+   "area_px": 12093
+  },
+  {
+   "id": 12,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.843028,
+   "area_px": 507
+  },
+  {
+   "id": 13,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.836986,
+   "area_px": 55
+  },
+  {
+   "id": 14,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.983916,
+   "area_px": 117377
+  },
+  {
+   "id": 15,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.972318,
+   "area_px": 378
+  },
+  {
+   "id": 16,
+   "label": "chair",
+   "thing": true,
+   "score": 0.946685,
+   "area_px": 143
+  },
+  {
+   "id": 17,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.99803,
+   "area_px": 3098
+  },
+  {
+   "id": 18,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.997742,
+   "area_px": 14701
+  },
+  {
+   "id": 19,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.945339,
+   "area_px": 431
+  },
+  {
+   "id": 20,
+   "label": "umbrella",
+   "thing": true,
+   "score": 0.958754,
+   "area_px": 681
+  },
+  {
+   "id": 21,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.864531,
+   "area_px": 214
+  },
+  {
+   "id": 22,
+   "label": "dining table",
+   "thing": true,
+   "score": 0.97301,
+   "area_px": 734
+  },
+  {
+   "id": 23,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.987089,
+   "area_px": 24805
+  },
+  {
+   "id": 24,
+   "label": "light",
+   "thing": false,
+   "score": 0.952648,
+   "area_px": 3541
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "stimulus": "U0923_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 2040
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.997905,
+   "area_px": 2368
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.986132,
+   "area_px": 724
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.998655,
+   "area_px": 5266
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.960306,
+   "area_px": 28216
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.949739,
+   "area_px": 109
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.995946,
+   "area_px": 431
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.996979,
+   "area_px": 5009
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.996844,
+   "area_px": 168303
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.959528,
+   "area_px": 31292
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.924772,
+   "area_px": 733
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.997364,
+   "area_px": 13934
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.998636,
+   "area_px": 2068
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999406,
+   "area_px": 13514
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.95962,
+   "area_px": 8695
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.999219,
+   "area_px": 1194
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.955533,
+   "area_px": 116
+  },
+  {
+   "id": 17,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999666,
+   "area_px": 195988
+  }
+ ]
+}

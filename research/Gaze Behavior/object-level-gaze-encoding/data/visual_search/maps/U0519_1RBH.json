@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0519_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 10497
+  },
+  {
+   "id": 1,
+   "label": "person",
+   "thing": true,
+   "score": 0.967788,
+   "area_px": 132
+  },
+  {
+   "id": 2,
+   "label": "person",
+   "thing": true,
+   "score": 0.585247,
+   "area_px": 139
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.963678,
+   "area_px": 338
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.98531,
+   "area_px": 124968
+  },
+  {
+   "id": 5,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.828548,
+   "area_px": 669
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.977512,
+   "area_px": 199
+  },
+  {
+   "id": 7,
+   "label": "motorcycle",
+   "thing": true,
+   "score": 0.994084,
+   "area_px": 1081
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.979255,
+   "area_px": 209
+  },
+  {
+   "id": 9,
+   "label": "road",
+   "thing": false,
+   "score": 0.993198,
+   "area_px": 70471
+  },
+  {
+   "id": 10,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.993991,
+   "area_px": 290
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.987009,
+   "area_px": 100238
+  },
+  {
+   "id": 12,
+   "label": "motorcycle",
+   "thing": true,
+   "score": 0.985935,
+   "area_px": 771
+  },
+  {
+   "id": 13,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.995508,
+   "area_px": 286
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998842,
+   "area_px": 7564
+  },
+  {
+   "id": 15,
+   "label": "person",
+   "thing": true,
+   "score": 0.587212,
+   "area_px": 80
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999361,
+   "area_px": 162068
+  }
+ ]
+}

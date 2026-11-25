@@ -1,0 +1,36 @@
+{
+ "stimulus": "U0812_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 42895
+  },
+  {
+   "id": 1,
+   "label": "sand",
+   "thing": false,
+   "score": 0.889497,
+   "area_px": 124965
+  },
+  {
+   "id": 2,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.982884,
+   "area_px": 71996
+  },
+  {
+   "id": 3,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997981,
+   "area_px": 240144
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "stimulus": "U1023_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 2570
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.995198,
+   "area_px": 67593
+  },
+  {
+   "id": 2,
+   "label": "truck",
+   "thing": true,
+   "score": 0.997386,
+   "area_px": 8696
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.997727,
+   "area_px": 5001
+  },
+  {
+   "id": 4,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.972833,
+   "area_px": 192464
+  },
+  {
+   "id": 5,
+   "label": "road",
+   "thing": false,
+   "score": 0.974177,
+   "area_px": 1338
+  },
+  {
+   "id": 6,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.977538,
+   "area_px": 12280
+  },
+  {
+   "id": 7,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.998753,
+   "area_px": 97201
+  },
+  {
+   "id": 8,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999522,
+   "area_px": 92857
+  }
+ ]
+}

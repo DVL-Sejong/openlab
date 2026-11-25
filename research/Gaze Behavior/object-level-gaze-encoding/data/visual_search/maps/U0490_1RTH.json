@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0490_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 33737
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.815697,
+   "area_px": 147
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999409,
+   "area_px": 6914
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.826851,
+   "area_px": 466
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.993555,
+   "area_px": 440
+  },
+  {
+   "id": 5,
+   "label": "flower",
+   "thing": false,
+   "score": 0.898498,
+   "area_px": 10497
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.987896,
+   "area_px": 969
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.98896,
+   "area_px": 275094
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.997745,
+   "area_px": 2103
+  },
+  {
+   "id": 9,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.977318,
+   "area_px": 201
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991683,
+   "area_px": 55346
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.953225,
+   "area_px": 220
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.971585,
+   "area_px": 1087
+  },
+  {
+   "id": 13,
+   "label": "car",
+   "thing": true,
+   "score": 0.977609,
+   "area_px": 2237
+  },
+  {
+   "id": 14,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.971483,
+   "area_px": 10121
+  },
+  {
+   "id": 15,
+   "label": "window-other",
+   "thing": false,
+   "score": 0.893462,
+   "area_px": 11320
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998062,
+   "area_px": 69101
+  }
+ ]
+}

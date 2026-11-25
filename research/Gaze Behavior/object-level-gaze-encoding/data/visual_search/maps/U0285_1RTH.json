@@ -1,0 +1,71 @@
+{
+ "stimulus": "U0285_1RTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 64713
+  },
+  {
+   "id": 1,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.615954,
+   "area_px": 416
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.961754,
+   "area_px": 31926
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.987813,
+   "area_px": 6450
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.999497,
+   "area_px": 2038
+  },
+  {
+   "id": 5,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.979588,
+   "area_px": 195912
+  },
+  {
+   "id": 6,
+   "label": "parking meter",
+   "thing": true,
+   "score": 0.959042,
+   "area_px": 828
+  },
+  {
+   "id": 7,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.982736,
+   "area_px": 150238
+  },
+  {
+   "id": 8,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997306,
+   "area_px": 27479
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "stimulus": "U0140_1RTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 23433
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.730032,
+   "area_px": 174
+  },
+  {
+   "id": 2,
+   "label": "bus",
+   "thing": true,
+   "score": 0.975048,
+   "area_px": 43035
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.971262,
+   "area_px": 54771
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.999694,
+   "area_px": 3811
+  },
+  {
+   "id": 5,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.918556,
+   "area_px": 91
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.995817,
+   "area_px": 171690
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.996769,
+   "area_px": 1433
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.994714,
+   "area_px": 158662
+  },
+  {
+   "id": 9,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.91092,
+   "area_px": 78
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.957113,
+   "area_px": 319
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.996581,
+   "area_px": 4048
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.993372,
+   "area_px": 2168
+  },
+  {
+   "id": 13,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.969512,
+   "area_px": 16287
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "stimulus": "U0122_1RTE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 502
+  },
+  {
+   "id": 1,
+   "label": "backpack",
+   "thing": true,
+   "score": 0.919059,
+   "area_px": 527
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990692,
+   "area_px": 149254
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.999654,
+   "area_px": 3493
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.998073,
+   "area_px": 281365
+  },
+  {
+   "id": 5,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.995052,
+   "area_px": 44107
+  },
+  {
+   "id": 6,
+   "label": "car",
+   "thing": true,
+   "score": 0.895955,
+   "area_px": 752
+  }
+ ]
+}

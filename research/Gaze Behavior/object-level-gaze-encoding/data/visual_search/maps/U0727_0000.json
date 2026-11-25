@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0727_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 46055
+  },
+  {
+   "id": 1,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.954916,
+   "area_px": 318342
+  },
+  {
+   "id": 2,
+   "label": "floor-other-merged",
+   "thing": false,
+   "score": 0.9733,
+   "area_px": 3330
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.991865,
+   "area_px": 10781
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.992369,
+   "area_px": 7936
+  },
+  {
+   "id": 5,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.989031,
+   "area_px": 6828
+  },
+  {
+   "id": 6,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.99351,
+   "area_px": 76916
+  },
+  {
+   "id": 7,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.997332,
+   "area_px": 9812
+  }
+ ]
+}

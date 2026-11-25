@@ -1,0 +1,99 @@
+{
+ "stimulus": "U0818_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 19373
+  },
+  {
+   "id": 1,
+   "label": "chair",
+   "thing": true,
+   "score": 0.763269,
+   "area_px": 440
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.982816,
+   "area_px": 26523
+  },
+  {
+   "id": 3,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.933864,
+   "area_px": 3793
+  },
+  {
+   "id": 4,
+   "label": "road",
+   "thing": false,
+   "score": 0.971644,
+   "area_px": 136314
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.800192,
+   "area_px": 6704
+  },
+  {
+   "id": 6,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.921409,
+   "area_px": 4119
+  },
+  {
+   "id": 7,
+   "label": "wall-wood",
+   "thing": false,
+   "score": 0.852832,
+   "area_px": 50553
+  },
+  {
+   "id": 8,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.984466,
+   "area_px": 56310
+  },
+  {
+   "id": 9,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999298,
+   "area_px": 136802
+  },
+  {
+   "id": 10,
+   "label": "roof",
+   "thing": false,
+   "score": 0.966077,
+   "area_px": 30432
+  },
+  {
+   "id": 11,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.937928,
+   "area_px": 3326
+  },
+  {
+   "id": 12,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997902,
+   "area_px": 5311
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "stimulus": "U0640_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 22795
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.993605,
+   "area_px": 3829
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.992597,
+   "area_px": 2005
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.997005,
+   "area_px": 12915
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.999488,
+   "area_px": 6290
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.997016,
+   "area_px": 1135
+  },
+  {
+   "id": 6,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.992902,
+   "area_px": 121666
+  },
+  {
+   "id": 7,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.995584,
+   "area_px": 7151
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.994993,
+   "area_px": 3231
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.998109,
+   "area_px": 2177
+  },
+  {
+   "id": 10,
+   "label": "road",
+   "thing": false,
+   "score": 0.994882,
+   "area_px": 14888
+  },
+  {
+   "id": 11,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.989418,
+   "area_px": 1121
+  },
+  {
+   "id": 12,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.99185,
+   "area_px": 935
+  },
+  {
+   "id": 13,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.802403,
+   "area_px": 4079
+  },
+  {
+   "id": 14,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.978782,
+   "area_px": 4480
+  },
+  {
+   "id": 15,
+   "label": "car",
+   "thing": true,
+   "score": 0.989528,
+   "area_px": 558
+  },
+  {
+   "id": 16,
+   "label": "car",
+   "thing": true,
+   "score": 0.953277,
+   "area_px": 4038
+  },
+  {
+   "id": 17,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999206,
+   "area_px": 174268
+  },
+  {
+   "id": 18,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.664743,
+   "area_px": 824
+  },
+  {
+   "id": 19,
+   "label": "roof",
+   "thing": false,
+   "score": 0.942486,
+   "area_px": 32219
+  },
+  {
+   "id": 20,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995644,
+   "area_px": 59396
+  }
+ ]
+}

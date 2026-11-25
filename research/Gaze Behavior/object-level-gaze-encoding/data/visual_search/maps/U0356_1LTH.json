@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0356_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 16240
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.87213,
+   "area_px": 79
+  },
+  {
+   "id": 2,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.938214,
+   "area_px": 173
+  },
+  {
+   "id": 3,
+   "label": "car",
+   "thing": true,
+   "score": 0.999571,
+   "area_px": 855
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.931778,
+   "area_px": 33
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.98444,
+   "area_px": 134062
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.99463,
+   "area_px": 328
+  },
+  {
+   "id": 7,
+   "label": "road",
+   "thing": false,
+   "score": 0.995371,
+   "area_px": 76127
+  },
+  {
+   "id": 8,
+   "label": "person",
+   "thing": true,
+   "score": 0.972666,
+   "area_px": 210
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.951713,
+   "area_px": 686
+  },
+  {
+   "id": 10,
+   "label": "car",
+   "thing": true,
+   "score": 0.904566,
+   "area_px": 58
+  },
+  {
+   "id": 11,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.984343,
+   "area_px": 123480
+  },
+  {
+   "id": 12,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.952024,
+   "area_px": 7111
+  },
+  {
+   "id": 13,
+   "label": "gravel",
+   "thing": false,
+   "score": 0.959882,
+   "area_px": 12885
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.995391,
+   "area_px": 2803
+  },
+  {
+   "id": 15,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.562132,
+   "area_px": 1229
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998958,
+   "area_px": 103641
+  }
+ ]
+}

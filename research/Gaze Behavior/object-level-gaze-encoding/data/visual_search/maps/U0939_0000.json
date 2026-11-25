@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0939_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 5077
+  },
+  {
+   "id": 1,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.942198,
+   "area_px": 248
+  },
+  {
+   "id": 2,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.976748,
+   "area_px": 451
+  },
+  {
+   "id": 3,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.95009,
+   "area_px": 217
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.980111,
+   "area_px": 20803
+  },
+  {
+   "id": 5,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.992696,
+   "area_px": 38430
+  },
+  {
+   "id": 6,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.98878,
+   "area_px": 3157
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.987225,
+   "area_px": 357
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.990506,
+   "area_px": 124426
+  },
+  {
+   "id": 9,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.90767,
+   "area_px": 9550
+  },
+  {
+   "id": 10,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.902597,
+   "area_px": 4345
+  },
+  {
+   "id": 11,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.984099,
+   "area_px": 38019
+  },
+  {
+   "id": 12,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999627,
+   "area_px": 34439
+  },
+  {
+   "id": 13,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.968565,
+   "area_px": 685
+  },
+  {
+   "id": 14,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.875466,
+   "area_px": 6111
+  },
+  {
+   "id": 15,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.996301,
+   "area_px": 1045
+  },
+  {
+   "id": 16,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.995101,
+   "area_px": 192640
+  }
+ ]
+}

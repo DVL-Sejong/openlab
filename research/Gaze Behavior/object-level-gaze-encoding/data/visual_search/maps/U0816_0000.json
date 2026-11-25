@@ -1,0 +1,148 @@
+{
+ "stimulus": "U0816_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 14321
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.903723,
+   "area_px": 244
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.99789,
+   "area_px": 15701
+  },
+  {
+   "id": 3,
+   "label": "roof",
+   "thing": false,
+   "score": 0.949557,
+   "area_px": 39916
+  },
+  {
+   "id": 4,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.91906,
+   "area_px": 348
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.981882,
+   "area_px": 4506
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.844919,
+   "area_px": 652
+  },
+  {
+   "id": 7,
+   "label": "door-stuff",
+   "thing": false,
+   "score": 0.905671,
+   "area_px": 5651
+  },
+  {
+   "id": 8,
+   "label": "car",
+   "thing": true,
+   "score": 0.998931,
+   "area_px": 14090
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.92478,
+   "area_px": 750
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.933251,
+   "area_px": 91908
+  },
+  {
+   "id": 11,
+   "label": "stairs",
+   "thing": false,
+   "score": 0.985012,
+   "area_px": 3653
+  },
+  {
+   "id": 12,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.896259,
+   "area_px": 106392
+  },
+  {
+   "id": 13,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.991678,
+   "area_px": 1181
+  },
+  {
+   "id": 14,
+   "label": "wall-stone",
+   "thing": false,
+   "score": 0.848526,
+   "area_px": 9617
+  },
+  {
+   "id": 15,
+   "label": "house",
+   "thing": false,
+   "score": 0.956427,
+   "area_px": 50196
+  },
+  {
+   "id": 16,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999208,
+   "area_px": 34742
+  },
+  {
+   "id": 17,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.975487,
+   "area_px": 1351
+  },
+  {
+   "id": 18,
+   "label": "mountain-merged",
+   "thing": false,
+   "score": 0.995205,
+   "area_px": 69522
+  },
+  {
+   "id": 19,
+   "label": "car",
+   "thing": true,
+   "score": 0.788541,
+   "area_px": 15259
+  }
+ ]
+}

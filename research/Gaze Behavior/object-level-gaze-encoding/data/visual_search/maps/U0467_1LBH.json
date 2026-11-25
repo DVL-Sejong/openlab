@@ -1,0 +1,92 @@
+{
+ "stimulus": "U0467_1LBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 798
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.999318,
+   "area_px": 9757
+  },
+  {
+   "id": 2,
+   "label": "backpack",
+   "thing": true,
+   "score": 0.912879,
+   "area_px": 120
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.994675,
+   "area_px": 263201
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.898335,
+   "area_px": 1748
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.99804,
+   "area_px": 926
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.980715,
+   "area_px": 143198
+  },
+  {
+   "id": 7,
+   "label": "car",
+   "thing": true,
+   "score": 0.99921,
+   "area_px": 1836
+  },
+  {
+   "id": 8,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.985098,
+   "area_px": 9602
+  },
+  {
+   "id": 9,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.972665,
+   "area_px": 265
+  },
+  {
+   "id": 10,
+   "label": "dirt-merged",
+   "thing": false,
+   "score": 0.894303,
+   "area_px": 7574
+  },
+  {
+   "id": 11,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.97017,
+   "area_px": 40975
+  }
+ ]
+}

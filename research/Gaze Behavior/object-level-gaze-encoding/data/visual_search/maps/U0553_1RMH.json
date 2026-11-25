@@ -1,0 +1,113 @@
+{
+ "stimulus": "U0553_1RMH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 8375
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.998129,
+   "area_px": 2828
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.962662,
+   "area_px": 9985
+  },
+  {
+   "id": 3,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.987026,
+   "area_px": 122788
+  },
+  {
+   "id": 4,
+   "label": "person",
+   "thing": true,
+   "score": 0.99765,
+   "area_px": 993
+  },
+  {
+   "id": 5,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.593655,
+   "area_px": 2717
+  },
+  {
+   "id": 6,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.947889,
+   "area_px": 4211
+  },
+  {
+   "id": 7,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.838695,
+   "area_px": 115
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.996468,
+   "area_px": 184664
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.961301,
+   "area_px": 9619
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.988592,
+   "area_px": 16185
+  },
+  {
+   "id": 11,
+   "label": "truck",
+   "thing": true,
+   "score": 0.893462,
+   "area_px": 5334
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.99884,
+   "area_px": 4907
+  },
+  {
+   "id": 13,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.977631,
+   "area_px": 6211
+  },
+  {
+   "id": 14,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998746,
+   "area_px": 101068
+  }
+ ]
+}

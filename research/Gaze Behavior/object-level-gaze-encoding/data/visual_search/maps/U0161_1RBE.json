@@ -1,0 +1,253 @@
+{
+ "stimulus": "U0161_1RBE",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 23320
+  },
+  {
+   "id": 1,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.988396,
+   "area_px": 2724
+  },
+  {
+   "id": 2,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.977375,
+   "area_px": 2905
+  },
+  {
+   "id": 3,
+   "label": "bicycle",
+   "thing": true,
+   "score": 0.996474,
+   "area_px": 4543
+  },
+  {
+   "id": 4,
+   "label": "car",
+   "thing": true,
+   "score": 0.987044,
+   "area_px": 14789
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.982974,
+   "area_px": 632
+  },
+  {
+   "id": 6,
+   "label": "banner",
+   "thing": false,
+   "score": 0.907641,
+   "area_px": 10410
+  },
+  {
+   "id": 7,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.984449,
+   "area_px": 207586
+  },
+  {
+   "id": 8,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.949004,
+   "area_px": 991
+  },
+  {
+   "id": 9,
+   "label": "person",
+   "thing": true,
+   "score": 0.999594,
+   "area_px": 1596
+  },
+  {
+   "id": 10,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.84028,
+   "area_px": 564
+  },
+  {
+   "id": 11,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.79624,
+   "area_px": 928
+  },
+  {
+   "id": 12,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.966816,
+   "area_px": 692
+  },
+  {
+   "id": 13,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.961057,
+   "area_px": 2012
+  },
+  {
+   "id": 14,
+   "label": "truck",
+   "thing": true,
+   "score": 0.915669,
+   "area_px": 1109
+  },
+  {
+   "id": 15,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.901392,
+   "area_px": 821
+  },
+  {
+   "id": 16,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.946834,
+   "area_px": 92927
+  },
+  {
+   "id": 17,
+   "label": "truck",
+   "thing": true,
+   "score": 0.987686,
+   "area_px": 2032
+  },
+  {
+   "id": 18,
+   "label": "road",
+   "thing": false,
+   "score": 0.883687,
+   "area_px": 558
+  },
+  {
+   "id": 19,
+   "label": "wall-other-merged",
+   "thing": false,
+   "score": 0.780232,
+   "area_px": 23150
+  },
+  {
+   "id": 20,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.96506,
+   "area_px": 413
+  },
+  {
+   "id": 21,
+   "label": "car",
+   "thing": true,
+   "score": 0.992156,
+   "area_px": 441
+  },
+  {
+   "id": 22,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.970761,
+   "area_px": 1268
+  },
+  {
+   "id": 23,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.809083,
+   "area_px": 1997
+  },
+  {
+   "id": 24,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.859517,
+   "area_px": 506
+  },
+  {
+   "id": 25,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.700557,
+   "area_px": 760
+  },
+  {
+   "id": 26,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.928958,
+   "area_px": 211
+  },
+  {
+   "id": 27,
+   "label": "car",
+   "thing": true,
+   "score": 0.98176,
+   "area_px": 2943
+  },
+  {
+   "id": 28,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.946488,
+   "area_px": 1134
+  },
+  {
+   "id": 29,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.97894,
+   "area_px": 2659
+  },
+  {
+   "id": 30,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.99843,
+   "area_px": 13227
+  },
+  {
+   "id": 31,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.611126,
+   "area_px": 262
+  },
+  {
+   "id": 32,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.9452,
+   "area_px": 1694
+  },
+  {
+   "id": 33,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998642,
+   "area_px": 56817
+  },
+  {
+   "id": 34,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.984081,
+   "area_px": 1379
+  }
+ ]
+}

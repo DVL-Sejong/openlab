@@ -1,0 +1,120 @@
+{
+ "stimulus": "U0969_0000",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 4406
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.941338,
+   "area_px": 222
+  },
+  {
+   "id": 2,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.991505,
+   "area_px": 150676
+  },
+  {
+   "id": 3,
+   "label": "truck",
+   "thing": true,
+   "score": 0.956508,
+   "area_px": 3141
+  },
+  {
+   "id": 4,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.941641,
+   "area_px": 30014
+  },
+  {
+   "id": 5,
+   "label": "car",
+   "thing": true,
+   "score": 0.695705,
+   "area_px": 50
+  },
+  {
+   "id": 6,
+   "label": "wall-brick",
+   "thing": false,
+   "score": 0.829944,
+   "area_px": 1439
+  },
+  {
+   "id": 7,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.724487,
+   "area_px": 216
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.993809,
+   "area_px": 80038
+  },
+  {
+   "id": 9,
+   "label": "potted plant",
+   "thing": true,
+   "score": 0.745562,
+   "area_px": 1103
+  },
+  {
+   "id": 10,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.98806,
+   "area_px": 20403
+  },
+  {
+   "id": 11,
+   "label": "stop sign",
+   "thing": true,
+   "score": 0.883786,
+   "area_px": 139
+  },
+  {
+   "id": 12,
+   "label": "car",
+   "thing": true,
+   "score": 0.97481,
+   "area_px": 139
+  },
+  {
+   "id": 13,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999099,
+   "area_px": 86844
+  },
+  {
+   "id": 14,
+   "label": "car",
+   "thing": true,
+   "score": 0.995446,
+   "area_px": 279
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.998025,
+   "area_px": 100891
+  }
+ ]
+}

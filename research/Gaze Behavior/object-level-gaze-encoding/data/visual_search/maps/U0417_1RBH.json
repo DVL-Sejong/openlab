@@ -1,0 +1,127 @@
+{
+ "stimulus": "U0417_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 10316
+  },
+  {
+   "id": 1,
+   "label": "car",
+   "thing": true,
+   "score": 0.903953,
+   "area_px": 793
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.999432,
+   "area_px": 10864
+  },
+  {
+   "id": 3,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.967178,
+   "area_px": 573
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.990225,
+   "area_px": 124623
+  },
+  {
+   "id": 5,
+   "label": "snow",
+   "thing": false,
+   "score": 0.973513,
+   "area_px": 55377
+  },
+  {
+   "id": 6,
+   "label": "person",
+   "thing": true,
+   "score": 0.999002,
+   "area_px": 1025
+  },
+  {
+   "id": 7,
+   "label": "person",
+   "thing": true,
+   "score": 0.909418,
+   "area_px": 176
+  },
+  {
+   "id": 8,
+   "label": "road",
+   "thing": false,
+   "score": 0.890962,
+   "area_px": 50512
+  },
+  {
+   "id": 9,
+   "label": "car",
+   "thing": true,
+   "score": 0.999256,
+   "area_px": 4718
+  },
+  {
+   "id": 10,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.998904,
+   "area_px": 679
+  },
+  {
+   "id": 11,
+   "label": "car",
+   "thing": true,
+   "score": 0.969406,
+   "area_px": 886
+  },
+  {
+   "id": 12,
+   "label": "traffic light",
+   "thing": true,
+   "score": 0.996023,
+   "area_px": 1107
+  },
+  {
+   "id": 13,
+   "label": "fence-merged",
+   "thing": false,
+   "score": 0.927459,
+   "area_px": 3856
+  },
+  {
+   "id": 14,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.999275,
+   "area_px": 128492
+  },
+  {
+   "id": 15,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997365,
+   "area_px": 84737
+  },
+  {
+   "id": 16,
+   "label": "light",
+   "thing": false,
+   "score": 0.940595,
+   "area_px": 1266
+  }
+ ]
+}

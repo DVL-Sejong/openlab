@@ -1,0 +1,85 @@
+{
+ "stimulus": "U0537_1RBH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 34764
+  },
+  {
+   "id": 1,
+   "label": "handbag",
+   "thing": true,
+   "score": 0.798546,
+   "area_px": 236
+  },
+  {
+   "id": 2,
+   "label": "car",
+   "thing": true,
+   "score": 0.940845,
+   "area_px": 17302
+  },
+  {
+   "id": 3,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.633654,
+   "area_px": 95670
+  },
+  {
+   "id": 4,
+   "label": "building-other-merged",
+   "thing": false,
+   "score": 0.956595,
+   "area_px": 26970
+  },
+  {
+   "id": 5,
+   "label": "person",
+   "thing": true,
+   "score": 0.999412,
+   "area_px": 2231
+  },
+  {
+   "id": 6,
+   "label": "road",
+   "thing": false,
+   "score": 0.994483,
+   "area_px": 161438
+  },
+  {
+   "id": 7,
+   "label": "pavement-merged",
+   "thing": false,
+   "score": 0.991184,
+   "area_px": 28631
+  },
+  {
+   "id": 8,
+   "label": "fire hydrant",
+   "thing": true,
+   "score": 0.997996,
+   "area_px": 754
+  },
+  {
+   "id": 9,
+   "label": "sky-other-merged",
+   "thing": false,
+   "score": 0.995464,
+   "area_px": 2997
+  },
+  {
+   "id": 10,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.997775,
+   "area_px": 109007
+  }
+ ]
+}

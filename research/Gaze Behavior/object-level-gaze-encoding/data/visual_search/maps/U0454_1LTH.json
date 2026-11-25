@@ -1,0 +1,64 @@
+{
+ "stimulus": "U0454_1LTH",
+ "height": 600,
+ "width": 800,
+ "model": "EoMT (ViT-g, 1280 px, COCO panoptic)",
+ "units": [
+  {
+   "id": 0,
+   "label": "unlabeled",
+   "thing": null,
+   "score": null,
+   "area_px": 11894
+  },
+  {
+   "id": 1,
+   "label": "bench",
+   "thing": true,
+   "score": 0.854572,
+   "area_px": 279
+  },
+  {
+   "id": 2,
+   "label": "grass-merged",
+   "thing": false,
+   "score": 0.996668,
+   "area_px": 291516
+  },
+  {
+   "id": 3,
+   "label": "person",
+   "thing": true,
+   "score": 0.976051,
+   "area_px": 569
+  },
+  {
+   "id": 4,
+   "label": "river",
+   "thing": false,
+   "score": 0.895541,
+   "area_px": 25688
+  },
+  {
+   "id": 5,
+   "label": "bench",
+   "thing": true,
+   "score": 0.906679,
+   "area_px": 448
+  },
+  {
+   "id": 6,
+   "label": "bench",
+   "thing": true,
+   "score": 0.818933,
+   "area_px": 437
+  },
+  {
+   "id": 7,
+   "label": "tree-merged",
+   "thing": false,
+   "score": 0.999242,
+   "area_px": 149169
+  }
+ ]
+}
